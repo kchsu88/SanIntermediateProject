@@ -1,0 +1,173 @@
+.class Lccsancom/vungle/warren/ServiceLocator$2;
+.super Lccsancom/vungle/warren/ServiceLocator$Creator;
+.source "ServiceLocator.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lccsancom/vungle/warren/ServiceLocator;->buildCreators()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lccsancom/vungle/warren/ServiceLocator;
+
+
+# direct methods
+.method constructor <init>(Lccsancom/vungle/warren/ServiceLocator;)V
+    .locals 1
+    .param p1, "this$0"    # Lccsancom/vungle/warren/ServiceLocator;
+
+    .line 127
+    iput-object p1, p0, Lccsancom/vungle/warren/ServiceLocator$2;->this$0:Lccsancom/vungle/warren/ServiceLocator;
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, v0}, Lccsancom/vungle/warren/ServiceLocator$Creator;-><init>(Lccsancom/vungle/warren/ServiceLocator;Lccsancom/vungle/warren/ServiceLocator$1;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public create()Lccsancom/vungle/warren/tasks/JobCreator;
+    .locals 11
+
+    .line 130
+    new-instance v10, Lccsancom/vungle/warren/tasks/VungleJobCreator;
+
+    iget-object v0, p0, Lccsancom/vungle/warren/ServiceLocator$2;->this$0:Lccsancom/vungle/warren/ServiceLocator;
+
+    const-class v1, Lccsancom/vungle/warren/persistence/Repository;
+
+    .line 131
+    invoke-static {v0, v1}, Lccsancom/vungle/warren/ServiceLocator;->access$100(Lccsancom/vungle/warren/ServiceLocator;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    move-object v1, v0
+
+    check-cast v1, Lccsancom/vungle/warren/persistence/Repository;
+
+    iget-object v0, p0, Lccsancom/vungle/warren/ServiceLocator$2;->this$0:Lccsancom/vungle/warren/ServiceLocator;
+
+    const-class v2, Lccsancom/vungle/warren/persistence/Designer;
+
+    .line 132
+    invoke-static {v0, v2}, Lccsancom/vungle/warren/ServiceLocator;->access$100(Lccsancom/vungle/warren/ServiceLocator;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    move-object v2, v0
+
+    check-cast v2, Lccsancom/vungle/warren/persistence/Designer;
+
+    iget-object v0, p0, Lccsancom/vungle/warren/ServiceLocator$2;->this$0:Lccsancom/vungle/warren/ServiceLocator;
+
+    const-class v3, Lccsancom/vungle/warren/VungleApiClient;
+
+    .line 133
+    invoke-static {v0, v3}, Lccsancom/vungle/warren/ServiceLocator;->access$100(Lccsancom/vungle/warren/ServiceLocator;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    move-object v3, v0
+
+    check-cast v3, Lccsancom/vungle/warren/VungleApiClient;
+
+    new-instance v4, Lccsancom/vungle/warren/analytics/VungleAnalytics;
+
+    iget-object v0, p0, Lccsancom/vungle/warren/ServiceLocator$2;->this$0:Lccsancom/vungle/warren/ServiceLocator;
+
+    const-class v5, Lccsancom/vungle/warren/VungleApiClient;
+
+    .line 134
+    invoke-static {v0, v5}, Lccsancom/vungle/warren/ServiceLocator;->access$100(Lccsancom/vungle/warren/ServiceLocator;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lccsancom/vungle/warren/VungleApiClient;
+
+    iget-object v5, p0, Lccsancom/vungle/warren/ServiceLocator$2;->this$0:Lccsancom/vungle/warren/ServiceLocator;
+
+    const-class v6, Lccsancom/vungle/warren/persistence/Repository;
+
+    invoke-static {v5, v6}, Lccsancom/vungle/warren/ServiceLocator;->access$100(Lccsancom/vungle/warren/ServiceLocator;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Lccsancom/vungle/warren/persistence/Repository;
+
+    invoke-direct {v4, v0, v5}, Lccsancom/vungle/warren/analytics/VungleAnalytics;-><init>(Lccsancom/vungle/warren/VungleApiClient;Lccsancom/vungle/warren/persistence/Repository;)V
+
+    .line 135
+    invoke-static {}, Lccsancom/vungle/warren/ServiceLocator;->access$200()Lccsancom/vungle/warren/tasks/ReconfigJob$ReconfigCall;
+
+    move-result-object v5
+
+    iget-object v0, p0, Lccsancom/vungle/warren/ServiceLocator$2;->this$0:Lccsancom/vungle/warren/ServiceLocator;
+
+    const-class v6, Lccsancom/vungle/warren/AdLoader;
+
+    .line 136
+    invoke-static {v0, v6}, Lccsancom/vungle/warren/ServiceLocator;->access$100(Lccsancom/vungle/warren/ServiceLocator;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    move-object v6, v0
+
+    check-cast v6, Lccsancom/vungle/warren/AdLoader;
+
+    sget-object v7, Lccsancom/vungle/warren/ServiceLocator;->VUNGLE_STATIC_API:Lccsancom/vungle/warren/VungleStaticApi;
+
+    iget-object v0, p0, Lccsancom/vungle/warren/ServiceLocator$2;->this$0:Lccsancom/vungle/warren/ServiceLocator;
+
+    const-class v8, Lccsancom/vungle/warren/log/LogManager;
+
+    .line 138
+    invoke-static {v0, v8}, Lccsancom/vungle/warren/ServiceLocator;->access$100(Lccsancom/vungle/warren/ServiceLocator;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    move-object v8, v0
+
+    check-cast v8, Lccsancom/vungle/warren/log/LogManager;
+
+    iget-object v0, p0, Lccsancom/vungle/warren/ServiceLocator$2;->this$0:Lccsancom/vungle/warren/ServiceLocator;
+
+    const-class v9, Lccsancom/vungle/warren/utility/Executors;
+
+    .line 139
+    invoke-static {v0, v9}, Lccsancom/vungle/warren/ServiceLocator;->access$100(Lccsancom/vungle/warren/ServiceLocator;Ljava/lang/Class;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lccsancom/vungle/warren/utility/Executors;
+
+    invoke-interface {v0}, Lccsancom/vungle/warren/utility/Executors;->getBackgroundExecutor()Ljava/util/concurrent/ExecutorService;
+
+    move-result-object v9
+
+    move-object v0, v10
+
+    invoke-direct/range {v0 .. v9}, Lccsancom/vungle/warren/tasks/VungleJobCreator;-><init>(Lccsancom/vungle/warren/persistence/Repository;Lccsancom/vungle/warren/persistence/Designer;Lccsancom/vungle/warren/VungleApiClient;Lccsancom/vungle/warren/analytics/AdAnalytics;Lccsancom/vungle/warren/tasks/ReconfigJob$ReconfigCall;Lccsancom/vungle/warren/AdLoader;Lccsancom/vungle/warren/VungleStaticApi;Lccsancom/vungle/warren/log/LogManager;Ljava/util/concurrent/ExecutorService;)V
+
+    .line 130
+    return-object v10
+.end method
+
+.method public bridge synthetic create()Ljava/lang/Object;
+    .locals 1
+
+    .line 127
+    invoke-virtual {p0}, Lccsancom/vungle/warren/ServiceLocator$2;->create()Lccsancom/vungle/warren/tasks/JobCreator;
+
+    move-result-object v0
+
+    return-object v0
+.end method

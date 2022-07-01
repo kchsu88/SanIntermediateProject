@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/mbridge_reward_black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ccsancom.mbridge.msdk.playercommon.PlayerView android:id="@id/mbridge_vfpv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ccsancom.mbridge.msdk.video.widget.SoundImageView android:layout_gravity="bottom" android:id="@id/mbridge_sound_switch" android:visibility="visible" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="10.0dip" />
+    <FrameLayout android:layout_gravity="end" android:id="@id/mbridge_top_control" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/mbridge_reward_white" android:gravity="center" android:layout_gravity="start" android:id="@id/mbridge_tv_count" android:background="@drawable/mbridge_reward_shape_progress" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+        <ImageView android:layout_gravity="end" android:id="@id/mbridge_rl_playing_close" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/mbridge_reward_close" android:contentDescription="closeButton" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,46 @@
+.class Lccsanandroidx/core/widget/CheckedTextViewCompat$Api16Impl;
+.super Ljava/lang/Object;
+.source "CheckedTextViewCompat.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lccsanandroidx/core/widget/CheckedTextViewCompat;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0xa
+    name = "Api16Impl"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 158
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 159
+    return-void
+.end method
+
+.method static getCheckMarkDrawable(Lccsanandroid/widget/CheckedTextView;)Lccsanandroid/graphics/drawable/Drawable;
+    .locals 1
+    .param p0, "textView"    # Lccsanandroid/widget/CheckedTextView;
+    .annotation system Ldalvik/annotation/MethodParameters;
+        accessFlags = {
+            0x0
+        }
+        names = {
+            "textView"
+        }
+    .end annotation
+
+    .line 163
+    invoke-virtual {p0}, Lccsanandroid/widget/CheckedTextView;->getCheckMarkDrawable()Lccsanandroid/graphics/drawable/Drawable;
+
+    move-result-object v0
+
+    return-object v0
+.end method

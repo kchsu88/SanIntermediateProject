@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/san_rl_total" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/san_iv_full_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="@dimen/san_common_text_size_14sp" android:textColor="@color/san_white" android:id="@id/san_tv_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/san_common_dimens_16dp" android:text="@string/san_common_loading" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/san_progress" android:layout_width="@dimen/san_common_dimens_25dp" android:layout_height="@dimen/san_common_dimens_25dp" android:layout_above="@id/san_tv_loading" android:layout_centerInParent="true" style="@style/san_SIProgressBarStyle" />
+    <ImageView android:id="@id/san_iv_refresh" android:visibility="gone" android:layout_width="@dimen/san_common_dimens_44dp" android:layout_height="@dimen/san_common_dimens_44dp" android:src="@drawable/san_landingpage_refresh_bg" android:scaleType="fitXY" android:layout_above="@id/san_tv_loading" android:layout_centerInParent="true" />
+</RelativeLayout>

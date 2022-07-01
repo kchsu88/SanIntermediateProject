@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/san_basic_webview_title_bar" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/san_hybrid_web_view_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ProgressBar android:id="@id/san_hybrid_web_pb" android:layout_width="fill_parent" android:layout_height="@dimen/san_browser_progressbar_height" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/san_browser_progress_bar_states" style="?android:progressBarStyleHorizontal" />
+        <ccsancom.san.hybrid.ui.IncentiveDownloadUtils android:layout_gravity="center" android:id="@id/san_hybrid_web_pb_center" android:visibility="gone" android:layout_width="@dimen/san_common_dimens_60dp" android:layout_height="@dimen/san_common_dimens_60dp" />
+        <TextView android:textSize="@dimen/san_common_dimens_12dp" android:textColor="@color/san_black" android:layout_gravity="center" android:id="@id/san_hybrid_web_tip_center_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/san_common_dimens_60dp" android:text="@string/san_common_loading" />
+        <include android:id="@id/san_hybrid_web_error_view" layout="@layout/san_basic_webview_error_layout" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/san_hybrid_web_navigator" android:background="@drawable/san_hybrid_main_tab_host_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/san_common_dimens_49dp" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/san_hybrid_web_navigator_back" android:background="@drawable/san_hybrid_browser_btn_back" android:layout_width="@dimen/san_common_dimens_36dp" android:layout_height="@dimen/san_common_dimens_36dp" android:layout_marginRight="@dimen/san_common_dimens_40dp" android:layout_marginEnd="@dimen/san_common_dimens_40dp" />
+        <ImageButton android:id="@id/san_hybrid_web_navigator_forward" android:background="@drawable/san_hybrid_browser_btn_forward" android:layout_width="@dimen/san_common_dimens_36dp" android:layout_height="@dimen/san_common_dimens_36dp" android:layout_marginLeft="@dimen/san_common_dimens_40dp" android:layout_marginStart="@dimen/san_common_dimens_40dp" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/san_hybrid_web_custom_view" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</merge>

@@ -1,0 +1,19 @@
+.class public interface abstract Lccsansan/af/IncentiveDownloadUtils$IncentiveDownloadUtils;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lccsansan/af/IncentiveDownloadUtils;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "IncentiveDownloadUtils"
+.end annotation
+
+
+# virtual methods
+.method public abstract removeDownloadListener()V
+.end method

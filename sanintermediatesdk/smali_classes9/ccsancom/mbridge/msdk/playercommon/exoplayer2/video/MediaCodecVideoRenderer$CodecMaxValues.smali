@@ -1,0 +1,43 @@
+.class public final Lccsancom/mbridge/msdk/playercommon/exoplayer2/video/MediaCodecVideoRenderer$CodecMaxValues;
+.super Ljava/lang/Object;
+.source "MediaCodecVideoRenderer.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lccsancom/mbridge/msdk/playercommon/exoplayer2/video/MediaCodecVideoRenderer;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1c
+    name = "CodecMaxValues"
+.end annotation
+
+
+# instance fields
+.field public final height:I
+
+.field public final inputSize:I
+
+.field public final width:I
+
+
+# direct methods
+.method public constructor <init>(III)V
+    .locals 0
+
+    .line 1367
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 1368
+    iput p1, p0, Lccsancom/mbridge/msdk/playercommon/exoplayer2/video/MediaCodecVideoRenderer$CodecMaxValues;->width:I
+
+    .line 1369
+    iput p2, p0, Lccsancom/mbridge/msdk/playercommon/exoplayer2/video/MediaCodecVideoRenderer$CodecMaxValues;->height:I
+
+    .line 1370
+    iput p3, p0, Lccsancom/mbridge/msdk/playercommon/exoplayer2/video/MediaCodecVideoRenderer$CodecMaxValues;->inputSize:I
+
+    .line 1371
+    return-void
+.end method

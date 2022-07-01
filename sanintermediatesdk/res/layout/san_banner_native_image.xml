@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/san_banner_bg" android:layout_width="@dimen/san_common_dimens_320dp" android:layout_height="@dimen/san_common_dimens_50dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/san_icon_layout" android:layout_width="@dimen/san_common_dimens_36dp" android:layout_height="@dimen/san_common_dimens_36dp" android:layout_marginLeft="@dimen/san_common_dimens_12dp" android:layout_centerVertical="true">
+        <ImageView android:id="@id/san_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/san_ad_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/san_common_dimens_10dp" android:layout_toLeftOf="@id/san_fl_stereo" android:layout_toRightOf="@id/san_icon_layout" android:layout_centerVertical="true" android:layout_marginStart="@dimen/san_common_dimens_10dp" android:layout_toStartOf="@id/san_fl_stereo" android:layout_toEndOf="@id/san_icon_layout">
+        <TextView android:textSize="@dimen/san_common_text_size_13sp" android:textColor="@color/san_color_333" android:ellipsize="end" android:gravity="start" android:id="@id/san_title" android:layout_width="fill_parent" android:layout_height="@dimen/san_common_dimens_16dp" android:singleLine="true" />
+        <TextView android:textSize="@dimen/san_common_text_size_11sp" android:textColor="@color/san_color_666" android:ellipsize="end" android:gravity="start" android:id="@id/san_message" android:layout_width="fill_parent" android:layout_height="@dimen/san_common_dimens_14dp" android:layout_marginTop="@dimen/san_common_dimens_4.5dp" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="end" android:id="@id/san_choice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <FrameLayout android:id="@id/san_fl_stereo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/san_common_dimens_12dp" android:layout_marginRight="@dimen/san_common_dimens_12dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <ccsansan.j.unifiedDownload android:gravity="center" android:id="@id/san_btn_stereo_progress" android:layout_width="wrap_content" android:layout_height="@dimen/san_common_dimens_22dp" android:max="100" android:progress="100" android:progressDrawable="@drawable/san_progress_bar_bg" app:text="@string/san_common_cta_desc" app:textSize="@dimen/san_common_text_size_12sp" app:text_margin_left="@dimen/san_common_dimens_8dp" app:text_margin_right="@dimen/san_common_dimens_8dp" app:text_max_length="@dimen/san_common_dimens_60dp" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+    <ImageView android:id="@id/san_iv_ad_icon" android:layout_width="@dimen/san_common_dimens_18dp" android:layout_height="@dimen/san_common_dimens_17dp" android:src="@drawable/san_ad_banner_logo" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+</RelativeLayout>
