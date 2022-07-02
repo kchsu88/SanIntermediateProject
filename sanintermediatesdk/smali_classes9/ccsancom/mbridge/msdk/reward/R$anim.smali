@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final mbridge_reward_activity_open:I = 0x7f010020
+.field public static final ccsan_mbridge_reward_activity_open:I = 0x7f010020
 
-.field public static final mbridge_reward_activity_stay:I = 0x7f010021
+.field public static final ccsan_mbridge_reward_activity_stay:I = 0x7f010021
 
 
 # direct methods

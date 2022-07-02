@@ -924,7 +924,7 @@
     return-void
 
     :cond_0
-    sget p1, Lccsancom/applovin/sdk/R$layout;->mediation_debugger_multi_ad_activity:I
+    sget p1, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_mediation_debugger_multi_ad_activity:I
 
     invoke-virtual {p0, p1}, Lccsancom/applovin/impl/mediation/debugger/ui/testmode/a;->setContentView(I)V
 

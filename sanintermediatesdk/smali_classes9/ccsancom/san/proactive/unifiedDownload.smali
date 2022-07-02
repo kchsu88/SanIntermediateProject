@@ -102,14 +102,14 @@
     .line 0
     :goto_3
     :pswitch_1
-    const-string p0, "san_dialog_promotion_az_out_improve_simple"
+    const-string p0, "ccsan_ccsan_ccsan_san_dialog_promotion_az_out_improve_simple"
 
     goto :goto_5
 
     .line 22
     :cond_2
     :goto_4
-    const-string p0, "san_dialog_promotion_az_out_improve"
+    const-string p0, "ccsan_ccsan_san_dialog_promotion_az_out_improve"
 
     :goto_5
     invoke-static {p0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I

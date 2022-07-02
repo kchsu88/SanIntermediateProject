@@ -47,7 +47,7 @@
     .end annotation
 
     .line 4263
-    sget v0, Lccsanandroidx/core/R$layout;->notification_template_custom_big:I
+    sget v0, Lccsanandroidx/core/R$layout;->ccsan_ccsan_notification_template_custom_big:I
 
     const/4 v1, 0x1
 
@@ -204,13 +204,13 @@
     .line 4306
     if-eqz v0, :cond_1
 
-    sget v3, Lccsanandroidx/core/R$layout;->notification_action_tombstone:I
+    sget v3, Lccsanandroidx/core/R$layout;->ccsan_ccsan_ccsan_ccsan_notification_action_tombstone:I
 
     goto :goto_1
 
     .line 4307
     :cond_1
-    sget v3, Lccsanandroidx/core/R$layout;->notification_action:I
+    sget v3, Lccsanandroidx/core/R$layout;->ccsan_ccsan_notification_action:I
 
     :goto_1
     invoke-direct {v1, v2, v3}, Lccsanandroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
@@ -237,7 +237,7 @@
 
     move-result-object v4
 
-    sget v5, Lccsanandroidx/core/R$color;->notification_action_color_filter:I
+    sget v5, Lccsanandroidx/core/R$color;->ccsan_ccsan_notification_action_color_filter:I
 
     .line 4312
     invoke-virtual {v4, v5}, Lccsanandroid/content/res/Resources;->getColor(I)I

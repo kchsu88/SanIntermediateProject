@@ -122,9 +122,9 @@
 
 .field public static final abc_progress_bar_height_material:I = 0x7f060035
 
-.field public static final abc_search_view_preferred_height:I = 0x7f060036
+.field public static final ccsan_abc_search_view_preferred_height:I = 0x7f060036
 
-.field public static final abc_search_view_preferred_width:I = 0x7f060037
+.field public static final ccsan_abc_search_view_preferred_width:I = 0x7f060037
 
 .field public static final abc_seekbar_track_background_height_material:I = 0x7f060038
 
@@ -228,9 +228,9 @@
 
 .field public static final design_bottom_navigation_icon_size:I = 0x7f06006a
 
-.field public static final design_bottom_navigation_item_max_width:I = 0x7f06006b
+.field public static final ccsan_design_bottom_navigation_item_max_width:I = 0x7f06006b
 
-.field public static final design_bottom_navigation_item_min_width:I = 0x7f06006c
+.field public static final ccsan_design_bottom_navigation_item_min_width:I = 0x7f06006c
 
 .field public static final design_bottom_navigation_label_padding:I = 0x7f06006d
 
@@ -266,9 +266,9 @@
 
 .field public static final design_navigation_icon_size:I = 0x7f06007d
 
-.field public static final design_navigation_item_horizontal_padding:I = 0x7f06007e
+.field public static final ccsan_design_navigation_item_horizontal_padding:I = 0x7f06007e
 
-.field public static final design_navigation_item_icon_padding:I = 0x7f06007f
+.field public static final ccsan_design_navigation_item_icon_padding:I = 0x7f06007f
 
 .field public static final design_navigation_max_width:I = 0x7f060080
 
@@ -280,7 +280,7 @@
 
 .field public static final design_snackbar_action_text_color_alpha:I = 0x7f060084
 
-.field public static final design_snackbar_background_corner_radius:I = 0x7f060085
+.field public static final ccsan_design_snackbar_background_corner_radius:I = 0x7f060085
 
 .field public static final design_snackbar_elevation:I = 0x7f060086
 
@@ -338,7 +338,7 @@
 
 .field public static final item_touch_helper_swipe_escape_velocity:I = 0x7f0600a1
 
-.field public static final material_clock_display_padding:I = 0x7f0600a2
+.field public static final ccsan_material_clock_display_padding:I = 0x7f0600a2
 
 .field public static final material_clock_face_margin_top:I = 0x7f0600a3
 
@@ -350,11 +350,11 @@
 
 .field public static final material_clock_number_text_size:I = 0x7f0600a7
 
-.field public static final material_clock_period_toggle_height:I = 0x7f0600a8
+.field public static final ccsan_material_clock_period_toggle_height:I = 0x7f0600a8
 
-.field public static final material_clock_period_toggle_margin_left:I = 0x7f0600a9
+.field public static final ccsan_material_clock_period_toggle_margin_left:I = 0x7f0600a9
 
-.field public static final material_clock_period_toggle_width:I = 0x7f0600aa
+.field public static final ccsan_material_clock_period_toggle_width:I = 0x7f0600aa
 
 .field public static final material_clock_size:I = 0x7f0600ab
 
@@ -394,17 +394,17 @@
 
 .field public static final material_text_view_test_line_height_override:I = 0x7f0600bd
 
-.field public static final material_timepicker_dialog_buttons_margin_top:I = 0x7f0600be
+.field public static final ccsan_ccsan_ccsan_ccsan_material_timepicker_dialog_buttons_margin_top:I = 0x7f0600be
 
-.field public static final mtrl_alert_dialog_background_inset_bottom:I = 0x7f0600ca
+.field public static final ccsan_mtrl_alert_dialog_background_inset_bottom:I = 0x7f0600ca
 
-.field public static final mtrl_alert_dialog_background_inset_end:I = 0x7f0600cb
+.field public static final ccsan_mtrl_alert_dialog_background_inset_end:I = 0x7f0600cb
 
-.field public static final mtrl_alert_dialog_background_inset_start:I = 0x7f0600cc
+.field public static final ccsan_mtrl_alert_dialog_background_inset_start:I = 0x7f0600cc
 
-.field public static final mtrl_alert_dialog_background_inset_top:I = 0x7f0600cd
+.field public static final ccsan_mtrl_alert_dialog_background_inset_top:I = 0x7f0600cd
 
-.field public static final mtrl_alert_dialog_picker_background_inset:I = 0x7f0600ce
+.field public static final ccsan_mtrl_alert_dialog_picker_background_inset:I = 0x7f0600ce
 
 .field public static final mtrl_badge_horizontal_edge_offset:I = 0x7f0600cf
 
@@ -490,19 +490,19 @@
 
 .field public static final mtrl_calendar_content_padding:I = 0x7f0600f8
 
-.field public static final mtrl_calendar_day_corner:I = 0x7f0600f9
+.field public static final ccsan_mtrl_calendar_day_corner:I = 0x7f0600f9
 
-.field public static final mtrl_calendar_day_height:I = 0x7f0600fa
+.field public static final ccsan_mtrl_calendar_day_height:I = 0x7f0600fa
 
-.field public static final mtrl_calendar_day_horizontal_padding:I = 0x7f0600fb
+.field public static final ccsan_mtrl_calendar_day_horizontal_padding:I = 0x7f0600fb
 
-.field public static final mtrl_calendar_day_today_stroke:I = 0x7f0600fc
+.field public static final ccsan_mtrl_calendar_day_today_stroke:I = 0x7f0600fc
 
-.field public static final mtrl_calendar_day_vertical_padding:I = 0x7f0600fd
+.field public static final ccsan_mtrl_calendar_day_vertical_padding:I = 0x7f0600fd
 
-.field public static final mtrl_calendar_day_width:I = 0x7f0600fe
+.field public static final ccsan_mtrl_calendar_day_width:I = 0x7f0600fe
 
-.field public static final mtrl_calendar_days_of_week_height:I = 0x7f0600ff
+.field public static final ccsan_ccsan_mtrl_calendar_days_of_week_height:I = 0x7f0600ff
 
 .field public static final mtrl_calendar_dialog_background_inset:I = 0x7f060100
 
@@ -528,9 +528,9 @@
 
 .field public static final mtrl_calendar_maximum_default_fullscreen_minor_axis:I = 0x7f06010b
 
-.field public static final mtrl_calendar_month_horizontal_padding:I = 0x7f06010c
+.field public static final ccsan_ccsan_mtrl_calendar_month_horizontal_padding:I = 0x7f06010c
 
-.field public static final mtrl_calendar_month_vertical_padding:I = 0x7f06010d
+.field public static final ccsan_ccsan_mtrl_calendar_month_vertical_padding:I = 0x7f06010d
 
 .field public static final mtrl_calendar_navigation_bottom_padding:I = 0x7f06010e
 
@@ -554,15 +554,15 @@
 
 .field public static final mtrl_calendar_title_baseline_to_top_fullscreen:I = 0x7f060118
 
-.field public static final mtrl_calendar_year_corner:I = 0x7f060119
+.field public static final ccsan_mtrl_calendar_year_corner:I = 0x7f060119
 
-.field public static final mtrl_calendar_year_height:I = 0x7f06011a
+.field public static final ccsan_mtrl_calendar_year_height:I = 0x7f06011a
 
-.field public static final mtrl_calendar_year_horizontal_padding:I = 0x7f06011b
+.field public static final ccsan_mtrl_calendar_year_horizontal_padding:I = 0x7f06011b
 
-.field public static final mtrl_calendar_year_vertical_padding:I = 0x7f06011c
+.field public static final ccsan_mtrl_calendar_year_vertical_padding:I = 0x7f06011c
 
-.field public static final mtrl_calendar_year_width:I = 0x7f06011d
+.field public static final ccsan_mtrl_calendar_year_width:I = 0x7f06011d
 
 .field public static final mtrl_card_checked_icon_margin:I = 0x7f06011e
 
@@ -762,9 +762,9 @@
 
 .field public static final mtrl_transition_shared_axis_slide_distance:I = 0x7f060180
 
-.field public static final notification_action_icon_size:I = 0x7f060181
+.field public static final ccsan_ccsan_notification_action_icon_size:I = 0x7f060181
 
-.field public static final notification_action_text_size:I = 0x7f060182
+.field public static final ccsan_ccsan_notification_action_text_size:I = 0x7f060182
 
 .field public static final notification_big_circle_margin:I = 0x7f060183
 
@@ -1304,7 +1304,7 @@
 
 .field public static final subtitle_shadow_radius:I = 0x7f06028f
 
-.field public static final test_mtrl_calendar_day_cornerSize:I = 0x7f060290
+.field public static final test_ccsan_mtrl_calendar_day_cornerSize:I = 0x7f060290
 
 .field public static final tooltip_corner_radius:I = 0x7f060291
 

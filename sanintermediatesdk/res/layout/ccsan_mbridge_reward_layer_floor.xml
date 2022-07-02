@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@color/mbridge_reward_black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/mbridge_vfpv_fl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <ccsancom.mbridge.msdk.playercommon.PlayerView android:gravity="center" android:layout_gravity="center" android:id="@id/mbridge_vfpv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/mbridge_top_control" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ccsancom.mbridge.msdk.video.dynview.widget.MBridgeTextView android:gravity="center" android:id="@id/mbridge_tv_count" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" />
+        <ImageView android:layout_gravity="end" android:id="@id/mbridge_rl_playing_close" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ccsan_mbridge_reward_close" android:contentDescription="closeButton" />
+    </FrameLayout>
+    <ccsancom.mbridge.msdk.video.widget.SoundImageView android:id="@id/mbridge_sound_switch" android:background="@drawable/ccsan_mbridge_reward_end_close_shape_oval" android:padding="6.0dip" android:visibility="visible" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="3.0dip" android:src="@drawable/ccsan_mbridge_reward_sound_open" android:layout_alignBottom="@id/mbridge_vfpv_fl" />
+</RelativeLayout>

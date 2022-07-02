@@ -727,7 +727,7 @@
 
     invoke-super {p0, p1}, Lccsancom/applovin/impl/mediation/debugger/ui/a;->onCreate(Lccsanandroid/os/Bundle;)V
 
-    sget p1, Lccsancom/applovin/sdk/R$layout;->mediation_debugger_ad_unit_detail_activity:I
+    sget p1, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_mediation_debugger_ad_unit_detail_activity:I
 
     invoke-virtual {p0, p1}, Lccsancom/applovin/impl/mediation/debugger/ui/a/a;->setContentView(I)V
 

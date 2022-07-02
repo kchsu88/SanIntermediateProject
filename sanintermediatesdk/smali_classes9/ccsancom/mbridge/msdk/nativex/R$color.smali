@@ -46,7 +46,7 @@
 
 .field public static final mbridge_nativex_por_cta_bg_pre:I = 0x7f05009d
 
-.field public static final mbridge_nativex_sound_bg:I = 0x7f05009e
+.field public static final ccsan_mbridge_nativex_sound_bg:I = 0x7f05009e
 
 .field public static final mbridge_video_common_alertview_bg:I = 0x7f0500ac
 

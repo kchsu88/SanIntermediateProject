@@ -877,13 +877,13 @@
     if-eqz p1, :cond_0
 
     .line 1380
-    const-string p1, "mbridge_reward_endcard_native_land"
+    const-string p1, "ccsan_mbridge_reward_endcard_native_land"
 
     goto :goto_0
 
     .line 1379
     :cond_0
-    const-string p1, "mbridge_reward_endcard_native_hor"
+    const-string p1, "ccsan_mbridge_reward_endcard_native_hor"
 
     .line 1382
     :goto_0
@@ -1584,7 +1584,7 @@
 
     move-result-object v4
 
-    const-string v5, "mbridge_reward_flag_cn"
+    const-string v5, "ccsan_mbridge_reward_flag_cn"
 
     .line 216
     invoke-static {}, Lccsancom/mbridge/msdk/foundation/controller/a;->d()Lccsancom/mbridge/msdk/foundation/controller/a;
@@ -1620,7 +1620,7 @@
 
     move-result-object v4
 
-    const-string v5, "mbridge_reward_flag_en"
+    const-string v5, "ccsan_mbridge_reward_flag_en"
 
     .line 219
     invoke-static {}, Lccsancom/mbridge/msdk/foundation/controller/a;->d()Lccsancom/mbridge/msdk/foundation/controller/a;

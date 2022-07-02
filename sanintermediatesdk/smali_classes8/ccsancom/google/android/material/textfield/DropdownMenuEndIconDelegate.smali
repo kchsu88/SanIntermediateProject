@@ -1212,12 +1212,12 @@
 
     if-eqz v5, :cond_0
 
-    sget v5, Lccsancom/google/android/material/R$drawable;->mtrl_dropdown_arrow:I
+    sget v5, Lccsancom/google/android/material/R$drawable;->ccsan_mtrl_dropdown_arrow:I
 
     goto :goto_0
 
     :cond_0
-    sget v5, Lccsancom/google/android/material/R$drawable;->mtrl_ic_arrow_drop_down:I
+    sget v5, Lccsancom/google/android/material/R$drawable;->ccsan_mtrl_ic_arrow_drop_down:I
 
     .line 245
     .local v5, "drawableResId":I

@@ -128,12 +128,12 @@
 
     if-gt p1, v0, :cond_0
 
-    sget v0, Lccsanandroidx/media/R$layout;->notification_template_big_media_narrow_custom:I
+    sget v0, Lccsanandroidx/media/R$layout;->ccsan_ccsan_ccsan_notification_template_big_media_narrow_custom:I
 
     goto :goto_0
 
     :cond_0
-    sget v0, Lccsanandroidx/media/R$layout;->notification_template_big_media_custom:I
+    sget v0, Lccsanandroidx/media/R$layout;->ccsan_ccsan_notification_template_big_media_custom:I
 
     :goto_0
     return v0
@@ -151,7 +151,7 @@
 
     if-eqz v0, :cond_0
 
-    sget v0, Lccsanandroidx/media/R$layout;->notification_template_media_custom:I
+    sget v0, Lccsanandroidx/media/R$layout;->ccsan_ccsan_notification_template_media_custom:I
 
     goto :goto_0
 

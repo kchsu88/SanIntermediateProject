@@ -331,12 +331,12 @@
 
     if-eqz v0, :cond_0
 
-    sget v0, Lccsancom/google/android/material/R$animator;->mtrl_extended_fab_change_size_expand_motion_spec:I
+    sget v0, Lccsancom/google/android/material/R$animator;->ccsan_mtrl_extended_fab_change_size_expand_motion_spec:I
 
     goto :goto_0
 
     :cond_0
-    sget v0, Lccsancom/google/android/material/R$animator;->mtrl_extended_fab_change_size_collapse_motion_spec:I
+    sget v0, Lccsancom/google/android/material/R$animator;->ccsan_mtrl_extended_fab_change_size_collapse_motion_spec:I
 
     :goto_0
     return v0

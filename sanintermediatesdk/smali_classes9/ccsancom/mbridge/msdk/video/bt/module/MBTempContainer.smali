@@ -1867,12 +1867,12 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "mbridge_reward_activity_video_templete_transparent"
+    const-string v0, "ccsan_ccsan_mbridge_reward_activity_video_templete_transparent"
 
     goto :goto_0
 
     :cond_0
-    const-string v0, "mbridge_reward_activity_video_templete"
+    const-string v0, "ccsan_mbridge_reward_activity_video_templete"
 
     :goto_0
     invoke-virtual {p0, v0}, Lccsancom/mbridge/msdk/video/bt/module/MBTempContainer;->findLayout(Ljava/lang/String;)I

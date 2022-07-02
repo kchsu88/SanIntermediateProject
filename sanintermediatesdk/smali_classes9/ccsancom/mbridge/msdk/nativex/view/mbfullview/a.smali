@@ -677,7 +677,7 @@
 
     move-result-object p1
 
-    const-string p2, "mbridge_nativex_cta_por_pre"
+    const-string p2, "ccsan_mbridge_nativex_cta_por_pre"
 
     invoke-static {v1, p2, v2}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
@@ -714,7 +714,7 @@
 
     move-result-object v3
 
-    const-string v4, "mbridge_nativex_fullview_background"
+    const-string v4, "ccsan_mbridge_nativex_fullview_background"
 
     invoke-static {v1, v4, v2}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 

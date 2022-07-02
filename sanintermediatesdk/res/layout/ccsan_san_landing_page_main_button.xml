@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/san_btn_layout" android:background="@color/san_white" android:layout_width="fill_parent" android:layout_height="@dimen/san_common_dimens_56dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="#ffeaeaea" android:layout_width="fill_parent" android:layout_height="@dimen/san_common_dimens_1dp" />
+    <ccsancom.san.widget.TextProgressButton android:textColor="@color/san_white" android:id="@id/san_btn_download" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/san_common_dimens_20dp" android:layout_marginTop="@dimen/san_common_dimens_10dp" android:layout_marginRight="@dimen/san_common_dimens_20dp" android:layout_marginBottom="@dimen/san_common_dimens_10dp" android:max="100" android:progress="100" android:progressDrawable="@drawable/ccsan_san_progress_bar_bg" app:text="@string/san_common_cta_desc" app:textSize="@dimen/san_common_text_size_14sp" app:text_margin_left="@dimen/san_common_dimens_8dp" app:text_margin_right="@dimen/san_common_dimens_8dp" style="?android:progressBarStyleHorizontal" />
+</RelativeLayout>

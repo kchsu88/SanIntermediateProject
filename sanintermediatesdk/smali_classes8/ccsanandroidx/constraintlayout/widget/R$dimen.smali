@@ -122,9 +122,9 @@
 
 .field public static final abc_progress_bar_height_material:I = 0x7f060035
 
-.field public static final abc_search_view_preferred_height:I = 0x7f060036
+.field public static final ccsan_abc_search_view_preferred_height:I = 0x7f060036
 
-.field public static final abc_search_view_preferred_width:I = 0x7f060037
+.field public static final ccsan_abc_search_view_preferred_width:I = 0x7f060037
 
 .field public static final abc_seekbar_track_background_height_material:I = 0x7f060038
 
@@ -202,9 +202,9 @@
 
 .field public static final hint_pressed_alpha_material_light:I = 0x7f06009e
 
-.field public static final notification_action_icon_size:I = 0x7f060181
+.field public static final ccsan_ccsan_notification_action_icon_size:I = 0x7f060181
 
-.field public static final notification_action_text_size:I = 0x7f060182
+.field public static final ccsan_ccsan_notification_action_text_size:I = 0x7f060182
 
 .field public static final notification_big_circle_margin:I = 0x7f060183
 

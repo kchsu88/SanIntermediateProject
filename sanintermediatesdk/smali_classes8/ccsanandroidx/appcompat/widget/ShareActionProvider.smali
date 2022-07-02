@@ -293,7 +293,7 @@
     .line 276
     iget-object v4, p0, Lccsanandroidx/appcompat/widget/ShareActionProvider;->mContext:Lccsanandroid/content/Context;
 
-    sget v6, Lccsanandroidx/appcompat/R$string;->abc_activity_chooser_view_see_all:I
+    sget v6, Lccsanandroidx/appcompat/R$string;->ccsan_abc_activity_chooser_view_see_all:I
 
     .line 278
     invoke-virtual {v4, v6}, Lccsanandroid/content/Context;->getString(I)Ljava/lang/String;

@@ -417,7 +417,7 @@
     iput-object p1, p0, Lccsancom/mbridge/msdk/video/bt/module/MBridgeBTWebView;->t:Lccsanandroid/widget/ImageView;
 
     .line 256
-    const-string v0, "mbridge_reward_close"
+    const-string v0, "ccsan_mbridge_reward_close"
 
     invoke-virtual {p0, v0}, Lccsancom/mbridge/msdk/video/bt/module/MBridgeBTWebView;->findDrawable(Ljava/lang/String;)I
 

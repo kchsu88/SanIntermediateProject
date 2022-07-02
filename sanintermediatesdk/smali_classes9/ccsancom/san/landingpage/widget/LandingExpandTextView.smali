@@ -90,7 +90,7 @@
 
     .line 1
     :cond_0
-    const-string v0, "san_expand_view"
+    const-string v0, "ccsan_san_expand_view"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

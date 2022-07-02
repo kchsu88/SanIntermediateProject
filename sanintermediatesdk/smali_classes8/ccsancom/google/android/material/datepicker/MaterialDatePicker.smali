@@ -296,7 +296,7 @@
 
     aput v2, v1, v3
 
-    sget v2, Lccsancom/google/android/material/R$drawable;->material_ic_calendar_black_24dp:I
+    sget v2, Lccsancom/google/android/material/R$drawable;->ccsan_material_ic_calendar_black_24dp:I
 
     .line 398
     invoke-static {p0, v2}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getDrawable(Lccsanandroid/content/Context;I)Lccsanandroid/graphics/drawable/Drawable;
@@ -309,7 +309,7 @@
     .line 399
     new-array v1, v3, [I
 
-    sget v2, Lccsancom/google/android/material/R$drawable;->material_ic_edit_black_24dp:I
+    sget v2, Lccsancom/google/android/material/R$drawable;->ccsan_material_ic_edit_black_24dp:I
 
     .line 401
     invoke-static {p0, v2}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getDrawable(Lccsanandroid/content/Context;I)Lccsanandroid/graphics/drawable/Drawable;
@@ -361,7 +361,7 @@
 
     .line 430
     .local v1, "navigationHeight":I
-    sget v2, Lccsancom/google/android/material/R$dimen;->mtrl_calendar_days_of_week_height:I
+    sget v2, Lccsancom/google/android/material/R$dimen;->ccsan_ccsan_mtrl_calendar_days_of_week_height:I
 
     .line 431
     invoke-virtual {v0, v2}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -372,7 +372,7 @@
     .local v2, "daysOfWeekHeight":I
     sget v3, Lccsancom/google/android/material/datepicker/MonthAdapter;->MAXIMUM_WEEKS:I
 
-    sget v4, Lccsancom/google/android/material/R$dimen;->mtrl_calendar_day_height:I
+    sget v4, Lccsancom/google/android/material/R$dimen;->ccsan_mtrl_calendar_day_height:I
 
     .line 434
     invoke-virtual {v0, v4}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -385,7 +385,7 @@
 
     add-int/lit8 v4, v4, -0x1
 
-    sget v5, Lccsancom/google/android/material/R$dimen;->mtrl_calendar_month_vertical_padding:I
+    sget v5, Lccsancom/google/android/material/R$dimen;->ccsan_ccsan_mtrl_calendar_month_vertical_padding:I
 
     .line 436
     invoke-virtual {v0, v5}, Lccsanandroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -442,7 +442,7 @@
 
     .line 445
     .local v2, "daysInWeek":I
-    sget v3, Lccsancom/google/android/material/R$dimen;->mtrl_calendar_day_width:I
+    sget v3, Lccsancom/google/android/material/R$dimen;->ccsan_mtrl_calendar_day_width:I
 
     invoke-virtual {v0, v3}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -450,7 +450,7 @@
 
     .line 446
     .local v3, "dayWidth":I
-    sget v4, Lccsancom/google/android/material/R$dimen;->mtrl_calendar_month_horizontal_padding:I
+    sget v4, Lccsancom/google/android/material/R$dimen;->ccsan_ccsan_mtrl_calendar_month_horizontal_padding:I
 
     .line 447
     invoke-virtual {v0, v4}, Lccsanandroid/content/res/Resources;->getDimensionPixelOffset(I)I
@@ -1321,12 +1321,12 @@
 
     if-eqz v0, :cond_0
 
-    sget v0, Lccsancom/google/android/material/R$layout;->mtrl_picker_fullscreen:I
+    sget v0, Lccsancom/google/android/material/R$layout;->ccsan_mtrl_picker_fullscreen:I
 
     goto :goto_0
 
     :cond_0
-    sget v0, Lccsancom/google/android/material/R$layout;->mtrl_picker_dialog:I
+    sget v0, Lccsancom/google/android/material/R$layout;->ccsan_mtrl_picker_dialog:I
 
     .line 209
     .local v0, "layout":I
@@ -1421,7 +1421,7 @@
     .end local v3    # "pane":Lccsanandroid/view/View;
     .end local v4    # "frame":Lccsanandroid/view/View;
     :goto_1
-    sget v3, Lccsancom/google/android/material/R$id;->mtrl_picker_header_selection_text:I
+    sget v3, Lccsancom/google/android/material/R$id;->ccsan_mtrl_picker_header_selection_text:I
 
     invoke-virtual {v1, v3}, Lccsanandroid/view/View;->findViewById(I)Lccsanandroid/view/View;
 
@@ -1437,7 +1437,7 @@
     invoke-static {v3, v4}, Lccsanandroidx/core/view/ViewCompat;->setAccessibilityLiveRegion(Lccsanandroid/view/View;I)V
 
     .line 227
-    sget v3, Lccsancom/google/android/material/R$id;->mtrl_picker_header_toggle:I
+    sget v3, Lccsancom/google/android/material/R$id;->ccsan_mtrl_picker_header_toggle:I
 
     invoke-virtual {v1, v3}, Lccsanandroid/view/View;->findViewById(I)Lccsanandroid/view/View;
 

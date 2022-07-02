@@ -168,7 +168,7 @@
 
     .line 239
     .local v2, "inflater":Lccsanandroid/view/LayoutInflater;
-    sget v3, Lccsanandroidx/appcompat/R$layout;->abc_activity_chooser_view:I
+    sget v3, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_activity_chooser_view:I
 
     const/4 v4, 0x1
 

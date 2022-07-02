@@ -120,9 +120,9 @@
     const/4 v3, 0x1
 
     :goto_1
-    const-string v4, "mbridge_same_choice_one_layout_landscape"
+    const-string v4, "ccsan_mbridge_same_choice_one_layout_landscape"
 
-    const-string v5, "mbridge_same_choice_one_layout_portrait"
+    const-string v5, "ccsan_mbridge_same_choice_one_layout_portrait"
 
     packed-switch v3, :pswitch_data_0
 

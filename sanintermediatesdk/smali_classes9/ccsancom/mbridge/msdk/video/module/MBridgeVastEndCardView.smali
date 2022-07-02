@@ -72,7 +72,7 @@
     .locals 3
 
     .line 31
-    const-string p1, "mbridge_reward_endcard_vast"
+    const-string p1, "ccsan_mbridge_reward_endcard_vast"
 
     invoke-virtual {p0, p1}, Lccsancom/mbridge/msdk/video/module/MBridgeVastEndCardView;->findLayout(Ljava/lang/String;)I
 
@@ -173,7 +173,7 @@
     invoke-virtual {p0}, Lccsancom/mbridge/msdk/video/module/MBridgeVastEndCardView;->setMatchParent()V
 
     .line 2043
-    const-string p1, "mbridge_reward_endcard_vast_bg"
+    const-string p1, "ccsan_mbridge_reward_endcard_vast_bg"
 
     invoke-virtual {p0, p1}, Lccsancom/mbridge/msdk/video/module/MBridgeVastEndCardView;->findColor(Ljava/lang/String;)I
 

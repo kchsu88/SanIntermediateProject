@@ -184,7 +184,7 @@
     invoke-virtual {p1, v0}, Lccsanandroid/view/Window;->addFlags(I)V
 
     .line 5
-    const-string p1, "san_activity_convert_task"
+    const-string p1, "ccsan_san_activity_convert_task"
 
     invoke-static {p1}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

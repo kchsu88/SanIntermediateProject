@@ -80,7 +80,7 @@
 
     move-result-object p1
 
-    const-string v1, "mbridge_reward_sound_open"
+    const-string v1, "ccsan_mbridge_reward_sound_open"
 
     invoke-static {p1, v1, v0}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
@@ -96,7 +96,7 @@
 
     move-result-object p1
 
-    const-string v1, "mbridge_reward_sound_close"
+    const-string v1, "ccsan_mbridge_reward_sound_close"
 
     invoke-static {p1, v1, v0}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 

@@ -14,15 +14,15 @@
 
 
 # static fields
-.field public static final mbridge_cm_alertview:I = 0x7f0b004c
+.field public static final ccsan_mbridge_cm_alertview:I = 0x7f0b004c
 
-.field public static final mbridge_nativex_fullbasescreen:I = 0x7f0b004e
+.field public static final ccsan_mbridge_nativex_fullbasescreen:I = 0x7f0b004e
 
-.field public static final mbridge_nativex_fullscreen_top:I = 0x7f0b004f
+.field public static final ccsan_mbridge_nativex_fullscreen_top:I = 0x7f0b004f
 
-.field public static final mbridge_nativex_mbmediaview:I = 0x7f0b0050
+.field public static final ccsan_mbridge_nativex_mbmediaview:I = 0x7f0b0050
 
-.field public static final mbridge_nativex_playerview:I = 0x7f0b0051
+.field public static final ccsan_ccsan_mbridge_nativex_playerview:I = 0x7f0b0051
 
 
 # direct methods

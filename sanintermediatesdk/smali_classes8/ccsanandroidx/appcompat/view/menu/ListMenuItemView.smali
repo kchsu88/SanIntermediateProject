@@ -239,7 +239,7 @@
 
     .line 310
     .local v0, "inflater":Lccsanandroid/view/LayoutInflater;
-    sget v1, Lccsanandroidx/appcompat/R$layout;->abc_list_menu_item_checkbox:I
+    sget v1, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_list_menu_item_checkbox:I
 
     .line 311
     const/4 v2, 0x0
@@ -269,7 +269,7 @@
 
     .line 295
     .local v0, "inflater":Lccsanandroid/view/LayoutInflater;
-    sget v1, Lccsanandroidx/appcompat/R$layout;->abc_list_menu_item_icon:I
+    sget v1, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_list_menu_item_icon:I
 
     const/4 v2, 0x0
 
@@ -298,7 +298,7 @@
 
     .line 302
     .local v0, "inflater":Lccsanandroid/view/LayoutInflater;
-    sget v1, Lccsanandroidx/appcompat/R$layout;->abc_list_menu_item_radio:I
+    sget v1, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_list_menu_item_radio:I
 
     .line 303
     const/4 v2, 0x0

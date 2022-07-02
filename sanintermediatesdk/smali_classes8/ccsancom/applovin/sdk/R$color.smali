@@ -46,7 +46,7 @@
 
 .field public static final applovin_sdk_xmarkColor:I = 0x7f05002a
 
-.field public static final notification_action_color_filter:I = 0x7f0500e8
+.field public static final ccsan_ccsan_notification_action_color_filter:I = 0x7f0500e8
 
 .field public static final notification_icon_bg_color:I = 0x7f0500e9
 

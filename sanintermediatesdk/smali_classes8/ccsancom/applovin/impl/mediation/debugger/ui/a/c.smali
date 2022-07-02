@@ -247,7 +247,7 @@
 
     invoke-virtual {p0, p1}, Lccsancom/applovin/impl/mediation/debugger/ui/a/c;->setTitle(Ljava/lang/CharSequence;)V
 
-    sget p1, Lccsancom/applovin/sdk/R$layout;->list_view:I
+    sget p1, Lccsancom/applovin/sdk/R$layout;->ccsan_list_view:I
 
     invoke-virtual {p0, p1}, Lccsancom/applovin/impl/mediation/debugger/ui/a/c;->setContentView(I)V
 

@@ -48,7 +48,7 @@
 
 .field public static final mbridge_reward_endcard_line_bg:I = 0x7f0500a4
 
-.field public static final mbridge_reward_endcard_vast_bg:I = 0x7f0500a5
+.field public static final ccsan_mbridge_reward_endcard_vast_bg:I = 0x7f0500a5
 
 .field public static final mbridge_reward_layer_text_bg:I = 0x7f0500a7
 

@@ -182,7 +182,7 @@
 
     .line 108
     .local v2, "res":Lccsanandroid/content/res/Resources;
-    sget v3, Lccsancom/google/android/material/R$dimen;->design_bottom_navigation_item_max_width:I
+    sget v3, Lccsancom/google/android/material/R$dimen;->ccsan_design_bottom_navigation_item_max_width:I
 
     .line 109
     invoke-virtual {v2, v3}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -192,7 +192,7 @@
     iput v3, p0, Lccsancom/google/android/material/bottomnavigation/BottomNavigationMenuView;->inactiveItemMaxWidth:I
 
     .line 110
-    sget v3, Lccsancom/google/android/material/R$dimen;->design_bottom_navigation_item_min_width:I
+    sget v3, Lccsancom/google/android/material/R$dimen;->ccsan_design_bottom_navigation_item_min_width:I
 
     .line 111
     invoke-virtual {v2, v3}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I

@@ -432,7 +432,7 @@
     :cond_1
     invoke-direct {p0, p1}, Lccsancom/san/mads/FullScreenActivity;->getDownloadingList(Lccsansan/dt/removeDownloadListener;)V
 
-    const-string v0, "san_full_activity_layout"
+    const-string v0, "ccsan_san_full_activity_layout"
 
     .line 14
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I

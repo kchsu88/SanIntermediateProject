@@ -268,7 +268,7 @@
 
     move-result-object v0
 
-    const-string v1, "san_landing_page_gp_view"
+    const-string v1, "ccsan_san_landing_page_gp_view"
 
     invoke-static {v1}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -1687,7 +1687,7 @@
     .line 254
     iget-object p3, p0, Lccsancom/san/landingpage/IncentiveDownloadUtils;->getDownloadingList:Lccsanandroid/widget/RelativeLayout;
 
-    const-string v0, "san_gp_corner_right_angle"
+    const-string v0, "ccsan_san_gp_corner_right_angle"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 
@@ -4924,7 +4924,7 @@
     iget-object v13, v1, Lccsancom/san/landingpage/IncentiveDownloadUtils;->getDownloadingRecordByUrl:Lccsanandroid/widget/ImageView;
 
     .line 47
-    const-string v8, "san_app_icon_bg"
+    const-string v8, "ccsan_san_app_icon_bg"
 
     invoke-static {v8}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 

@@ -71,7 +71,7 @@
     move-result-object v0
 
     .line 5
-    const-string v1, "san_reward_close_dialog"
+    const-string v1, "ccsan_san_reward_close_dialog"
 
     invoke-static {v1}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

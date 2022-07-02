@@ -42,7 +42,7 @@
 
 .field public static final mtrl_calendar_selection_text_lines:I = 0x7f09000e
 
-.field public static final mtrl_calendar_year_selector_span:I = 0x7f09000f
+.field public static final ccsan_mtrl_calendar_year_selector_span:I = 0x7f09000f
 
 .field public static final mtrl_card_anim_delay_ms:I = 0x7f090010
 

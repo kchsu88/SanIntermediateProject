@@ -338,7 +338,7 @@
     .locals 1
 
     .line 6
-    const-string v0, "san_basic_hybrid_web_fragment"
+    const-string v0, "ccsan_san_basic_hybrid_web_fragment"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

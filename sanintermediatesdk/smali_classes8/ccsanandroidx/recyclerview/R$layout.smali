@@ -14,19 +14,19 @@
 
 
 # static fields
-.field public static final custom_dialog:I = 0x7f0b001c
+.field public static final ccsan_custom_dialog:I = 0x7f0b001c
 
-.field public static final notification_action:I = 0x7f0b0080
+.field public static final ccsan_ccsan_notification_action:I = 0x7f0b0080
 
-.field public static final notification_action_tombstone:I = 0x7f0b0081
+.field public static final ccsan_ccsan_ccsan_ccsan_notification_action_tombstone:I = 0x7f0b0081
 
-.field public static final notification_template_custom_big:I = 0x7f0b0088
+.field public static final ccsan_ccsan_notification_template_custom_big:I = 0x7f0b0088
 
-.field public static final notification_template_icon_group:I = 0x7f0b0089
+.field public static final ccsan_ccsan_notification_template_icon_group:I = 0x7f0b0089
 
-.field public static final notification_template_part_chronometer:I = 0x7f0b008d
+.field public static final ccsan_notification_template_part_chronometer:I = 0x7f0b008d
 
-.field public static final notification_template_part_time:I = 0x7f0b008e
+.field public static final ccsan_notification_template_part_time:I = 0x7f0b008e
 
 
 # direct methods

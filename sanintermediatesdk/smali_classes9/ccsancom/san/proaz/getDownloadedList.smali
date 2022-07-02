@@ -1191,12 +1191,12 @@
     if-eqz p0, :cond_2
 
     :cond_2
-    const-string p0, "san_dialog_promotion_az_out_improve_simple"
+    const-string p0, "ccsan_ccsan_ccsan_san_dialog_promotion_az_out_improve_simple"
 
     goto :goto_2
 
     :goto_1
-    const-string p0, "san_dialog_promotion_az_out_improve"
+    const-string p0, "ccsan_ccsan_san_dialog_promotion_az_out_improve"
 
     :goto_2
     invoke-static {p0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I

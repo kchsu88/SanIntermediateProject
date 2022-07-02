@@ -380,7 +380,7 @@
 
     iget-object v1, p0, Lccsancom/google/android/material/textfield/ClearTextEndIconDelegate;->context:Lccsanandroid/content/Context;
 
-    sget v2, Lccsancom/google/android/material/R$drawable;->mtrl_ic_cancel:I
+    sget v2, Lccsancom/google/android/material/R$drawable;->ccsan_mtrl_ic_cancel:I
 
     .line 114
     invoke-static {v1, v2}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getDrawable(Lccsanandroid/content/Context;I)Lccsanandroid/graphics/drawable/Drawable;

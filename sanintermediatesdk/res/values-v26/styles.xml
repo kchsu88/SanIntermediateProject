@@ -5,7 +5,7 @@
     <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar" />
     <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
         <item name="android:background">?colorPrimary</item>
-        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:stateListAnimator">@animator/ccsan_design_appbar_state_list_animator</item>
         <item name="android:touchscreenBlocksFocus">true</item>
         <item name="android:keyboardNavigationCluster">true</item>
     </style>

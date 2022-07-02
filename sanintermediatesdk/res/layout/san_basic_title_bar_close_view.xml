@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Button android:layout_gravity="start|center" android:background="@drawable/san_titlebar_close_bg" android:visibility="gone" android:layout_width="@dimen/san_common_media_title_return_width" android:layout_height="@dimen/san_common_media_title_return_height"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

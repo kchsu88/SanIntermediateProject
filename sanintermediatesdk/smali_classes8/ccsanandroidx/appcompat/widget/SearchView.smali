@@ -320,7 +320,7 @@
     .local v10, "inflater":Lccsanandroid/view/LayoutInflater;
     sget v11, Lccsanandroidx/appcompat/R$styleable;->SearchView_layout:I
 
-    sget v12, Lccsanandroidx/appcompat/R$layout;->abc_search_view:I
+    sget v12, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_search_view:I
 
     invoke-virtual {v5, v11, v12}, Lccsanandroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
 
@@ -528,7 +528,7 @@
     .line 319
     sget v9, Lccsanandroidx/appcompat/R$styleable;->SearchView_suggestionRowLayout:I
 
-    sget v10, Lccsanandroidx/appcompat/R$layout;->abc_search_dropdown_item_icons_2line:I
+    sget v10, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_search_dropdown_item_icons_2line:I
 
     invoke-virtual {v5, v9, v10}, Lccsanandroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
 
@@ -1455,7 +1455,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsanandroidx/appcompat/R$dimen;->abc_search_view_preferred_height:I
+    sget v1, Lccsanandroidx/appcompat/R$dimen;->ccsan_abc_search_view_preferred_height:I
 
     .line 870
     invoke-virtual {v0, v1}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -1478,7 +1478,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsanandroidx/appcompat/R$dimen;->abc_search_view_preferred_width:I
+    sget v1, Lccsanandroidx/appcompat/R$dimen;->ccsan_abc_search_view_preferred_width:I
 
     .line 865
     invoke-virtual {v0, v1}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I

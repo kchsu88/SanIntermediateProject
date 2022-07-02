@@ -81,7 +81,7 @@
 
     if-nez v0, :cond_0
 
-    const-string v0, "san_silent"
+    const-string v0, "ccsan_san_silent"
 
     .line 10
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadingRecordByUrl(Ljava/lang/String;)I

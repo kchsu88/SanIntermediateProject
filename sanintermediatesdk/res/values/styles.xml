@@ -7,34 +7,34 @@
     <style name="Animation.AppCompat.DropDownUp" parent="@style/Base.Animation.AppCompat.DropDownUp" />
     <style name="Animation.AppCompat.Tooltip" parent="@style/Base.Animation.AppCompat.Tooltip" />
     <style name="Animation.Design.BottomSheetDialog" parent="@style/Animation.AppCompat.Dialog">
-        <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
-        <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
+        <item name="android:windowEnterAnimation">@anim/ccsan_ccsan_design_bottom_sheet_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/ccsan_ccsan_design_bottom_sheet_slide_out</item>
     </style>
     <style name="Animation.MaterialComponents.BottomSheetDialog" parent="@style/Animation.AppCompat.Dialog">
-        <item name="android:windowEnterAnimation">@anim/mtrl_bottom_sheet_slide_in</item>
-        <item name="android:windowExitAnimation">@anim/mtrl_bottom_sheet_slide_out</item>
+        <item name="android:windowEnterAnimation">@anim/ccsan_ccsan_mtrl_bottom_sheet_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/ccsan_ccsan_mtrl_bottom_sheet_slide_out</item>
     </style>
     <style name="AppBaseTheme" />
     <style name="Base.AlertDialog.AppCompat" parent="@android:style/Widget">
-        <item name="android:layout">@layout/abc_alert_dialog_material</item>
+        <item name="android:layout">@layout/ccsan_abc_alert_dialog_material</item>
         <item name="buttonIconDimen">@dimen/abc_alert_dialog_button_dimen</item>
-        <item name="listItemLayout">@layout/select_dialog_item_material</item>
-        <item name="listLayout">@layout/abc_select_dialog_material</item>
-        <item name="multiChoiceItemLayout">@layout/select_dialog_multichoice_material</item>
-        <item name="singleChoiceItemLayout">@layout/select_dialog_singlechoice_material</item>
+        <item name="listItemLayout">@layout/ccsan_select_dialog_item_material</item>
+        <item name="listLayout">@layout/ccsan_abc_select_dialog_material</item>
+        <item name="multiChoiceItemLayout">@layout/ccsan_select_dialog_multichoice_material</item>
+        <item name="singleChoiceItemLayout">@layout/ccsan_select_dialog_singlechoice_material</item>
     </style>
     <style name="Base.AlertDialog.AppCompat.Light" parent="@style/Base.AlertDialog.AppCompat" />
     <style name="Base.Animation.AppCompat.Dialog" parent="@android:style/Animation">
-        <item name="android:windowEnterAnimation">@anim/abc_popup_enter</item>
-        <item name="android:windowExitAnimation">@anim/abc_popup_exit</item>
+        <item name="android:windowEnterAnimation">@anim/ccsan_abc_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/ccsan_abc_popup_exit</item>
     </style>
     <style name="Base.Animation.AppCompat.DropDownUp" parent="@android:style/Animation">
-        <item name="android:windowEnterAnimation">@anim/abc_grow_fade_in_from_bottom</item>
-        <item name="android:windowExitAnimation">@anim/abc_shrink_fade_out_from_bottom</item>
+        <item name="android:windowEnterAnimation">@anim/ccsan_abc_grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/ccsan_abc_shrink_fade_out_from_bottom</item>
     </style>
     <style name="Base.Animation.AppCompat.Tooltip" parent="@android:style/Animation">
-        <item name="android:windowEnterAnimation">@anim/abc_tooltip_enter</item>
-        <item name="android:windowExitAnimation">@anim/abc_tooltip_exit</item>
+        <item name="android:windowEnterAnimation">@anim/ccsan_ccsan_abc_tooltip_enter</item>
+        <item name="android:windowExitAnimation">@anim/ccsan_ccsan_abc_tooltip_exit</item>
     </style>
     <style name="Base.CardView" parent="@android:style/Widget">
         <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
@@ -70,7 +70,7 @@
     </style>
     <style name="Base.MaterialAlertDialog.MaterialComponents.Title.Text" parent="@style/RtlOverlay.DialogWindowTitle.AppCompat">
         <item name="android:textAppearance">?textAppearanceSubtitle1</item>
-        <item name="android:textColor">@color/material_on_surface_emphasis_high_type</item>
+        <item name="android:textColor">@color/ccsan_material_on_surface_emphasis_high_type</item>
         <item name="android:ellipsize">end</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -219,10 +219,10 @@
     <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
     <style name="Base.TextAppearance.AppCompat.Widget.Button" parent="@style/TextAppearance.AppCompat.Button" />
     <style name="Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored" parent="@style/Base.TextAppearance.AppCompat.Widget.Button">
-        <item name="android:textColor">@color/abc_btn_colored_borderless_text_material</item>
+        <item name="android:textColor">@color/ccsan_ccsan_ccsan_abc_btn_colored_borderless_text_material</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.Button.Colored" parent="@style/Base.TextAppearance.AppCompat.Widget.Button">
-        <item name="android:textColor">@color/abc_btn_colored_text_material</item>
+        <item name="android:textColor">@color/ccsan_ccsan_abc_btn_colored_text_material</item>
     </style>
     <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@style/TextAppearance.AppCompat.Button">
         <item name="android:textColor">?android:textColorPrimaryInverse</item>
@@ -301,7 +301,7 @@
         <item name="actionBarWidgetTheme">@null</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
-        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/ccsan_abc_list_selector_holo_dark</item>
     </style>
     <style name="Base.Theme.AppCompat.Light.Dialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog" />
     <style name="Base.Theme.AppCompat.Light.Dialog.Alert" parent="@style/Base.Theme.AppCompat.Light.Dialog">
@@ -350,7 +350,7 @@
         <item name="actionBarWidgetTheme">@null</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
-        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/ccsan_abc_list_selector_holo_dark</item>
     </style>
     <style name="Base.Theme.MaterialComponents.Light.DarkActionBar.Bridge" parent="@style/Base.V14.Theme.MaterialComponents.Light.DarkActionBar.Bridge" />
     <style name="Base.Theme.MaterialComponents.Light.Dialog" parent="@style/Base.V14.Theme.MaterialComponents.Light.Dialog" />
@@ -378,24 +378,24 @@
     <style name="Base.ThemeOverlay.AppCompat.Dark" parent="@style/Platform.ThemeOverlay.AppCompat.Dark">
         <item name="android:colorForeground">@color/foreground_material_dark</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
-        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
-        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
-        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
-        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
-        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_light</item>
-        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textColorPrimary">@color/ccsan_abc_primary_text_material_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/ccsan_abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textColorSecondary">@color/ccsan_abc_secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/ccsan_abc_primary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/ccsan_abc_secondary_text_material_light</item>
+        <item name="android:textColorHintInverse">@color/ccsan_abc_hint_foreground_material_light</item>
         <item name="android:windowBackground">@color/background_material_dark</item>
         <item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>
-        <item name="android:textColorHint">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textColorHint">@color/ccsan_abc_hint_foreground_material_dark</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
-        <item name="android:textColorTertiary">@color/abc_secondary_text_material_dark</item>
-        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_light</item>
-        <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
+        <item name="android:textColorTertiary">@color/ccsan_abc_secondary_text_material_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/ccsan_abc_secondary_text_material_light</item>
+        <item name="android:colorBackgroundCacheHint">@color/ccsan_abc_background_cache_hint_selector_material_dark</item>
         <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
         <item name="colorButtonNormal">@color/button_material_dark</item>
         <item name="colorControlHighlight">@color/ripple_material_dark</item>
         <item name="colorControlNormal">?android:textColorSecondary</item>
-        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
+        <item name="colorSwitchThumbNormal">@color/ccsan_switch_thumb_material_dark</item>
         <item name="isLightTheme">false</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.Dark">
@@ -410,25 +410,25 @@
     <style name="Base.ThemeOverlay.AppCompat.Light" parent="@style/Platform.ThemeOverlay.AppCompat.Light">
         <item name="android:colorForeground">@color/foreground_material_light</item>
         <item name="android:colorBackground">@color/background_material_light</item>
-        <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
-        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_light</item>
-        <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
-        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_dark</item>
-        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_dark</item>
-        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textColorPrimary">@color/ccsan_abc_primary_text_material_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/ccsan_abc_primary_text_disable_only_material_light</item>
+        <item name="android:textColorSecondary">@color/ccsan_abc_secondary_text_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/ccsan_abc_primary_text_material_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/ccsan_abc_secondary_text_material_dark</item>
+        <item name="android:textColorHintInverse">@color/ccsan_abc_hint_foreground_material_dark</item>
         <item name="android:windowBackground">@color/background_material_light</item>
         <item name="android:textColorHighlight">@color/highlighted_text_material_light</item>
-        <item name="android:textColorHint">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textColorHint">@color/ccsan_abc_hint_foreground_material_light</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
-        <item name="android:textColorTertiary">@color/abc_secondary_text_material_light</item>
-        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_dark</item>
-        <item name="android:textColorPrimaryInverseDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
-        <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_light</item>
+        <item name="android:textColorTertiary">@color/ccsan_abc_secondary_text_material_light</item>
+        <item name="android:textColorTertiaryInverse">@color/ccsan_abc_secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/ccsan_abc_primary_text_disable_only_material_dark</item>
+        <item name="android:colorBackgroundCacheHint">@color/ccsan_abc_background_cache_hint_selector_material_light</item>
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
         <item name="colorButtonNormal">@color/button_material_light</item>
         <item name="colorControlHighlight">@color/ripple_material_light</item>
         <item name="colorControlNormal">?android:textColorSecondary</item>
-        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
+        <item name="colorSwitchThumbNormal">@color/ccsan_switch_thumb_material_light</item>
         <item name="isLightTheme">true</item>
     </style>
     <style name="Base.ThemeOverlay.MaterialComponents.Dialog" parent="@style/Base.V14.ThemeOverlay.MaterialComponents.Dialog" />
@@ -502,7 +502,7 @@
         <item name="materialButtonToggleGroupStyle">@style/Widget.MaterialComponents.MaterialButtonToggleGroup</item>
         <item name="materialCardViewStyle">@style/Widget.MaterialComponents.CardView</item>
         <item name="minTouchTargetSize">@dimen/mtrl_min_touch_target_size</item>
-        <item name="popupMenuBackground">@drawable/mtrl_popupmenu_background_dark</item>
+        <item name="popupMenuBackground">@drawable/ccsan_ccsan_ccsan_mtrl_popupmenu_background_dark</item>
         <item name="scrimBackground">@color/mtrl_scrim_color</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MaterialComponents.LargeComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
@@ -583,7 +583,7 @@
         <item name="materialButtonToggleGroupStyle">@style/Widget.MaterialComponents.MaterialButtonToggleGroup</item>
         <item name="materialCardViewStyle">@style/Widget.MaterialComponents.CardView</item>
         <item name="minTouchTargetSize">@dimen/mtrl_min_touch_target_size</item>
-        <item name="popupMenuBackground">@drawable/mtrl_popupmenu_background_dark</item>
+        <item name="popupMenuBackground">@drawable/ccsan_ccsan_ccsan_mtrl_popupmenu_background_dark</item>
         <item name="scrimBackground">@color/mtrl_scrim_color</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MaterialComponents.LargeComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
@@ -670,7 +670,7 @@
         <item name="materialButtonToggleGroupStyle">@style/Widget.MaterialComponents.MaterialButtonToggleGroup</item>
         <item name="materialCardViewStyle">@style/Widget.MaterialComponents.CardView</item>
         <item name="minTouchTargetSize">@dimen/mtrl_min_touch_target_size</item>
-        <item name="popupMenuBackground">@drawable/mtrl_popupmenu_background</item>
+        <item name="popupMenuBackground">@drawable/ccsan_mtrl_popupmenu_background</item>
         <item name="scrimBackground">@color/mtrl_scrim_color</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MaterialComponents.LargeComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
@@ -705,7 +705,7 @@
         <item name="elevationOverlayColor">?colorOnSurface</item>
         <item name="elevationOverlayEnabled">false</item>
         <item name="isMaterialTheme">true</item>
-        <item name="popupMenuBackground">@drawable/mtrl_popupmenu_background</item>
+        <item name="popupMenuBackground">@drawable/ccsan_mtrl_popupmenu_background</item>
         <item name="scrimBackground">@color/mtrl_scrim_color</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MaterialComponents.LargeComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
@@ -784,7 +784,7 @@
         <item name="materialButtonToggleGroupStyle">@style/Widget.MaterialComponents.MaterialButtonToggleGroup</item>
         <item name="materialCardViewStyle">@style/Widget.MaterialComponents.CardView</item>
         <item name="minTouchTargetSize">@dimen/mtrl_min_touch_target_size</item>
-        <item name="popupMenuBackground">@drawable/mtrl_popupmenu_background</item>
+        <item name="popupMenuBackground">@drawable/ccsan_mtrl_popupmenu_background</item>
         <item name="scrimBackground">@color/mtrl_scrim_color</item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MaterialComponents.LargeComponent</item>
         <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MaterialComponents.MediumComponent</item>
@@ -842,14 +842,14 @@
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
         <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:textColorPrimaryDisableOnly</item>
-        <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
+        <item name="actionModeBackground">@drawable/ccsan_abc_cab_background_top_material</item>
         <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
-        <item name="actionModeCloseDrawable">@drawable/abc_ic_ab_back_material</item>
-        <item name="actionModeCopyDrawable">@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
-        <item name="actionModeCutDrawable">@drawable/abc_ic_menu_cut_mtrl_alpha</item>
-        <item name="actionModePasteDrawable">@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
-        <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
-        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
+        <item name="actionModeCloseDrawable">@drawable/ccsan_abc_ic_ab_back_material</item>
+        <item name="actionModeCopyDrawable">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item name="actionModeCutDrawable">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_cut_mtrl_alpha</item>
+        <item name="actionModePasteDrawable">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item name="actionModeSelectAllDrawable">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_selectall_mtrl_alpha</item>
+        <item name="actionModeShareDrawable">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_share_mtrl_alpha</item>
         <item name="actionModeSplitBackground">?colorPrimaryDark</item>
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
@@ -877,7 +877,7 @@
         <item name="colorError">@color/error_color_material_dark</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
-        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_dark</item>
+        <item name="colorSwitchThumbNormal">@color/ccsan_switch_thumb_material_dark</item>
         <item name="controlBackground">?selectableItemBackgroundBorderless</item>
         <item name="dialogCornerRadius">@dimen/abc_dialog_corner_radius_material</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
@@ -887,13 +887,13 @@
         <item name="drawerArrowStyle">@style/Widget.AppCompat.DrawerArrowToggle</item>
         <item name="dropDownListViewStyle">?android:dropDownListViewStyle</item>
         <item name="dropdownListPreferredItemHeight">?listPreferredItemHeightSmall</item>
-        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/ccsan_ccsan_abc_edit_text_material</item>
         <item name="editTextColor">?android:textColorPrimary</item>
         <item name="editTextStyle">@style/Widget.AppCompat.EditText</item>
-        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_material</item>
+        <item name="homeAsUpIndicator">@drawable/ccsan_abc_ic_ab_back_material</item>
         <item name="imageButtonStyle">@style/Widget.AppCompat.ImageButton</item>
         <item name="isLightTheme">false</item>
-        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/ccsan_abc_list_selector_holo_dark</item>
         <item name="listDividerAlertDialog">@null</item>
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
         <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
@@ -914,7 +914,7 @@
         <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
         <item name="searchViewStyle">@style/Widget.AppCompat.SearchView</item>
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
-        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="selectableItemBackground">@drawable/ccsan_abc_item_background_holo_dark</item>
         <item name="selectableItemBackgroundBorderless">?selectableItemBackground</item>
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
@@ -927,12 +927,12 @@
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
-        <item name="textColorAlertDialogListItem">@color/abc_primary_text_material_dark</item>
-        <item name="textColorSearchUrl">@color/abc_search_url_text</item>
+        <item name="textColorAlertDialogListItem">@color/ccsan_abc_primary_text_material_dark</item>
+        <item name="textColorSearchUrl">@color/ccsan_abc_search_url_text</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="tooltipForegroundColor">@color/foreground_material_light</item>
-        <item name="tooltipFrameBackground">@drawable/tooltip_frame_light</item>
+        <item name="tooltipFrameBackground">@drawable/ccsan_tooltip_frame_light</item>
         <item name="windowActionBar">true</item>
         <item name="windowActionBarOverlay">false</item>
         <item name="windowActionModeOverlay">false</item>
@@ -944,7 +944,7 @@
     </style>
     <style name="Base.V7.Theme.AppCompat.Dialog" parent="@style/Base.Theme.AppCompat">
         <item name="android:colorBackground">?colorBackgroundFloating</item>
-        <item name="android:windowBackground">@drawable/abc_dialog_material_background</item>
+        <item name="android:windowBackground">@drawable/ccsan_ccsan_ccsan_abc_dialog_material_background</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -985,14 +985,14 @@
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
         <item name="actionMenuTextAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?android:textColorPrimaryDisableOnly</item>
-        <item name="actionModeBackground">@drawable/abc_cab_background_top_material</item>
+        <item name="actionModeBackground">@drawable/ccsan_abc_cab_background_top_material</item>
         <item name="actionModeCloseButtonStyle">@style/Widget.AppCompat.ActionButton.CloseMode</item>
-        <item name="actionModeCloseDrawable">@drawable/abc_ic_ab_back_material</item>
-        <item name="actionModeCopyDrawable">@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
-        <item name="actionModeCutDrawable">@drawable/abc_ic_menu_cut_mtrl_alpha</item>
-        <item name="actionModePasteDrawable">@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
-        <item name="actionModeSelectAllDrawable">@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
-        <item name="actionModeShareDrawable">@drawable/abc_ic_menu_share_mtrl_alpha</item>
+        <item name="actionModeCloseDrawable">@drawable/ccsan_abc_ic_ab_back_material</item>
+        <item name="actionModeCopyDrawable">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item name="actionModeCutDrawable">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_cut_mtrl_alpha</item>
+        <item name="actionModePasteDrawable">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item name="actionModeSelectAllDrawable">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_selectall_mtrl_alpha</item>
+        <item name="actionModeShareDrawable">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_share_mtrl_alpha</item>
         <item name="actionModeSplitBackground">?colorPrimaryDark</item>
         <item name="actionModeStyle">@style/Widget.AppCompat.ActionMode</item>
         <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
@@ -1020,7 +1020,7 @@
         <item name="colorError">@color/error_color_material_light</item>
         <item name="colorPrimary">@color/primary_material_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_material_light</item>
-        <item name="colorSwitchThumbNormal">@color/switch_thumb_material_light</item>
+        <item name="colorSwitchThumbNormal">@color/ccsan_switch_thumb_material_light</item>
         <item name="controlBackground">?selectableItemBackgroundBorderless</item>
         <item name="dialogCornerRadius">@dimen/abc_dialog_corner_radius_material</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
@@ -1030,13 +1030,13 @@
         <item name="drawerArrowStyle">@style/Widget.AppCompat.DrawerArrowToggle</item>
         <item name="dropDownListViewStyle">?android:dropDownListViewStyle</item>
         <item name="dropdownListPreferredItemHeight">?listPreferredItemHeightSmall</item>
-        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/ccsan_ccsan_abc_edit_text_material</item>
         <item name="editTextColor">?android:textColorPrimary</item>
         <item name="editTextStyle">@style/Widget.AppCompat.EditText</item>
-        <item name="homeAsUpIndicator">@drawable/abc_ic_ab_back_material</item>
+        <item name="homeAsUpIndicator">@drawable/ccsan_abc_ic_ab_back_material</item>
         <item name="imageButtonStyle">@style/Widget.AppCompat.ImageButton</item>
         <item name="isLightTheme">true</item>
-        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_light</item>
+        <item name="listChoiceBackgroundIndicator">@drawable/ccsan_abc_list_selector_holo_light</item>
         <item name="listDividerAlertDialog">@null</item>
         <item name="listMenuViewStyle">@style/Widget.AppCompat.ListMenuView</item>
         <item name="listPopupWindowStyle">@style/Widget.AppCompat.ListPopupWindow</item>
@@ -1057,7 +1057,7 @@
         <item name="ratingBarStyleSmall">@style/Widget.AppCompat.RatingBar.Small</item>
         <item name="searchViewStyle">@style/Widget.AppCompat.Light.SearchView</item>
         <item name="seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
-        <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
+        <item name="selectableItemBackground">@drawable/ccsan_abc_item_background_holo_light</item>
         <item name="selectableItemBackgroundBorderless">?selectableItemBackground</item>
         <item name="spinnerDropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
         <item name="spinnerStyle">@style/Widget.AppCompat.Spinner</item>
@@ -1070,12 +1070,12 @@
         <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
         <item name="textAppearanceSearchResultTitle">@style/TextAppearance.AppCompat.SearchResult.Title</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
-        <item name="textColorAlertDialogListItem">@color/abc_primary_text_material_light</item>
-        <item name="textColorSearchUrl">@color/abc_search_url_text</item>
+        <item name="textColorAlertDialogListItem">@color/ccsan_abc_primary_text_material_light</item>
+        <item name="textColorSearchUrl">@color/ccsan_abc_search_url_text</item>
         <item name="toolbarNavigationButtonStyle">@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
         <item name="toolbarStyle">@style/Widget.AppCompat.Toolbar</item>
         <item name="tooltipForegroundColor">@color/foreground_material_dark</item>
-        <item name="tooltipFrameBackground">@drawable/tooltip_frame_dark</item>
+        <item name="tooltipFrameBackground">@drawable/ccsan_tooltip_frame_dark</item>
         <item name="windowActionBar">true</item>
         <item name="windowActionBarOverlay">false</item>
         <item name="windowActionModeOverlay">false</item>
@@ -1087,7 +1087,7 @@
     </style>
     <style name="Base.V7.Theme.AppCompat.Light.Dialog" parent="@style/Base.Theme.AppCompat.Light">
         <item name="android:colorBackground">?colorBackgroundFloating</item>
-        <item name="android:windowBackground">@drawable/abc_dialog_material_background</item>
+        <item name="android:windowBackground">@drawable/ccsan_ccsan_ccsan_abc_dialog_material_background</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -1108,7 +1108,7 @@
     </style>
     <style name="Base.V7.ThemeOverlay.AppCompat.Dialog" parent="@style/Base.ThemeOverlay.AppCompat">
         <item name="android:colorBackground">?colorBackgroundFloating</item>
-        <item name="android:windowBackground">@drawable/abc_dialog_material_background</item>
+        <item name="android:windowBackground">@drawable/ccsan_ccsan_ccsan_abc_dialog_material_background</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -1137,13 +1137,13 @@
         <item name="android:background">?editTextBackground</item>
         <item name="android:dropDownSelector">?listChoiceBackgroundIndicator</item>
         <item name="android:popupBackground">@drawable/abc_popup_background_mtrl_mult</item>
-        <item name="android:textCursorDrawable">@drawable/abc_text_cursor_material</item>
+        <item name="android:textCursorDrawable">@drawable/ccsan_abc_text_cursor_material</item>
     </style>
     <style name="Base.V7.Widget.AppCompat.EditText" parent="@android:style/Widget.EditText">
         <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
         <item name="android:textColor">?editTextColor</item>
         <item name="android:background">?editTextBackground</item>
-        <item name="android:textCursorDrawable">@drawable/abc_text_cursor_material</item>
+        <item name="android:textCursorDrawable">@drawable/ccsan_abc_text_cursor_material</item>
     </style>
     <style name="Base.V7.Widget.AppCompat.Toolbar" parent="@android:style/Widget">
         <item name="android:paddingLeft">@dimen/abc_action_bar_default_padding_start_material</item>
@@ -1199,7 +1199,7 @@
     </style>
     <style name="Base.Widget.AppCompat.ActionBar.TabView" parent="">
         <item name="android:gravity">center_horizontal</item>
-        <item name="android:background">@drawable/abc_tab_indicator_material</item>
+        <item name="android:background">@drawable/ccsan_abc_tab_indicator_material</item>
         <item name="android:paddingLeft">16.0dip</item>
         <item name="android:paddingRight">16.0dip</item>
         <item name="android:layout_width">0.0dip</item>
@@ -1224,12 +1224,12 @@
         <item name="android:minWidth">@dimen/abc_action_button_min_width_overflow_material</item>
         <item name="android:minHeight">@dimen/abc_action_button_min_height_material</item>
         <item name="android:contentDescription">@string/abc_action_menu_overflow_description</item>
-        <item name="srcCompat">@drawable/abc_ic_menu_overflow_material</item>
+        <item name="srcCompat">@drawable/ccsan_abc_ic_menu_overflow_material</item>
     </style>
     <style name="Base.Widget.AppCompat.ActionMode" parent="">
         <item name="background">?actionModeBackground</item>
         <item name="backgroundSplit">?actionModeSplitBackground</item>
-        <item name="closeItemLayout">@layout/abc_action_mode_close_item_material</item>
+        <item name="closeItemLayout">@layout/ccsan_abc_action_mode_close_item_material</item>
         <item name="height">?actionBarSize</item>
         <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
         <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
@@ -1245,14 +1245,14 @@
     <style name="Base.Widget.AppCompat.Button" parent="@android:style/Widget">
         <item name="android:textAppearance">?android:textAppearanceButton</item>
         <item name="android:gravity">center</item>
-        <item name="android:background">@drawable/abc_btn_default_mtrl_shape</item>
+        <item name="android:background">@drawable/ccsan_abc_btn_default_mtrl_shape</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="android:minWidth">88.0dip</item>
         <item name="android:minHeight">48.0dip</item>
     </style>
     <style name="Base.Widget.AppCompat.Button.Borderless" parent="@style/Base.Widget.AppCompat.Button">
-        <item name="android:background">@drawable/abc_btn_borderless_material</item>
+        <item name="android:background">@drawable/ccsan_abc_btn_borderless_material</item>
     </style>
     <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@style/Base.Widget.AppCompat.Button.Borderless">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored</item>
@@ -1263,7 +1263,7 @@
     </style>
     <style name="Base.Widget.AppCompat.Button.Colored" parent="@style/Base.Widget.AppCompat.Button">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
-        <item name="android:background">@drawable/abc_btn_colored_material</item>
+        <item name="android:background">@drawable/ccsan_ccsan_abc_btn_colored_material</item>
     </style>
     <style name="Base.Widget.AppCompat.Button.Small" parent="@style/Base.Widget.AppCompat.Button">
         <item name="android:minWidth">48.0dip</item>
@@ -1287,7 +1287,7 @@
         <item name="android:background">?controlBackground</item>
         <item name="android:textOn">@string/abc_capital_on</item>
         <item name="android:textOff">@string/abc_capital_off</item>
-        <item name="android:thumb">@drawable/abc_switch_thumb_material</item>
+        <item name="android:thumb">@drawable/ccsan_abc_switch_thumb_material</item>
         <item name="showText">false</item>
         <item name="switchPadding">@dimen/abc_switch_padding</item>
         <item name="switchTextAppearance">@style/TextAppearance.AppCompat.Widget.Switch</item>
@@ -1313,7 +1313,7 @@
     </style>
     <style name="Base.Widget.AppCompat.EditText" parent="@style/Base.V7.Widget.AppCompat.EditText" />
     <style name="Base.Widget.AppCompat.ImageButton" parent="@android:style/Widget.ImageButton">
-        <item name="android:background">@drawable/abc_btn_default_mtrl_shape</item>
+        <item name="android:background">@drawable/ccsan_abc_btn_default_mtrl_shape</item>
     </style>
     <style name="Base.Widget.AppCompat.Light.ActionBar" parent="@style/Base.Widget.AppCompat.ActionBar">
         <item name="actionButtonStyle">@style/Widget.AppCompat.Light.ActionButton</item>
@@ -1330,7 +1330,7 @@
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium.Inverse</item>
     </style>
     <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@style/Base.Widget.AppCompat.ActionBar.TabView">
-        <item name="android:background">@drawable/abc_tab_indicator_material</item>
+        <item name="android:background">@drawable/ccsan_abc_tab_indicator_material</item>
     </style>
     <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@style/Widget.AppCompat.ListPopupWindow" />
     <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow" parent="@style/Base.Widget.AppCompat.Light.PopupMenu">
@@ -1338,7 +1338,7 @@
         <item name="overlapAnchor">true</item>
     </style>
     <style name="Base.Widget.AppCompat.ListMenuView" parent="@android:style/Widget">
-        <item name="subMenuArrow">@drawable/abc_ic_arrow_drop_right_black_24dp</item>
+        <item name="subMenuArrow">@drawable/ccsan_abc_ic_arrow_drop_right_black_24dp</item>
     </style>
     <style name="Base.Widget.AppCompat.ListPopupWindow" parent="">
         <item name="android:dropDownSelector">?listChoiceBackgroundIndicator</item>
@@ -1366,36 +1366,36 @@
     <style name="Base.Widget.AppCompat.ProgressBar" parent="@android:style/Widget.Holo.ProgressBar" />
     <style name="Base.Widget.AppCompat.ProgressBar.Horizontal" parent="@android:style/Widget.Holo.ProgressBar.Horizontal" />
     <style name="Base.Widget.AppCompat.RatingBar" parent="@android:style/Widget.RatingBar">
-        <item name="android:indeterminateDrawable">@drawable/abc_ratingbar_material</item>
-        <item name="android:progressDrawable">@drawable/abc_ratingbar_material</item>
+        <item name="android:indeterminateDrawable">@drawable/ccsan_ccsan_abc_ratingbar_material</item>
+        <item name="android:progressDrawable">@drawable/ccsan_ccsan_abc_ratingbar_material</item>
     </style>
     <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.RatingBar">
         <item name="android:maxHeight">36.0dip</item>
-        <item name="android:indeterminateDrawable">@drawable/abc_ratingbar_indicator_material</item>
-        <item name="android:progressDrawable">@drawable/abc_ratingbar_indicator_material</item>
+        <item name="android:indeterminateDrawable">@drawable/ccsan_ccsan_abc_ratingbar_indicator_material</item>
+        <item name="android:progressDrawable">@drawable/ccsan_ccsan_abc_ratingbar_indicator_material</item>
         <item name="android:minHeight">36.0dip</item>
         <item name="android:thumb">@null</item>
         <item name="android:isIndicator">true</item>
     </style>
     <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.RatingBar">
         <item name="android:maxHeight">16.0dip</item>
-        <item name="android:indeterminateDrawable">@drawable/abc_ratingbar_small_material</item>
-        <item name="android:progressDrawable">@drawable/abc_ratingbar_small_material</item>
+        <item name="android:indeterminateDrawable">@drawable/ccsan_ccsan_abc_ratingbar_small_material</item>
+        <item name="android:progressDrawable">@drawable/ccsan_ccsan_abc_ratingbar_small_material</item>
         <item name="android:minHeight">16.0dip</item>
         <item name="android:thumb">@null</item>
         <item name="android:isIndicator">true</item>
     </style>
     <style name="Base.Widget.AppCompat.SearchView" parent="@android:style/Widget">
-        <item name="closeIcon">@drawable/abc_ic_clear_material</item>
-        <item name="commitIcon">@drawable/abc_ic_commit_search_api_mtrl_alpha</item>
-        <item name="goIcon">@drawable/abc_ic_go_search_api_material</item>
-        <item name="layout">@layout/abc_search_view</item>
-        <item name="queryBackground">@drawable/abc_textfield_search_material</item>
-        <item name="searchHintIcon">@drawable/abc_ic_search_api_material</item>
-        <item name="searchIcon">@drawable/abc_ic_search_api_material</item>
-        <item name="submitBackground">@drawable/abc_textfield_search_material</item>
-        <item name="suggestionRowLayout">@layout/abc_search_dropdown_item_icons_2line</item>
-        <item name="voiceIcon">@drawable/abc_ic_voice_search_api_material</item>
+        <item name="closeIcon">@drawable/ccsan_abc_ic_clear_material</item>
+        <item name="commitIcon">@drawable/ccsan_ccsan_ccsan_ccsan_abc_ic_commit_search_api_mtrl_alpha</item>
+        <item name="goIcon">@drawable/ccsan_abc_ic_go_search_api_material</item>
+        <item name="layout">@layout/ccsan_abc_search_view</item>
+        <item name="queryBackground">@drawable/ccsan_abc_textfield_search_material</item>
+        <item name="searchHintIcon">@drawable/ccsan_abc_ic_search_api_material</item>
+        <item name="searchIcon">@drawable/ccsan_abc_ic_search_api_material</item>
+        <item name="submitBackground">@drawable/ccsan_abc_textfield_search_material</item>
+        <item name="suggestionRowLayout">@layout/ccsan_abc_search_dropdown_item_icons_2line</item>
+        <item name="voiceIcon">@drawable/ccsan_abc_ic_voice_search_api_material</item>
     </style>
     <style name="Base.Widget.AppCompat.SearchView.ActionBar" parent="@style/Base.Widget.AppCompat.SearchView">
         <item name="defaultQueryHint">@string/abc_search_hint</item>
@@ -1408,12 +1408,12 @@
         <item name="android:paddingRight">16.0dip</item>
         <item name="android:focusable">true</item>
         <item name="android:indeterminateOnly">false</item>
-        <item name="android:indeterminateDrawable">@drawable/abc_seekbar_track_material</item>
-        <item name="android:progressDrawable">@drawable/abc_seekbar_track_material</item>
-        <item name="android:thumb">@drawable/abc_seekbar_thumb_material</item>
+        <item name="android:indeterminateDrawable">@drawable/ccsan_abc_seekbar_track_material</item>
+        <item name="android:progressDrawable">@drawable/ccsan_abc_seekbar_track_material</item>
+        <item name="android:thumb">@drawable/ccsan_abc_seekbar_thumb_material</item>
     </style>
     <style name="Base.Widget.AppCompat.SeekBar.Discrete" parent="@style/Base.Widget.AppCompat.SeekBar">
-        <item name="tickMark">@drawable/abc_seekbar_tick_mark_material</item>
+        <item name="tickMark">@drawable/ccsan_abc_seekbar_tick_mark_material</item>
     </style>
     <style name="Base.Widget.AppCompat.Spinner" parent="@style/Platform.Widget.AppCompat.Spinner">
         <item name="android:gravity">start|center</item>
@@ -1427,7 +1427,7 @@
         <item name="overlapAnchor">true</item>
     </style>
     <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@style/Base.Widget.AppCompat.Spinner">
-        <item name="android:background">@drawable/abc_spinner_textfield_background_material</item>
+        <item name="android:background">@drawable/ccsan_abc_spinner_textfield_background_material</item>
     </style>
     <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.TextView" />
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="@android:style/Widget.TextView.SpinnerItem">
@@ -1444,7 +1444,7 @@
     <style name="Base.Widget.Design.TabLayout" parent="@android:style/Widget">
         <item name="android:background">@null</item>
         <item name="tabIconTint">@null</item>
-        <item name="tabIndicator">@drawable/mtrl_tabs_default_indicator</item>
+        <item name="tabIndicator">@drawable/ccsan_mtrl_tabs_default_indicator</item>
         <item name="tabIndicatorAnimationDuration">@integer/design_tab_indicator_anim_duration_ms</item>
         <item name="tabIndicatorAnimationMode">linear</item>
         <item name="tabIndicatorColor">?colorAccent</item>
@@ -1473,15 +1473,15 @@
     <style name="Base.Widget.MaterialComponents.CheckedTextView" parent="@android:style/Widget" />
     <style name="Base.Widget.MaterialComponents.Chip" parent="@android:style/Widget">
         <item name="android:textAppearance">?textAppearanceBody2</item>
-        <item name="android:textColor">@color/mtrl_chip_text_color</item>
+        <item name="android:textColor">@color/ccsan_mtrl_chip_text_color</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="android:text">@null</item>
         <item name="android:includeFontPadding">false</item>
         <item name="android:checkable">false</item>
-        <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_circle</item>
+        <item name="checkedIcon">@drawable/ccsan_ic_mtrl_chip_checked_circle</item>
         <item name="checkedIconVisible">true</item>
-        <item name="chipBackgroundColor">@color/mtrl_chip_background_color</item>
+        <item name="chipBackgroundColor">@color/ccsan_mtrl_chip_background_color</item>
         <item name="chipEndPadding">6.0dip</item>
         <item name="chipIcon">@null</item>
         <item name="chipIconSize">24.0dip</item>
@@ -1491,27 +1491,27 @@
         <item name="chipStartPadding">4.0dip</item>
         <item name="chipStrokeColor">?colorOnSurface</item>
         <item name="chipStrokeWidth">0.0dip</item>
-        <item name="chipSurfaceColor">@color/mtrl_chip_surface_color</item>
-        <item name="closeIcon">@drawable/ic_mtrl_chip_close_circle</item>
+        <item name="chipSurfaceColor">@color/ccsan_mtrl_chip_surface_color</item>
+        <item name="closeIcon">@drawable/ccsan_ic_mtrl_chip_close_circle</item>
         <item name="closeIconEndPadding">2.0dip</item>
         <item name="closeIconSize">18.0dip</item>
         <item name="closeIconStartPadding">2.0dip</item>
-        <item name="closeIconTint">@color/mtrl_chip_close_icon_tint</item>
+        <item name="closeIconTint">@color/ccsan_mtrl_chip_close_icon_tint</item>
         <item name="closeIconVisible">true</item>
         <item name="enforceMaterialTheme">true</item>
         <item name="enforceTextAppearance">true</item>
         <item name="ensureMinTouchTargetSize">true</item>
         <item name="iconEndPadding">0.0dip</item>
         <item name="iconStartPadding">0.0dip</item>
-        <item name="rippleColor">@color/mtrl_on_surface_ripple_color</item>
+        <item name="rippleColor">@color/ccsan_mtrl_on_surface_ripple_color</item>
         <item name="shapeAppearance">?shapeAppearanceSmallComponent</item>
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.Chip</item>
         <item name="textEndPadding">6.0dip</item>
         <item name="textStartPadding">8.0dip</item>
     </style>
     <style name="Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush">
-        <item name="android:textColor">@color/material_on_surface_emphasis_medium</item>
-        <item name="iconTint">@color/material_on_surface_emphasis_medium</item>
+        <item name="android:textColor">@color/ccsan_material_on_surface_emphasis_medium</item>
+        <item name="iconTint">@color/ccsan_material_on_surface_emphasis_medium</item>
     </style>
     <style name="Base.Widget.MaterialComponents.PopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
         <item name="android:dropDownVerticalOffset">1.0px</item>
@@ -1523,17 +1523,17 @@
         <item name="android:dropDownVerticalOffset">1.0px</item>
     </style>
     <style name="Base.Widget.MaterialComponents.Slider" parent="@android:style/Widget">
-        <item name="haloColor">@color/material_slider_halo_color</item>
+        <item name="haloColor">@color/ccsan_material_slider_halo_color</item>
         <item name="haloRadius">@dimen/mtrl_slider_halo_radius</item>
         <item name="labelStyle">@style/Widget.MaterialComponents.Tooltip</item>
         <item name="minSeparation">0.0dip</item>
-        <item name="thumbColor">@color/material_slider_thumb_color</item>
+        <item name="thumbColor">@color/ccsan_material_slider_thumb_color</item>
         <item name="thumbElevation">@dimen/mtrl_slider_thumb_elevation</item>
         <item name="thumbRadius">@dimen/mtrl_slider_thumb_radius</item>
-        <item name="tickColorActive">@color/material_slider_active_tick_marks_color</item>
-        <item name="tickColorInactive">@color/material_slider_inactive_tick_marks_color</item>
-        <item name="trackColorActive">@color/material_slider_active_track_color</item>
-        <item name="trackColorInactive">@color/material_slider_inactive_track_color</item>
+        <item name="tickColorActive">@color/ccsan_material_slider_active_tick_marks_color</item>
+        <item name="tickColorInactive">@color/ccsan_material_slider_inactive_tick_marks_color</item>
+        <item name="trackColorActive">@color/ccsan_material_slider_active_track_color</item>
+        <item name="trackColorInactive">@color/ccsan_material_slider_inactive_track_color</item>
         <item name="trackHeight">@dimen/mtrl_slider_track_height</item>
     </style>
     <style name="Base.Widget.MaterialComponents.Snackbar" parent="@style/Widget.Design.Snackbar">
@@ -1556,38 +1556,38 @@
         <item name="textInputLayoutFocusedRectEnabled">true</item>
     </style>
     <style name="Base.Widget.MaterialComponents.TextInputLayout" parent="@style/Widget.Design.TextInputLayout">
-        <item name="android:textColorHint">@color/mtrl_indicator_text_color</item>
+        <item name="android:textColorHint">@color/ccsan_mtrl_indicator_text_color</item>
         <item name="boxBackgroundColor">@null</item>
         <item name="boxBackgroundMode">outline</item>
         <item name="boxCollapsedPaddingTop">0.0dip</item>
-        <item name="boxStrokeColor">@color/mtrl_outlined_stroke_color</item>
-        <item name="boxStrokeErrorColor">@color/mtrl_error</item>
+        <item name="boxStrokeColor">@color/ccsan_mtrl_outlined_stroke_color</item>
+        <item name="boxStrokeErrorColor">@color/ccsan_mtrl_error</item>
         <item name="boxStrokeWidth">@dimen/mtrl_textinput_box_stroke_width_default</item>
         <item name="boxStrokeWidthFocused">@dimen/mtrl_textinput_box_stroke_width_focused</item>
         <item name="counterOverflowTextAppearance">?textAppearanceCaption</item>
-        <item name="counterOverflowTextColor">@color/mtrl_error</item>
+        <item name="counterOverflowTextColor">@color/ccsan_mtrl_error</item>
         <item name="counterTextAppearance">?textAppearanceCaption</item>
-        <item name="counterTextColor">@color/mtrl_indicator_text_color</item>
-        <item name="endIconTint">@color/mtrl_outlined_icon_tint</item>
+        <item name="counterTextColor">@color/ccsan_mtrl_indicator_text_color</item>
+        <item name="endIconTint">@color/ccsan_mtrl_outlined_icon_tint</item>
         <item name="enforceMaterialTheme">true</item>
         <item name="enforceTextAppearance">true</item>
-        <item name="errorIconDrawable">@drawable/mtrl_ic_error</item>
-        <item name="errorIconTint">@color/mtrl_error</item>
+        <item name="errorIconDrawable">@drawable/ccsan_mtrl_ic_error</item>
+        <item name="errorIconTint">@color/ccsan_mtrl_error</item>
         <item name="errorTextAppearance">?textAppearanceCaption</item>
-        <item name="errorTextColor">@color/mtrl_error</item>
+        <item name="errorTextColor">@color/ccsan_mtrl_error</item>
         <item name="helperTextTextAppearance">?textAppearanceCaption</item>
-        <item name="helperTextTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="helperTextTextColor">@color/ccsan_mtrl_indicator_text_color</item>
         <item name="hintTextAppearance">?textAppearanceCaption</item>
         <item name="hintTextColor">?colorPrimary</item>
         <item name="placeholderTextAppearance">?textAppearanceSubtitle1</item>
-        <item name="placeholderTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="placeholderTextColor">@color/ccsan_mtrl_indicator_text_color</item>
         <item name="prefixTextAppearance">?textAppearanceSubtitle1</item>
-        <item name="prefixTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="prefixTextColor">@color/ccsan_mtrl_indicator_text_color</item>
         <item name="shapeAppearance">?shapeAppearanceSmallComponent</item>
         <item name="shapeAppearanceOverlay">@null</item>
-        <item name="startIconTint">@color/mtrl_outlined_icon_tint</item>
+        <item name="startIconTint">@color/ccsan_mtrl_outlined_icon_tint</item>
         <item name="suffixTextAppearance">?textAppearanceSubtitle1</item>
-        <item name="suffixTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="suffixTextColor">@color/ccsan_mtrl_indicator_text_color</item>
     </style>
     <style name="Base.Widget.MaterialComponents.TextView" parent="@style/Widget.AppCompat.TextView" />
     <style name="CardView" parent="@style/Base.CardView" />
@@ -1606,28 +1606,28 @@
         <item name="android:windowNoTitle">true</item>
     </style>
     <style name="MaterialAlertDialog.MaterialComponents" parent="@style/AlertDialog.AppCompat">
-        <item name="android:layout">@layout/mtrl_alert_dialog</item>
-        <item name="backgroundInsetBottom">@dimen/mtrl_alert_dialog_background_inset_bottom</item>
-        <item name="backgroundInsetEnd">@dimen/mtrl_alert_dialog_background_inset_end</item>
-        <item name="backgroundInsetStart">@dimen/mtrl_alert_dialog_background_inset_start</item>
-        <item name="backgroundInsetTop">@dimen/mtrl_alert_dialog_background_inset_top</item>
-        <item name="listItemLayout">@layout/mtrl_alert_select_dialog_item</item>
-        <item name="multiChoiceItemLayout">@layout/mtrl_alert_select_dialog_multichoice</item>
+        <item name="android:layout">@layout/ccsan_mtrl_alert_dialog</item>
+        <item name="backgroundInsetBottom">@dimen/ccsan_mtrl_alert_dialog_background_inset_bottom</item>
+        <item name="backgroundInsetEnd">@dimen/ccsan_mtrl_alert_dialog_background_inset_end</item>
+        <item name="backgroundInsetStart">@dimen/ccsan_mtrl_alert_dialog_background_inset_start</item>
+        <item name="backgroundInsetTop">@dimen/ccsan_mtrl_alert_dialog_background_inset_top</item>
+        <item name="listItemLayout">@layout/ccsan_mtrl_alert_select_dialog_item</item>
+        <item name="multiChoiceItemLayout">@layout/ccsan_mtrl_alert_select_dialog_multichoice</item>
         <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
-        <item name="singleChoiceItemLayout">@layout/mtrl_alert_select_dialog_singlechoice</item>
+        <item name="singleChoiceItemLayout">@layout/ccsan_mtrl_alert_select_dialog_singlechoice</item>
     </style>
     <style name="MaterialAlertDialog.MaterialComponents.Body.Text" parent="@style/TextAppearance.MaterialComponents.Body2">
         <item name="android:textAppearance">?textAppearanceBody2</item>
-        <item name="android:textColor">@color/material_on_surface_emphasis_medium</item>
+        <item name="android:textColor">@color/ccsan_material_on_surface_emphasis_medium</item>
     </style>
     <style name="MaterialAlertDialog.MaterialComponents.Picker.Date.Calendar" parent="@android:style/Widget.DeviceDefault.DatePicker">
-        <item name="backgroundInsetBottom">@dimen/mtrl_alert_dialog_picker_background_inset</item>
-        <item name="backgroundInsetTop">@dimen/mtrl_alert_dialog_picker_background_inset</item>
+        <item name="backgroundInsetBottom">@dimen/ccsan_mtrl_alert_dialog_picker_background_inset</item>
+        <item name="backgroundInsetTop">@dimen/ccsan_mtrl_alert_dialog_picker_background_inset</item>
         <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
     </style>
     <style name="MaterialAlertDialog.MaterialComponents.Picker.Date.Spinner" parent="@android:style/Widget.DeviceDefault.DatePicker">
-        <item name="backgroundInsetBottom">@dimen/mtrl_alert_dialog_picker_background_inset</item>
-        <item name="backgroundInsetTop">@dimen/mtrl_alert_dialog_picker_background_inset</item>
+        <item name="backgroundInsetBottom">@dimen/ccsan_mtrl_alert_dialog_picker_background_inset</item>
+        <item name="backgroundInsetTop">@dimen/ccsan_mtrl_alert_dialog_picker_background_inset</item>
         <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
     </style>
     <style name="MaterialAlertDialog.MaterialComponents.Title.Icon" parent="@style/Base.MaterialAlertDialog.MaterialComponents.Title.Icon">
@@ -1659,12 +1659,12 @@
         <item name="android:disabledAlpha">@dimen/abc_disabled_alpha_material_dark</item>
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
-        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
-        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
-        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
-        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_light</item>
-        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_light</item>
-        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textColorPrimary">@color/ccsan_abc_primary_text_material_dark</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/ccsan_abc_primary_text_disable_only_material_dark</item>
+        <item name="android:textColorSecondary">@color/ccsan_abc_secondary_text_material_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/ccsan_abc_primary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/ccsan_abc_secondary_text_material_light</item>
+        <item name="android:textColorHintInverse">@color/ccsan_abc_hint_foreground_material_light</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
         <item name="android:textAppearanceMedium">@style/TextAppearance.AppCompat.Medium</item>
         <item name="android:textAppearanceSmall">@style/TextAppearance.AppCompat.Small</item>
@@ -1675,19 +1675,19 @@
         <item name="android:windowBackground">@color/background_material_dark</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:textColorHighlight">@color/highlighted_text_material_dark</item>
-        <item name="android:textColorHint">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textColorHint">@color/ccsan_abc_hint_foreground_material_dark</item>
         <item name="android:textColorLink">?colorAccent</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_light</item>
-        <item name="android:textColorTertiary">@color/abc_secondary_text_material_dark</item>
-        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_light</item>
-        <item name="android:listChoiceIndicatorSingle">@drawable/abc_btn_radio_material</item>
-        <item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
-        <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_dark</item>
-        <item name="android:textSelectHandleLeft">@drawable/abc_text_select_handle_left_mtrl_dark</item>
-        <item name="android:textSelectHandleRight">@drawable/abc_text_select_handle_right_mtrl_dark</item>
-        <item name="android:textSelectHandle">@drawable/abc_text_select_handle_middle_mtrl_dark</item>
+        <item name="android:textColorTertiary">@color/ccsan_abc_secondary_text_material_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/ccsan_abc_secondary_text_material_light</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/ccsan_abc_btn_radio_material</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/ccsan_abc_btn_check_material</item>
+        <item name="android:colorBackgroundCacheHint">@color/ccsan_abc_background_cache_hint_selector_material_dark</item>
+        <item name="android:textSelectHandleLeft">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_left_mtrl_dark</item>
+        <item name="android:textSelectHandleRight">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_right_mtrl_dark</item>
+        <item name="android:textSelectHandle">@drawable/ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_middle_mtrl_dark</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:textColorAlertDialogListItem">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorAlertDialogListItem">@color/ccsan_abc_primary_text_material_dark</item>
         <item name="android:actionModeCutDrawable">?actionModeCutDrawable</item>
         <item name="android:actionModeCopyDrawable">?actionModeCopyDrawable</item>
         <item name="android:actionModePasteDrawable">?actionModePasteDrawable</item>
@@ -1705,8 +1705,8 @@
         <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="android:listPreferredItemPaddingStart">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="android:listPreferredItemPaddingEnd">@dimen/abc_list_item_padding_horizontal_material</item>
-        <item name="listChoiceIndicatorMultipleAnimated">@drawable/abc_btn_check_material_anim</item>
-        <item name="listChoiceIndicatorSingleAnimated">@drawable/abc_btn_radio_material_anim</item>
+        <item name="listChoiceIndicatorMultipleAnimated">@drawable/ccsan_ccsan_abc_btn_check_material_anim</item>
+        <item name="listChoiceIndicatorSingleAnimated">@drawable/ccsan_ccsan_abc_btn_radio_material_anim</item>
     </style>
     <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Holo.Light">
         <item name="android:colorForeground">@color/foreground_material_light</item>
@@ -1715,12 +1715,12 @@
         <item name="android:disabledAlpha">@dimen/abc_disabled_alpha_material_light</item>
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
         <item name="android:textAppearanceInverse">@style/TextAppearance.AppCompat.Inverse</item>
-        <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
-        <item name="android:textColorPrimaryDisableOnly">@color/abc_primary_text_disable_only_material_light</item>
-        <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
-        <item name="android:textColorPrimaryInverse">@color/abc_primary_text_material_dark</item>
-        <item name="android:textColorSecondaryInverse">@color/abc_secondary_text_material_dark</item>
-        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textColorPrimary">@color/ccsan_abc_primary_text_material_light</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/ccsan_abc_primary_text_disable_only_material_light</item>
+        <item name="android:textColorSecondary">@color/ccsan_abc_secondary_text_material_light</item>
+        <item name="android:textColorPrimaryInverse">@color/ccsan_abc_primary_text_material_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/ccsan_abc_secondary_text_material_dark</item>
+        <item name="android:textColorHintInverse">@color/ccsan_abc_hint_foreground_material_dark</item>
         <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Large</item>
         <item name="android:textAppearanceMedium">@style/TextAppearance.AppCompat.Medium</item>
         <item name="android:textAppearanceSmall">@style/TextAppearance.AppCompat.Small</item>
@@ -1731,20 +1731,20 @@
         <item name="android:windowBackground">@color/background_material_light</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:textColorHighlight">@color/highlighted_text_material_light</item>
-        <item name="android:textColorHint">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textColorHint">@color/ccsan_abc_hint_foreground_material_light</item>
         <item name="android:textColorLink">?colorAccent</item>
         <item name="android:colorForegroundInverse">@color/foreground_material_dark</item>
-        <item name="android:textColorTertiary">@color/abc_secondary_text_material_light</item>
-        <item name="android:textColorTertiaryInverse">@color/abc_secondary_text_material_dark</item>
-        <item name="android:listChoiceIndicatorSingle">@drawable/abc_btn_radio_material</item>
-        <item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
-        <item name="android:textColorPrimaryInverseDisableOnly">@color/abc_primary_text_disable_only_material_dark</item>
-        <item name="android:colorBackgroundCacheHint">@color/abc_background_cache_hint_selector_material_light</item>
-        <item name="android:textSelectHandleLeft">@drawable/abc_text_select_handle_left_mtrl_light</item>
-        <item name="android:textSelectHandleRight">@drawable/abc_text_select_handle_right_mtrl_light</item>
-        <item name="android:textSelectHandle">@drawable/abc_text_select_handle_middle_mtrl_light</item>
+        <item name="android:textColorTertiary">@color/ccsan_abc_secondary_text_material_light</item>
+        <item name="android:textColorTertiaryInverse">@color/ccsan_abc_secondary_text_material_dark</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/ccsan_abc_btn_radio_material</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/ccsan_abc_btn_check_material</item>
+        <item name="android:textColorPrimaryInverseDisableOnly">@color/ccsan_abc_primary_text_disable_only_material_dark</item>
+        <item name="android:colorBackgroundCacheHint">@color/ccsan_abc_background_cache_hint_selector_material_light</item>
+        <item name="android:textSelectHandleLeft">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_left_mtrl_light</item>
+        <item name="android:textSelectHandleRight">@drawable/ccsan_ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_right_mtrl_light</item>
+        <item name="android:textSelectHandle">@drawable/ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_middle_mtrl_light</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:textColorAlertDialogListItem">@color/abc_primary_text_material_light</item>
+        <item name="android:textColorAlertDialogListItem">@color/ccsan_abc_primary_text_material_light</item>
         <item name="android:actionModeCutDrawable">?actionModeCutDrawable</item>
         <item name="android:actionModeCopyDrawable">?actionModeCopyDrawable</item>
         <item name="android:actionModePasteDrawable">?actionModePasteDrawable</item>
@@ -1762,8 +1762,8 @@
         <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="android:listPreferredItemPaddingStart">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="android:listPreferredItemPaddingEnd">@dimen/abc_list_item_padding_horizontal_material</item>
-        <item name="listChoiceIndicatorMultipleAnimated">@drawable/abc_btn_check_material_anim</item>
-        <item name="listChoiceIndicatorSingleAnimated">@drawable/abc_btn_radio_material_anim</item>
+        <item name="listChoiceIndicatorMultipleAnimated">@drawable/ccsan_ccsan_abc_btn_check_material_anim</item>
+        <item name="listChoiceIndicatorSingleAnimated">@drawable/ccsan_ccsan_abc_btn_radio_material_anim</item>
     </style>
     <style name="Platform.MaterialComponents" parent="@style/Theme.AppCompat" />
     <style name="Platform.MaterialComponents.Dialog" parent="@style/Theme.AppCompat.Dialog" />
@@ -1773,16 +1773,16 @@
     <style name="Platform.ThemeOverlay.AppCompat.Dark" parent="@style/Platform.ThemeOverlay.AppCompat">
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
-        <item name="actionBarItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="actionBarItemBackground">@drawable/ccsan_abc_item_background_holo_dark</item>
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
-        <item name="selectableItemBackground">@drawable/abc_item_background_holo_dark</item>
+        <item name="selectableItemBackground">@drawable/ccsan_abc_item_background_holo_dark</item>
     </style>
     <style name="Platform.ThemeOverlay.AppCompat.Light" parent="@style/Platform.ThemeOverlay.AppCompat">
         <item name="android:autoCompleteTextViewStyle">@style/Widget.AppCompat.Light.AutoCompleteTextView</item>
         <item name="android:dropDownItemStyle">@style/Widget.AppCompat.DropDownItem.Spinner</item>
-        <item name="actionBarItemBackground">@drawable/abc_item_background_holo_light</item>
+        <item name="actionBarItemBackground">@drawable/ccsan_abc_item_background_holo_light</item>
         <item name="actionDropDownStyle">@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
-        <item name="selectableItemBackground">@drawable/abc_item_background_holo_light</item>
+        <item name="selectableItemBackground">@drawable/ccsan_abc_item_background_holo_light</item>
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="@android:style/Widget.Holo.Spinner" />
     <style name="RtlOverlay.DialogWindowTitle.AppCompat" parent="@style/Base.DialogWindowTitle.AppCompat">
@@ -1891,13 +1891,13 @@
         <item name="cornerSize">50.0%</item>
     </style>
     <style name="ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day" parent="">
-        <item name="cornerSize">@dimen/mtrl_calendar_day_corner</item>
+        <item name="cornerSize">@dimen/ccsan_mtrl_calendar_day_corner</item>
     </style>
     <style name="ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Window.Fullscreen" parent="">
         <item name="cornerSize">0.0dip</item>
     </style>
     <style name="ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year" parent="">
-        <item name="cornerSize">@dimen/mtrl_calendar_year_corner</item>
+        <item name="cornerSize">@dimen/ccsan_mtrl_calendar_year_corner</item>
     </style>
     <style name="ShapeAppearanceOverlay.MaterialComponents.TextInputLayout.FilledBox" parent="">
         <item name="cornerSizeBottomLeft">@dimen/mtrl_textinput_box_corner_radius_small</item>
@@ -1915,7 +1915,7 @@
     </style>
     <style name="Test.ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day" parent="">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">@dimen/test_mtrl_calendar_day_cornerSize</item>
+        <item name="cornerSize">@dimen/test_ccsan_mtrl_calendar_day_cornerSize</item>
     </style>
     <style name="Test.Theme.MaterialComponents.MaterialCalendar" parent="@style/Theme.MaterialComponents.Light">
         <item name="materialCalendarStyle">@style/Test.Widget.MaterialComponents.MaterialCalendar</item>
@@ -1925,26 +1925,26 @@
         <item name="daySelectedStyle">@style/Test.Widget.MaterialComponents.MaterialCalendar.Day.Selected</item>
         <item name="dayStyle">@style/Test.Widget.MaterialComponents.MaterialCalendar.Day</item>
         <item name="dayTodayStyle">@style/Test.Widget.MaterialComponents.MaterialCalendar.Day</item>
-        <item name="rangeFillColor">@color/test_mtrl_calendar_day</item>
+        <item name="rangeFillColor">@color/test_ccsan_mtrl_calendar_day</item>
         <item name="yearSelectedStyle">@style/Test.Widget.MaterialComponents.MaterialCalendar.Day.Selected</item>
         <item name="yearStyle">@style/Test.Widget.MaterialComponents.MaterialCalendar.Day</item>
         <item name="yearTodayStyle">@style/Test.Widget.MaterialComponents.MaterialCalendar.Day</item>
     </style>
     <style name="Test.Widget.MaterialComponents.MaterialCalendar.Day" parent="">
-        <item name="itemFillColor">@color/test_mtrl_calendar_day</item>
+        <item name="itemFillColor">@color/test_ccsan_mtrl_calendar_day</item>
         <item name="itemShapeAppearance">@style/Test.ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day</item>
         <item name="itemShapeAppearanceOverlay">@style/Test.ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day</item>
-        <item name="itemStrokeColor">@color/test_mtrl_calendar_day</item>
+        <item name="itemStrokeColor">@color/test_ccsan_mtrl_calendar_day</item>
         <item name="itemStrokeWidth">0.0dip</item>
-        <item name="itemTextColor">@color/test_mtrl_calendar_day</item>
+        <item name="itemTextColor">@color/test_ccsan_mtrl_calendar_day</item>
     </style>
     <style name="Test.Widget.MaterialComponents.MaterialCalendar.Day.Selected" parent="">
-        <item name="itemFillColor">@color/test_mtrl_calendar_day_selected</item>
+        <item name="itemFillColor">@color/test_ccsan_mtrl_calendar_day_selected</item>
         <item name="itemShapeAppearance">@style/Test.ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day</item>
         <item name="itemShapeAppearanceOverlay">@style/Test.ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day</item>
-        <item name="itemStrokeColor">@color/test_mtrl_calendar_day</item>
+        <item name="itemStrokeColor">@color/test_ccsan_mtrl_calendar_day</item>
         <item name="itemStrokeWidth">0.0dip</item>
-        <item name="itemTextColor">@color/test_mtrl_calendar_day_selected</item>
+        <item name="itemTextColor">@color/test_ccsan_mtrl_calendar_day_selected</item>
     </style>
     <style name="TestStyleWithLineHeight" parent="@style/TestStyleWithoutLineHeight">
         <item name="lineHeight">@dimen/material_text_view_test_line_height</item>
@@ -2036,10 +2036,10 @@
     </style>
     <style name="TextAppearance.Design.Counter" parent="@style/TextAppearance.AppCompat.Caption" />
     <style name="TextAppearance.Design.Counter.Overflow" parent="@style/TextAppearance.AppCompat.Caption">
-        <item name="android:textColor">@color/design_error</item>
+        <item name="android:textColor">@color/ccsan_design_error</item>
     </style>
     <style name="TextAppearance.Design.Error" parent="@style/TextAppearance.AppCompat.Caption">
-        <item name="android:textColor">@color/design_error</item>
+        <item name="android:textColor">@color/ccsan_design_error</item>
     </style>
     <style name="TextAppearance.Design.HelperText" parent="@style/TextAppearance.AppCompat.Caption" />
     <style name="TextAppearance.Design.Hint" parent="@style/TextAppearance.AppCompat.Caption">
@@ -2054,7 +2054,7 @@
     <style name="TextAppearance.Design.Suffix" parent="@style/TextAppearance.AppCompat.Body1" />
     <style name="TextAppearance.Design.Tab" parent="@style/TextAppearance.AppCompat.Button">
         <item name="android:textSize">@dimen/design_tab_text_size</item>
-        <item name="android:textColor">@color/mtrl_tabs_legacy_text_color_selector</item>
+        <item name="android:textColor">@color/ccsan_mtrl_tabs_legacy_text_color_selector</item>
         <item name="textAllCaps">true</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Badge" parent="@style/Base.TextAppearance.MaterialComponents.Badge" />
@@ -2082,7 +2082,7 @@
     </style>
     <style name="TextAppearance.MaterialComponents.Chip" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/mtrl_chip_text_size</item>
-        <item name="android:textColor">@color/mtrl_chip_text_color</item>
+        <item name="android:textColor">@color/ccsan_mtrl_chip_text_color</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Headline1" parent="@style/TextAppearance.AppCompat.Display4">
         <item name="android:textSize">96.0sp</item>
@@ -2136,7 +2136,7 @@
     </style>
     <style name="TextAppearance.MaterialComponents.Subtitle2" parent="@style/Base.TextAppearance.MaterialComponents.Subtitle2" />
     <style name="TextAppearance.MaterialComponents.TimePicker.Title" parent="@style/TextAppearance.MaterialComponents.Overline">
-        <item name="android:textColor">@color/material_on_surface_emphasis_medium</item>
+        <item name="android:textColor">@color/ccsan_material_on_surface_emphasis_medium</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Tooltip" parent="@style/TextAppearance.MaterialComponents.Body2">
         <item name="android:textColor">?colorOnPrimary</item>
@@ -2305,16 +2305,16 @@
     <style name="ThemeOverlay.MaterialComponents.ActionBar.Primary" parent="@style/ThemeOverlay.AppCompat.ActionBar">
         <item name="android:colorBackground">?colorPrimary</item>
         <item name="android:textColorPrimary">?colorOnPrimary</item>
-        <item name="android:textColorSecondary">@color/material_on_primary_emphasis_medium</item>
+        <item name="android:textColorSecondary">@color/ccsan_material_on_primary_emphasis_medium</item>
         <item name="actionMenuTextColor">?colorOnPrimary</item>
         <item name="colorControlNormal">?colorOnPrimary</item>
     </style>
     <style name="ThemeOverlay.MaterialComponents.ActionBar.Surface" parent="@style/ThemeOverlay.AppCompat.ActionBar">
         <item name="android:colorBackground">?colorSurface</item>
-        <item name="android:textColorPrimary">@color/material_on_surface_emphasis_high_type</item>
-        <item name="android:textColorSecondary">@color/material_on_surface_emphasis_medium</item>
-        <item name="actionMenuTextColor">@color/material_on_surface_emphasis_medium</item>
-        <item name="colorControlNormal">@color/material_on_surface_emphasis_medium</item>
+        <item name="android:textColorPrimary">@color/ccsan_material_on_surface_emphasis_high_type</item>
+        <item name="android:textColorSecondary">@color/ccsan_material_on_surface_emphasis_medium</item>
+        <item name="actionMenuTextColor">@color/ccsan_material_on_surface_emphasis_medium</item>
+        <item name="colorControlNormal">@color/ccsan_material_on_surface_emphasis_medium</item>
     </style>
     <style name="ThemeOverlay.MaterialComponents.AutoCompleteTextView" parent="">
         <item name="colorControlActivated">?colorPrimary</item>
@@ -2336,8 +2336,8 @@
         <item name="colorControlNormal">?colorOnPrimary</item>
     </style>
     <style name="ThemeOverlay.MaterialComponents.BottomAppBar.Surface" parent="">
-        <item name="actionMenuTextColor">@color/material_on_surface_emphasis_medium</item>
-        <item name="colorControlNormal">@color/material_on_surface_emphasis_medium</item>
+        <item name="actionMenuTextColor">@color/ccsan_material_on_surface_emphasis_medium</item>
+        <item name="colorControlNormal">@color/ccsan_material_on_surface_emphasis_medium</item>
     </style>
     <style name="ThemeOverlay.MaterialComponents.BottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -2436,8 +2436,8 @@
         <item name="colorControlNormal">?colorOnPrimary</item>
     </style>
     <style name="ThemeOverlay.MaterialComponents.Toolbar.Surface" parent="">
-        <item name="actionMenuTextColor">@color/material_on_surface_emphasis_medium</item>
-        <item name="colorControlNormal">@color/material_on_surface_emphasis_medium</item>
+        <item name="actionMenuTextColor">@color/ccsan_material_on_surface_emphasis_medium</item>
+        <item name="colorControlNormal">@color/ccsan_material_on_surface_emphasis_medium</item>
     </style>
     <style name="ThemeOverlayColorAccentRed" />
     <style name="Widget.AppCompat.ActionBar" parent="@style/Base.Widget.AppCompat.ActionBar" />
@@ -2544,33 +2544,33 @@
         <item name="statusBarScrim">?colorPrimaryDark</item>
     </style>
     <style name="Widget.Design.FloatingActionButton" parent="@android:style/Widget">
-        <item name="android:background">@drawable/design_fab_background</item>
+        <item name="android:background">@drawable/ccsan_design_fab_background</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="backgroundTint">?colorAccent</item>
         <item name="borderWidth">@dimen/design_fab_border_width</item>
         <item name="elevation">@dimen/design_fab_elevation</item>
         <item name="fabSize">auto</item>
-        <item name="hideMotionSpec">@animator/design_fab_hide_motion_spec</item>
+        <item name="hideMotionSpec">@animator/ccsan_design_fab_hide_motion_spec</item>
         <item name="hoveredFocusedTranslationZ">@dimen/design_fab_translation_z_hovered_focused</item>
         <item name="maxImageSize">@dimen/design_fab_image_size</item>
         <item name="pressedTranslationZ">@dimen/design_fab_translation_z_pressed</item>
         <item name="rippleColor">?colorControlHighlight</item>
-        <item name="showMotionSpec">@animator/design_fab_show_motion_spec</item>
+        <item name="showMotionSpec">@animator/ccsan_design_fab_show_motion_spec</item>
     </style>
     <style name="Widget.Design.NavigationView" parent="@style/Widget.Design.ScrimInsetsFrameLayout">
         <item name="android:background">?android:windowBackground</item>
         <item name="android:fitsSystemWindows">true</item>
         <item name="android:maxWidth">@dimen/design_navigation_max_width</item>
         <item name="elevation">@dimen/design_navigation_elevation</item>
-        <item name="itemHorizontalPadding">@dimen/design_navigation_item_horizontal_padding</item>
-        <item name="itemIconPadding">@dimen/design_navigation_item_icon_padding</item>
+        <item name="itemHorizontalPadding">@dimen/ccsan_design_navigation_item_horizontal_padding</item>
+        <item name="itemIconPadding">@dimen/ccsan_design_navigation_item_icon_padding</item>
     </style>
     <style name="Widget.Design.ScrimInsetsFrameLayout" parent="">
         <item name="insetForeground">#44000000</item>
     </style>
     <style name="Widget.Design.Snackbar" parent="@android:style/Widget">
-        <item name="android:background">@drawable/design_snackbar_background</item>
+        <item name="android:background">@drawable/ccsan_design_snackbar_background</item>
         <item name="android:paddingLeft">@dimen/design_snackbar_padding_horizontal</item>
         <item name="android:paddingRight">@dimen/design_snackbar_padding_horizontal</item>
         <item name="android:maxWidth">@dimen/design_snackbar_max_width</item>
@@ -2591,12 +2591,12 @@
     </style>
     <style name="Widget.Design.TextInputLayout" parent="@android:style/Widget">
         <item name="boxBackgroundMode">none</item>
-        <item name="boxStrokeColor">@color/design_box_stroke_color</item>
+        <item name="boxStrokeColor">@color/ccsan_design_box_stroke_color</item>
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
         <item name="counterOverflowTextColor">@null</item>
         <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
         <item name="counterTextColor">@null</item>
-        <item name="endIconTint">@color/design_icon_tint</item>
+        <item name="endIconTint">@color/ccsan_design_icon_tint</item>
         <item name="enforceMaterialTheme">false</item>
         <item name="enforceTextAppearance">false</item>
         <item name="errorIconDrawable">@null</item>
@@ -2608,15 +2608,15 @@
         <item name="hintTextColor">@null</item>
         <item name="materialThemeOverlay">@style/ThemeOverlay.Design.TextInputEditText</item>
         <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
-        <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
-        <item name="passwordToggleTint">@color/design_icon_tint</item>
+        <item name="passwordToggleDrawable">@drawable/ccsan_design_password_eye</item>
+        <item name="passwordToggleTint">@color/ccsan_design_icon_tint</item>
         <item name="placeholderTextAppearance">@style/TextAppearance.Design.Placeholder</item>
         <item name="placeholderTextColor">@null</item>
         <item name="prefixTextAppearance">@style/TextAppearance.Design.Prefix</item>
         <item name="prefixTextColor">@null</item>
         <item name="shapeAppearance">@null</item>
         <item name="shapeAppearanceOverlay">@null</item>
-        <item name="startIconTint">@color/design_icon_tint</item>
+        <item name="startIconTint">@color/ccsan_design_icon_tint</item>
         <item name="suffixTextAppearance">@style/TextAppearance.Design.Suffix</item>
         <item name="suffixTextColor">@null</item>
     </style>
@@ -2682,21 +2682,21 @@
         <item name="enforceTextAppearance">true</item>
         <item name="itemBackground">@null</item>
         <item name="itemHorizontalTranslationEnabled">false</item>
-        <item name="itemIconTint">@color/mtrl_bottom_nav_item_tint</item>
-        <item name="itemRippleColor">@color/mtrl_bottom_nav_ripple_color</item>
+        <item name="itemIconTint">@color/ccsan_mtrl_bottom_nav_item_tint</item>
+        <item name="itemRippleColor">@color/ccsan_mtrl_bottom_nav_ripple_color</item>
         <item name="itemTextAppearanceActive">?textAppearanceCaption</item>
         <item name="itemTextAppearanceInactive">?textAppearanceCaption</item>
-        <item name="itemTextColor">@color/mtrl_bottom_nav_item_tint</item>
+        <item name="itemTextColor">@color/ccsan_mtrl_bottom_nav_item_tint</item>
     </style>
     <style name="Widget.MaterialComponents.BottomNavigationView.Colored" parent="@style/Widget.MaterialComponents.BottomNavigationView">
         <item name="android:background">?colorPrimary</item>
         <item name="enforceMaterialTheme">true</item>
         <item name="enforceTextAppearance">true</item>
-        <item name="itemIconTint">@color/mtrl_bottom_nav_colored_item_tint</item>
-        <item name="itemRippleColor">@color/mtrl_bottom_nav_colored_ripple_color</item>
+        <item name="itemIconTint">@color/ccsan_mtrl_bottom_nav_colored_item_tint</item>
+        <item name="itemRippleColor">@color/ccsan_mtrl_bottom_nav_colored_ripple_color</item>
         <item name="itemTextAppearanceActive">?textAppearanceCaption</item>
         <item name="itemTextAppearanceInactive">?textAppearanceCaption</item>
-        <item name="itemTextColor">@color/mtrl_bottom_nav_colored_item_tint</item>
+        <item name="itemTextColor">@color/ccsan_mtrl_bottom_nav_colored_item_tint</item>
     </style>
     <style name="Widget.MaterialComponents.BottomNavigationView.PrimarySurface" parent="@style/Widget.MaterialComponents.BottomNavigationView.Colored" />
     <style name="Widget.MaterialComponents.BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
@@ -2709,7 +2709,7 @@
     <style name="Widget.MaterialComponents.BottomSheet.Modal" parent="@style/Widget.MaterialComponents.BottomSheet" />
     <style name="Widget.MaterialComponents.Button" parent="@style/Widget.AppCompat.Button">
         <item name="android:textAppearance">?textAppearanceButton</item>
-        <item name="android:textColor">@color/mtrl_btn_text_color_selector</item>
+        <item name="android:textColor">@color/ccsan_mtrl_btn_text_color_selector</item>
         <item name="android:background">@empty</item>
         <item name="android:paddingLeft">@dimen/mtrl_btn_padding_left</item>
         <item name="android:paddingTop">@dimen/mtrl_btn_padding_top</item>
@@ -2719,14 +2719,14 @@
         <item name="android:insetRight">0.0dip</item>
         <item name="android:insetTop">@dimen/mtrl_btn_inset</item>
         <item name="android:insetBottom">@dimen/mtrl_btn_inset</item>
-        <item name="backgroundTint">@color/mtrl_btn_bg_color_selector</item>
+        <item name="backgroundTint">@color/ccsan_mtrl_btn_bg_color_selector</item>
         <item name="cornerRadius">@null</item>
         <item name="elevation">@dimen/mtrl_btn_elevation</item>
         <item name="enforceMaterialTheme">true</item>
         <item name="enforceTextAppearance">true</item>
         <item name="iconPadding">@dimen/mtrl_btn_icon_padding</item>
-        <item name="iconTint">@color/mtrl_btn_text_color_selector</item>
-        <item name="rippleColor">@color/mtrl_btn_ripple_color</item>
+        <item name="iconTint">@color/ccsan_mtrl_btn_text_color_selector</item>
+        <item name="rippleColor">@color/ccsan_mtrl_btn_ripple_color</item>
         <item name="shapeAppearance">?shapeAppearanceSmallComponent</item>
     </style>
     <style name="Widget.MaterialComponents.Button.Icon" parent="@style/Widget.MaterialComponents.Button">
@@ -2735,20 +2735,20 @@
     <style name="Widget.MaterialComponents.Button.OutlinedButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
         <item name="android:paddingLeft">@dimen/mtrl_btn_padding_left</item>
         <item name="android:paddingRight">@dimen/mtrl_btn_padding_right</item>
-        <item name="strokeColor">@color/mtrl_btn_stroke_color_selector</item>
+        <item name="strokeColor">@color/ccsan_mtrl_btn_stroke_color_selector</item>
         <item name="strokeWidth">@dimen/mtrl_btn_stroke_size</item>
     </style>
     <style name="Widget.MaterialComponents.Button.OutlinedButton.Icon" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:paddingLeft">@dimen/mtrl_btn_icon_btn_padding_left</item>
     </style>
     <style name="Widget.MaterialComponents.Button.TextButton" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="android:textColor">@color/mtrl_text_btn_text_color_selector</item>
+        <item name="android:textColor">@color/ccsan_mtrl_text_btn_text_color_selector</item>
         <item name="android:paddingLeft">@dimen/mtrl_btn_text_btn_padding_left</item>
         <item name="android:paddingRight">@dimen/mtrl_btn_text_btn_padding_right</item>
-        <item name="backgroundTint">@color/mtrl_btn_text_btn_bg_color_selector</item>
+        <item name="backgroundTint">@color/ccsan_mtrl_btn_text_btn_bg_color_selector</item>
         <item name="iconPadding">@dimen/mtrl_btn_text_btn_icon_padding</item>
-        <item name="iconTint">@color/mtrl_text_btn_text_color_selector</item>
-        <item name="rippleColor">@color/mtrl_btn_text_btn_ripple_color</item>
+        <item name="iconTint">@color/ccsan_mtrl_text_btn_text_color_selector</item>
+        <item name="rippleColor">@color/ccsan_mtrl_btn_text_btn_ripple_color</item>
     </style>
     <style name="Widget.MaterialComponents.Button.TextButton.Dialog" parent="@style/Widget.MaterialComponents.Button.TextButton">
         <item name="android:ellipsize">end</item>
@@ -2777,38 +2777,38 @@
         <item name="cardBackgroundColor">?colorSurface</item>
         <item name="cardCornerRadius">@null</item>
         <item name="cardElevation">@dimen/mtrl_card_elevation</item>
-        <item name="cardForegroundColor">@color/mtrl_card_view_foreground</item>
-        <item name="checkedIcon">@drawable/ic_mtrl_checked_circle</item>
+        <item name="cardForegroundColor">@color/ccsan_mtrl_card_view_foreground</item>
+        <item name="checkedIcon">@drawable/ccsan_ic_mtrl_checked_circle</item>
         <item name="checkedIconMargin">@dimen/mtrl_card_checked_icon_margin</item>
         <item name="checkedIconSize">@dimen/mtrl_card_checked_icon_size</item>
         <item name="checkedIconTint">?colorPrimary</item>
         <item name="enforceMaterialTheme">true</item>
-        <item name="rippleColor">@color/mtrl_card_view_ripple</item>
+        <item name="rippleColor">@color/ccsan_mtrl_card_view_ripple</item>
         <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
     </style>
     <style name="Widget.MaterialComponents.CheckedTextView" parent="@style/Base.Widget.MaterialComponents.CheckedTextView">
         <item name="android:textAppearance">?textAppearanceBody1</item>
-        <item name="android:textColor">@color/material_on_surface_emphasis_medium</item>
+        <item name="android:textColor">@color/ccsan_material_on_surface_emphasis_medium</item>
     </style>
     <style name="Widget.MaterialComponents.Chip.Action" parent="@style/Base.Widget.MaterialComponents.Chip">
         <item name="closeIconVisible">false</item>
     </style>
     <style name="Widget.MaterialComponents.Chip.Choice" parent="@style/Base.Widget.MaterialComponents.Chip">
-        <item name="android:textColor">@color/mtrl_choice_chip_text_color</item>
+        <item name="android:textColor">@color/ccsan_mtrl_choice_chip_text_color</item>
         <item name="android:checkable">true</item>
-        <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_black</item>
+        <item name="checkedIcon">@drawable/ccsan_ic_mtrl_chip_checked_black</item>
         <item name="checkedIconVisible">false</item>
-        <item name="chipBackgroundColor">@color/mtrl_choice_chip_background_color</item>
+        <item name="chipBackgroundColor">@color/ccsan_mtrl_choice_chip_background_color</item>
         <item name="chipIconVisible">false</item>
         <item name="closeIconVisible">false</item>
-        <item name="rippleColor">@color/mtrl_choice_chip_ripple_color</item>
+        <item name="rippleColor">@color/ccsan_mtrl_choice_chip_ripple_color</item>
     </style>
     <style name="Widget.MaterialComponents.Chip.Entry" parent="@style/Base.Widget.MaterialComponents.Chip">
         <item name="android:checkable">true</item>
     </style>
     <style name="Widget.MaterialComponents.Chip.Filter" parent="@style/Base.Widget.MaterialComponents.Chip">
         <item name="android:checkable">true</item>
-        <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_black</item>
+        <item name="checkedIcon">@drawable/ccsan_ic_mtrl_chip_checked_black</item>
         <item name="chipIconVisible">false</item>
         <item name="closeIconVisible">false</item>
     </style>
@@ -2855,7 +2855,7 @@
         <item name="useMaterialThemeColors">true</item>
     </style>
     <style name="Widget.MaterialComponents.ExtendedFloatingActionButton" parent="@style/Widget.MaterialComponents.Button">
-        <item name="android:textColor">@color/mtrl_fab_icon_text_color_selector</item>
+        <item name="android:textColor">@color/ccsan_mtrl_fab_icon_text_color_selector</item>
         <item name="android:paddingLeft">@dimen/mtrl_extended_fab_start_padding</item>
         <item name="android:paddingTop">@dimen/mtrl_extended_fab_top_padding</item>
         <item name="android:paddingRight">@dimen/mtrl_extended_fab_end_padding</item>
@@ -2867,13 +2867,13 @@
         <item name="android:insetBottom">0.0dip</item>
         <item name="android:paddingStart">@dimen/mtrl_extended_fab_start_padding</item>
         <item name="android:paddingEnd">@dimen/mtrl_extended_fab_end_padding</item>
-        <item name="backgroundTint">@color/mtrl_fab_bg_color_selector</item>
+        <item name="backgroundTint">@color/ccsan_mtrl_fab_bg_color_selector</item>
         <item name="collapsedSize">@dimen/design_fab_size_normal</item>
         <item name="elevation">@dimen/mtrl_extended_fab_elevation</item>
         <item name="iconPadding">@dimen/mtrl_extended_fab_icon_text_spacing</item>
         <item name="iconSize">@dimen/mtrl_extended_fab_icon_size</item>
-        <item name="iconTint">@color/mtrl_fab_icon_text_color_selector</item>
-        <item name="rippleColor">@color/mtrl_fab_ripple_color</item>
+        <item name="iconTint">@color/ccsan_mtrl_fab_icon_text_color_selector</item>
+        <item name="rippleColor">@color/ccsan_mtrl_fab_ripple_color</item>
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.ExtendedFloatingActionButton</item>
     </style>
     <style name="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon" parent="@style/Widget.MaterialComponents.ExtendedFloatingActionButton">
@@ -2885,18 +2885,18 @@
     </style>
     <style name="Widget.MaterialComponents.FloatingActionButton" parent="@style/Widget.Design.FloatingActionButton">
         <item name="android:background">@null</item>
-        <item name="backgroundTint">@color/mtrl_fab_bg_color_selector</item>
+        <item name="backgroundTint">@color/ccsan_mtrl_fab_bg_color_selector</item>
         <item name="elevation">@dimen/mtrl_fab_elevation</item>
         <item name="enforceMaterialTheme">true</item>
         <item name="ensureMinTouchTargetSize">true</item>
-        <item name="hideMotionSpec">@animator/mtrl_fab_hide_motion_spec</item>
+        <item name="hideMotionSpec">@animator/ccsan_mtrl_fab_hide_motion_spec</item>
         <item name="hoveredFocusedTranslationZ">@dimen/mtrl_fab_translation_z_hovered_focused</item>
         <item name="pressedTranslationZ">@dimen/mtrl_fab_translation_z_pressed</item>
-        <item name="rippleColor">@color/mtrl_fab_ripple_color</item>
+        <item name="rippleColor">@color/ccsan_mtrl_fab_ripple_color</item>
         <item name="shapeAppearance">?shapeAppearanceSmallComponent</item>
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.FloatingActionButton</item>
-        <item name="showMotionSpec">@animator/mtrl_fab_show_motion_spec</item>
-        <item name="tint">@color/mtrl_fab_icon_text_color_selector</item>
+        <item name="showMotionSpec">@animator/ccsan_mtrl_fab_show_motion_spec</item>
+        <item name="tint">@color/ccsan_mtrl_fab_icon_text_color_selector</item>
     </style>
     <style name="Widget.MaterialComponents.Light.ActionBar.Solid" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
         <item name="android:minHeight">@dimen/mtrl_toolbar_default_height</item>
@@ -2917,24 +2917,24 @@
         <item name="daySelectedStyle">@style/Widget.MaterialComponents.MaterialCalendar.Day.Selected</item>
         <item name="dayStyle">@style/Widget.MaterialComponents.MaterialCalendar.Day</item>
         <item name="dayTodayStyle">@style/Widget.MaterialComponents.MaterialCalendar.Day.Today</item>
-        <item name="rangeFillColor">@color/mtrl_calendar_selected_range</item>
+        <item name="rangeFillColor">@color/ccsan_mtrl_calendar_selected_range</item>
         <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
         <item name="yearSelectedStyle">@style/Widget.MaterialComponents.MaterialCalendar.Year.Selected</item>
         <item name="yearStyle">@style/Widget.MaterialComponents.MaterialCalendar.Year</item>
         <item name="yearTodayStyle">@style/Widget.MaterialComponents.MaterialCalendar.Year.Today</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.Day" parent="@style/Widget.MaterialComponents.MaterialCalendar.Item">
-        <item name="android:height">@dimen/mtrl_calendar_day_height</item>
-        <item name="android:width">@dimen/mtrl_calendar_day_width</item>
-        <item name="android:insetLeft">@dimen/mtrl_calendar_day_horizontal_padding</item>
-        <item name="android:insetRight">@dimen/mtrl_calendar_day_horizontal_padding</item>
-        <item name="android:insetTop">@dimen/mtrl_calendar_day_vertical_padding</item>
-        <item name="android:insetBottom">@dimen/mtrl_calendar_day_vertical_padding</item>
+        <item name="android:height">@dimen/ccsan_mtrl_calendar_day_height</item>
+        <item name="android:width">@dimen/ccsan_mtrl_calendar_day_width</item>
+        <item name="android:insetLeft">@dimen/ccsan_mtrl_calendar_day_horizontal_padding</item>
+        <item name="android:insetRight">@dimen/ccsan_mtrl_calendar_day_horizontal_padding</item>
+        <item name="android:insetTop">@dimen/ccsan_mtrl_calendar_day_vertical_padding</item>
+        <item name="android:insetBottom">@dimen/ccsan_mtrl_calendar_day_vertical_padding</item>
         <item name="itemShapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Day</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.Day.Invalid" parent="@style/Widget.MaterialComponents.MaterialCalendar.Day">
         <item name="itemStrokeWidth">0.0dip</item>
-        <item name="itemTextColor">@color/material_on_surface_disabled</item>
+        <item name="itemTextColor">@color/ccsan_material_on_surface_disabled</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.Day.Selected" parent="@style/Widget.MaterialComponents.MaterialCalendar.Day">
         <item name="itemFillColor">?colorPrimary</item>
@@ -2942,8 +2942,8 @@
         <item name="itemTextColor">?colorOnPrimary</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.Day.Today" parent="@style/Widget.MaterialComponents.MaterialCalendar.Day">
-        <item name="itemStrokeColor">@color/material_on_surface_emphasis_high_type</item>
-        <item name="itemStrokeWidth">@dimen/mtrl_calendar_day_today_stroke</item>
+        <item name="itemStrokeColor">@color/ccsan_material_on_surface_emphasis_high_type</item>
+        <item name="itemStrokeWidth">@dimen/ccsan_mtrl_calendar_day_today_stroke</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.DayTextView" parent="@style/Widget.AppCompat.TextView">
         <item name="android:textAppearance">?textAppearanceCaption</item>
@@ -2957,8 +2957,8 @@
         <item name="iconTint">?colorOnPrimary</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.HeaderConfirmButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
-        <item name="android:textColor">@color/mtrl_on_primary_text_btn_text_color_selector</item>
-        <item name="rippleColor">@color/mtrl_btn_ripple_color</item>
+        <item name="android:textColor">@color/ccsan_mtrl_on_primary_text_btn_text_color_selector</item>
+        <item name="rippleColor">@color/ccsan_mtrl_btn_ripple_color</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.HeaderDivider" parent="@android:style/Widget">
         <item name="android:background">?colorOnPrimary</item>
@@ -2997,22 +2997,22 @@
     <style name="Widget.MaterialComponents.MaterialCalendar.Item" parent="">
         <item name="itemFillColor">@android:color/transparent</item>
         <item name="itemShapeAppearance">?shapeAppearanceSmallComponent</item>
-        <item name="itemStrokeColor">@color/mtrl_calendar_item_stroke_color</item>
+        <item name="itemStrokeColor">@color/ccsan_mtrl_calendar_item_stroke_color</item>
         <item name="itemStrokeWidth">1.0dip</item>
-        <item name="itemTextColor">@color/material_on_surface_emphasis_high_type</item>
+        <item name="itemTextColor">@color/ccsan_material_on_surface_emphasis_high_type</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.MonthNavigationButton" parent="@style/Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton" />
     <style name="Widget.MaterialComponents.MaterialCalendar.MonthTextView" parent="@style/Widget.AppCompat.TextView">
         <item name="android:textAppearance">?textAppearanceSubtitle2</item>
-        <item name="android:textColor">@color/material_on_surface_emphasis_medium</item>
+        <item name="android:textColor">@color/ccsan_material_on_surface_emphasis_medium</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.Year" parent="@style/Widget.MaterialComponents.MaterialCalendar.Item">
-        <item name="android:height">@dimen/mtrl_calendar_year_height</item>
-        <item name="android:width">@dimen/mtrl_calendar_year_width</item>
-        <item name="android:insetLeft">@dimen/mtrl_calendar_year_horizontal_padding</item>
-        <item name="android:insetRight">@dimen/mtrl_calendar_year_horizontal_padding</item>
-        <item name="android:insetTop">@dimen/mtrl_calendar_year_vertical_padding</item>
-        <item name="android:insetBottom">@dimen/mtrl_calendar_year_vertical_padding</item>
+        <item name="android:height">@dimen/ccsan_mtrl_calendar_year_height</item>
+        <item name="android:width">@dimen/ccsan_mtrl_calendar_year_width</item>
+        <item name="android:insetLeft">@dimen/ccsan_mtrl_calendar_year_horizontal_padding</item>
+        <item name="android:insetRight">@dimen/ccsan_mtrl_calendar_year_horizontal_padding</item>
+        <item name="android:insetTop">@dimen/ccsan_mtrl_calendar_year_vertical_padding</item>
+        <item name="android:insetBottom">@dimen/ccsan_mtrl_calendar_year_vertical_padding</item>
         <item name="itemShapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.MaterialCalendar.Year</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.Year.Selected" parent="@style/Widget.MaterialComponents.MaterialCalendar.Year">
@@ -3022,8 +3022,8 @@
         <item name="itemTextColor">?colorOnPrimary</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.Year.Today" parent="@style/Widget.MaterialComponents.MaterialCalendar.Year">
-        <item name="itemStrokeColor">@color/material_on_surface_emphasis_high_type</item>
-        <item name="itemStrokeWidth">@dimen/mtrl_calendar_day_today_stroke</item>
+        <item name="itemStrokeColor">@color/ccsan_material_on_surface_emphasis_high_type</item>
+        <item name="itemStrokeWidth">@dimen/ccsan_mtrl_calendar_day_today_stroke</item>
     </style>
     <style name="Widget.MaterialComponents.MaterialCalendar.YearNavigationButton" parent="@style/Base.Widget.MaterialComponents.MaterialCalendar.NavigationButton" />
     <style name="Widget.MaterialComponents.NavigationView" parent="@style/Widget.Design.NavigationView">
@@ -3033,15 +3033,15 @@
         <item name="itemHorizontalPadding">@dimen/mtrl_navigation_item_horizontal_padding</item>
         <item name="itemIconPadding">@dimen/mtrl_navigation_item_icon_padding</item>
         <item name="itemIconSize">@dimen/mtrl_navigation_item_icon_size</item>
-        <item name="itemIconTint">@color/mtrl_navigation_item_icon_tint</item>
+        <item name="itemIconTint">@color/ccsan_mtrl_navigation_item_icon_tint</item>
         <item name="itemShapeAppearance">?shapeAppearanceSmallComponent</item>
-        <item name="itemShapeFillColor">@color/mtrl_navigation_item_background_color</item>
+        <item name="itemShapeFillColor">@color/ccsan_mtrl_navigation_item_background_color</item>
         <item name="itemShapeInsetBottom">@dimen/mtrl_navigation_item_shape_vertical_margin</item>
         <item name="itemShapeInsetEnd">@dimen/mtrl_navigation_item_shape_horizontal_margin</item>
         <item name="itemShapeInsetStart">@dimen/mtrl_navigation_item_shape_horizontal_margin</item>
         <item name="itemShapeInsetTop">@dimen/mtrl_navigation_item_shape_vertical_margin</item>
         <item name="itemTextAppearance">?textAppearanceSubtitle2</item>
-        <item name="itemTextColor">@color/mtrl_navigation_item_text_color</item>
+        <item name="itemTextColor">@color/ccsan_mtrl_navigation_item_text_color</item>
     </style>
     <style name="Widget.MaterialComponents.PopupMenu" parent="@style/Base.Widget.MaterialComponents.PopupMenu" />
     <style name="Widget.MaterialComponents.PopupMenu.ContextMenu" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu" />
@@ -3052,7 +3052,7 @@
         <item name="trackThickness">@dimen/mtrl_progress_track_thickness</item>
     </style>
     <style name="Widget.MaterialComponents.ShapeableImageView" parent="@android:style/Widget">
-        <item name="strokeColor">@color/material_on_surface_stroke</item>
+        <item name="strokeColor">@color/ccsan_material_on_surface_stroke</item>
     </style>
     <style name="Widget.MaterialComponents.Slider" parent="@style/Base.Widget.MaterialComponents.Slider" />
     <style name="Widget.MaterialComponents.Snackbar" parent="@style/Base.Widget.MaterialComponents.Snackbar">
@@ -3077,20 +3077,20 @@
         <item name="android:background">?colorSurface</item>
         <item name="enforceMaterialTheme">true</item>
         <item name="enforceTextAppearance">true</item>
-        <item name="tabIconTint">@color/mtrl_tabs_icon_color_selector</item>
+        <item name="tabIconTint">@color/ccsan_mtrl_tabs_icon_color_selector</item>
         <item name="tabIndicatorAnimationDuration">@integer/mtrl_tab_indicator_anim_duration_ms</item>
         <item name="tabIndicatorColor">?colorPrimary</item>
-        <item name="tabRippleColor">@color/mtrl_tabs_ripple_color</item>
+        <item name="tabRippleColor">@color/ccsan_mtrl_tabs_ripple_color</item>
         <item name="tabTextAppearance">?textAppearanceButton</item>
-        <item name="tabTextColor">@color/mtrl_tabs_icon_color_selector</item>
+        <item name="tabTextColor">@color/ccsan_mtrl_tabs_icon_color_selector</item>
         <item name="tabUnboundedRipple">true</item>
     </style>
     <style name="Widget.MaterialComponents.TabLayout.Colored" parent="@style/Widget.MaterialComponents.TabLayout">
         <item name="android:background">?colorPrimary</item>
-        <item name="tabIconTint">@color/mtrl_tabs_icon_color_selector_colored</item>
+        <item name="tabIconTint">@color/ccsan_ccsan_mtrl_tabs_icon_color_selector_colored</item>
         <item name="tabIndicatorColor">?colorOnPrimary</item>
-        <item name="tabRippleColor">@color/mtrl_tabs_colored_ripple_color</item>
-        <item name="tabTextColor">@color/mtrl_tabs_icon_color_selector_colored</item>
+        <item name="tabRippleColor">@color/ccsan_mtrl_tabs_colored_ripple_color</item>
+        <item name="tabTextColor">@color/ccsan_ccsan_mtrl_tabs_icon_color_selector_colored</item>
     </style>
     <style name="Widget.MaterialComponents.TabLayout.PrimarySurface" parent="@style/Widget.MaterialComponents.TabLayout.Colored" />
     <style name="Widget.MaterialComponents.TextInputEditText.FilledBox" parent="@style/Base.Widget.MaterialComponents.TextInputEditText">
@@ -3107,14 +3107,14 @@
         <item name="android:paddingBottom">13.0dip</item>
     </style>
     <style name="Widget.MaterialComponents.TextInputLayout.FilledBox" parent="@style/Base.Widget.MaterialComponents.TextInputLayout">
-        <item name="boxBackgroundColor">@color/mtrl_filled_background_color</item>
+        <item name="boxBackgroundColor">@color/ccsan_mtrl_filled_background_color</item>
         <item name="boxBackgroundMode">filled</item>
         <item name="boxCollapsedPaddingTop">10.0dip</item>
-        <item name="boxStrokeColor">@color/mtrl_filled_stroke_color</item>
-        <item name="endIconTint">@color/mtrl_filled_icon_tint</item>
+        <item name="boxStrokeColor">@color/ccsan_mtrl_filled_stroke_color</item>
+        <item name="endIconTint">@color/ccsan_mtrl_filled_icon_tint</item>
         <item name="materialThemeOverlay">@style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox</item>
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.TextInputLayout.FilledBox</item>
-        <item name="startIconTint">@color/mtrl_filled_icon_tint</item>
+        <item name="startIconTint">@color/ccsan_mtrl_filled_icon_tint</item>
     </style>
     <style name="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox">
         <item name="materialThemeOverlay">@style/ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox.Dense</item>
@@ -3144,8 +3144,8 @@
     </style>
     <style name="Widget.MaterialComponents.TextView" parent="@style/Base.Widget.MaterialComponents.TextView" />
     <style name="Widget.MaterialComponents.TimePicker" parent="">
-        <item name="clockIcon">@drawable/ic_clock_black_24dp</item>
-        <item name="keyboardIcon">@drawable/ic_keyboard_black_24dp</item>
+        <item name="clockIcon">@drawable/ccsan_ic_clock_black_24dp</item>
+        <item name="keyboardIcon">@drawable/ccsan_ic_keyboard_black_24dp</item>
         <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
     </style>
     <style name="Widget.MaterialComponents.TimePicker.Button" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
@@ -3156,14 +3156,14 @@
         <item name="android:insetTop">0.0dip</item>
         <item name="android:insetBottom">0.0dip</item>
         <item name="android:textAlignment">center</item>
-        <item name="backgroundTint">@color/material_timepicker_button_background</item>
-        <item name="strokeColor">@color/material_timepicker_button_stroke</item>
+        <item name="backgroundTint">@color/ccsan_ccsan_ccsan_material_timepicker_button_background</item>
+        <item name="strokeColor">@color/ccsan_ccsan_ccsan_ccsan_material_timepicker_button_stroke</item>
         <item name="strokeWidth">@dimen/mtrl_btn_stroke_size</item>
     </style>
     <style name="Widget.MaterialComponents.TimePicker.Clock" parent="">
-        <item name="clockFaceBackgroundColor">@color/material_timepicker_clockface</item>
+        <item name="clockFaceBackgroundColor">@color/ccsan_ccsan_ccsan_ccsan_material_timepicker_clockface</item>
         <item name="clockHandColor">?colorPrimary</item>
-        <item name="clockNumberTextColor">@color/material_timepicker_clock_text_color</item>
+        <item name="clockNumberTextColor">@color/ccsan_ccsan_ccsan_material_timepicker_clock_text_color</item>
     </style>
     <style name="Widget.MaterialComponents.TimePicker.Display" parent="@style/Widget.MaterialComponents.Chip.Choice">
         <item name="android:textAppearance">?textAppearanceHeadline3</item>
@@ -3193,8 +3193,8 @@
         <item name="android:insetBottom">0.0dip</item>
         <item name="iconGravity">textStart</item>
         <item name="iconPadding">0.0dip</item>
-        <item name="iconTint">@color/material_timepicker_modebutton_tint</item>
-        <item name="rippleColor">@color/mtrl_on_surface_ripple_color</item>
+        <item name="iconTint">@color/ccsan_ccsan_ccsan_ccsan_material_timepicker_modebutton_tint</item>
+        <item name="rippleColor">@color/ccsan_mtrl_on_surface_ripple_color</item>
         <item name="shapeAppearance">@style/Widget.MaterialComponents.TimePicker.ImageButton.ShapeAppearance</item>
     </style>
     <style name="Widget.MaterialComponents.TimePicker.ImageButton.ShapeAppearance" parent="">
@@ -3212,15 +3212,15 @@
     <style name="Widget.MaterialComponents.Toolbar.Primary" parent="@style/Widget.MaterialComponents.Toolbar">
         <item name="android:theme">@style/ThemeOverlay.MaterialComponents.Toolbar.Primary</item>
         <item name="android:background">?colorPrimary</item>
-        <item name="subtitleTextColor">@color/material_on_primary_emphasis_medium</item>
+        <item name="subtitleTextColor">@color/ccsan_material_on_primary_emphasis_medium</item>
         <item name="titleTextColor">?colorOnPrimary</item>
     </style>
     <style name="Widget.MaterialComponents.Toolbar.PrimarySurface" parent="@style/Widget.MaterialComponents.Toolbar.Primary" />
     <style name="Widget.MaterialComponents.Toolbar.Surface" parent="@style/Widget.MaterialComponents.Toolbar">
         <item name="android:theme">@style/ThemeOverlay.MaterialComponents.Toolbar.Surface</item>
         <item name="android:background">?colorSurface</item>
-        <item name="subtitleTextColor">@color/material_on_surface_emphasis_medium</item>
-        <item name="titleTextColor">@color/material_on_surface_emphasis_high_type</item>
+        <item name="subtitleTextColor">@color/ccsan_material_on_surface_emphasis_medium</item>
+        <item name="titleTextColor">@color/ccsan_material_on_surface_emphasis_high_type</item>
     </style>
     <style name="Widget.MaterialComponents.Tooltip" parent="@android:style/Widget">
         <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Tooltip</item>
@@ -3252,7 +3252,7 @@
     </style>
     <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.AdBadgeTextView" parent="@android:style/Widget.TextView">
         <item name="android:textColor">@color/applovin_sdk_adBadgeTextColor</item>
-        <item name="android:background">@drawable/rounded_text_view_border</item>
+        <item name="android:background">@drawable/ccsan_rounded_text_view_border</item>
         <item name="android:paddingLeft">2.0dip</item>
         <item name="android:paddingRight">2.0dip</item>
         <item name="android:layout_width">wrap_content</item>
@@ -3273,7 +3273,7 @@
     </style>
     <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.CTAButton" parent="@android:style/Widget.Button">
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:background">@drawable/ccsan_rounded_button</item>
         <item name="android:singleLine">true</item>
     </style>
     <style name="com.applovin.mediation.nativeAds.MaxNativeAdView.LargeAdBadgeTextView" parent="@style/com.applovin.mediation.nativeAds.MaxNativeAdView.AdBadgeTextView">
@@ -3326,7 +3326,7 @@
         <item name="android:windowActionBar">false</item>
     </style>
     <style name="myDialog" parent="@android:style/Theme.Dialog">
-        <item name="android:windowBackground">@drawable/mbridge_shape_btn</item>
+        <item name="android:windowBackground">@drawable/ccsan_mbridge_shape_btn</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
@@ -3335,8 +3335,8 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
     <style name="san_AlphaAnimationActivity">
-        <item name="android:windowEnterAnimation">@anim/san_fade_in</item>
-        <item name="android:windowExitAnimation">@anim/san_fade_out</item>
+        <item name="android:windowEnterAnimation">@anim/ccsan_san_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/ccsan_san_fade_out</item>
     </style>
     <style name="san_ButtonStyle">
         <item name="android:textSize">@dimen/san_common_text_size_14sp</item>
@@ -3346,7 +3346,7 @@
         <item name="android:singleLine">true</item>
     </style>
     <style name="san_HybridDropDownListViewStyle" parent="@android:style/Widget.ListView">
-        <item name="android:listSelector">@drawable/san_hybrid_dropdown_list_selector</item>
+        <item name="android:listSelector">@drawable/ccsan_san_hybrid_dropdown_list_selector</item>
         <item name="android:divider">@android:color/transparent</item>
         <item name="android:dividerHeight">0.0dip</item>
     </style>
@@ -3364,14 +3364,14 @@
         <item name="android:backgroundDimEnabled">false</item>
     </style>
     <style name="san_SIProgressBarStyle" parent="@android:style/Widget.ProgressBar">
-        <item name="android:indeterminateDrawable">@drawable/san_media_view_loading_progress</item>
+        <item name="android:indeterminateDrawable">@drawable/ccsan_san_media_view_loading_progress</item>
         <item name="android:indeterminateDuration">1000</item>
     </style>
     <style name="san_SingleMediumButtonStyle" parent="@style/san_ButtonStyle">
-        <item name="android:textColor">@color/san_common_text_color_white</item>
+        <item name="android:textColor">@color/ccsan_san_common_text_color_white</item>
         <item name="android:ellipsize">end</item>
         <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:background">@drawable/san_capsule_button_filled_orange</item>
+        <item name="android:background">@drawable/ccsan_san_capsule_button_filled_orange</item>
         <item name="android:layout_marginLeft">@dimen/san_common_dimens_50dp</item>
         <item name="android:layout_marginRight">@dimen/san_common_dimens_50dp</item>
         <item name="android:minWidth">@dimen/san_common_dimens_190dp</item>
@@ -4138,6 +4138,6 @@
         <item name="android:layout_alignParentEnd">true</item>
     </style>
     <style name="san_reserve_popup_anim">
-        <item name="android:windowEnterAnimation">@animator/san_reserve_popup_show</item>
+        <item name="android:windowEnterAnimation">@animator/ccsan_san_reserve_popup_show</item>
     </style>
 </resources>

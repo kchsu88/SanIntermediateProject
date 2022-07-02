@@ -148,7 +148,7 @@
     .locals 1
 
     .line 3
-    const-string v0, "san_basic_mads_webview_layout"
+    const-string v0, "ccsan_san_basic_mads_webview_layout"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

@@ -438,7 +438,7 @@
 
     .line 286
     .local v2, "adapter":Lccsanandroid/widget/ArrayAdapter;, "Lccsanandroid/widget/ArrayAdapter<Ljava/lang/CharSequence;>;"
-    sget v3, Lccsanandroidx/appcompat/R$layout;->support_simple_spinner_dropdown_item:I
+    sget v3, Lccsanandroidx/appcompat/R$layout;->ccsan_support_simple_spinner_dropdown_item:I
 
     invoke-virtual {v2, v3}, Lccsanandroid/widget/ArrayAdapter;->setDropDownViewResource(I)V
 

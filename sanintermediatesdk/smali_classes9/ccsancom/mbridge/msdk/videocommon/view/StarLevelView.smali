@@ -62,7 +62,7 @@
     :goto_0
     double-to-int v2, p1
 
-    const-string v3, "mbridge_video_common_full_star"
+    const-string v3, "ccsan_mbridge_video_common_full_star"
 
     const-string v4, "drawable"
 
@@ -228,7 +228,7 @@
     rem-int/2addr p1, p2
 
     .line 66
-    const-string p2, "mbridge_video_common_full_while_star"
+    const-string p2, "ccsan_mbridge_video_common_full_while_star"
 
     if-lez p1, :cond_5
 
@@ -289,7 +289,7 @@
 
     move-result-object v2
 
-    const-string v3, "mbridge_video_common_half_star"
+    const-string v3, "ccsan_mbridge_video_common_half_star"
 
     invoke-static {v2, v3, v4}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 

@@ -57,7 +57,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsancom/google/android/material/R$layout;->material_radial_view_group:I
+    sget v1, Lccsancom/google/android/material/R$layout;->ccsan_material_radial_view_group:I
 
     invoke-virtual {v0, v1, p0}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;)Lccsanandroid/view/View;
 

@@ -169,7 +169,7 @@
     iput-object v0, p0, Lccsansan/j/getDownloadingList;->trackReportShow:Lccsansan/cr/addDownloadListener$removeDownloadListener;
 
     .line 3
-    const-string v0, "san_native_media_view"
+    const-string v0, "ccsan_san_native_media_view"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

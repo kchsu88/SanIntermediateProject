@@ -386,7 +386,7 @@
     .line 19
     invoke-virtual {p2, v0}, Lccsanandroid/widget/ImageView;->setLayoutParams(Lccsanandroid/view/ViewGroup$LayoutParams;)V
 
-    const-string v0, "san_ad_logo"
+    const-string v0, "ccsan_san_ad_logo"
 
     .line 20
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I

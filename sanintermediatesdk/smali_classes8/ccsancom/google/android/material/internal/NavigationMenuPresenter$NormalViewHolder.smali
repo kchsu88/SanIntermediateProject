@@ -22,7 +22,7 @@
     .param p3, "listener"    # Lccsanandroid/view/View$OnClickListener;
 
     .line 379
-    sget v0, Lccsancom/google/android/material/R$layout;->design_navigation_item:I
+    sget v0, Lccsancom/google/android/material/R$layout;->ccsan_design_navigation_item:I
 
     const/4 v1, 0x0
 

@@ -145,7 +145,7 @@
 
     move-result-object v4
 
-    sget v5, Lccsancom/google/android/material/R$layout;->material_clockface_view:I
+    sget v5, Lccsancom/google/android/material/R$layout;->ccsan_material_clockface_view:I
 
     const/4 v6, 0x1
 
@@ -213,7 +213,7 @@
     invoke-virtual {v4, p0}, Lccsancom/google/android/material/timepicker/ClockHandView;->addOnRotateListener(Lccsancom/google/android/material/timepicker/ClockHandView$OnRotateListener;)V
 
     .line 115
-    sget v0, Lccsancom/google/android/material/R$color;->material_timepicker_clockface:I
+    sget v0, Lccsancom/google/android/material/R$color;->ccsan_ccsan_ccsan_ccsan_material_timepicker_clockface:I
 
     .line 116
     invoke-static {p1, v0}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
@@ -575,7 +575,7 @@
     if-nez v3, :cond_1
 
     .line 193
-    sget v5, Lccsancom/google/android/material/R$layout;->material_clockface_textview:I
+    sget v5, Lccsancom/google/android/material/R$layout;->ccsan_material_clockface_textview:I
 
     invoke-virtual {v0, v5, p0, v4}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;Z)Lccsanandroid/view/View;
 

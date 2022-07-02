@@ -18,11 +18,11 @@
 
 .field public static final mbridge_reward_apptitle:I = 0x7f0f0046
 
-.field public static final mbridge_reward_clickable_cta_btntext:I = 0x7f0f0047
+.field public static final ccsan_mbridge_reward_clickable_cta_btntext:I = 0x7f0f0047
 
 .field public static final mbridge_reward_endcard_ad:I = 0x7f0f0048
 
-.field public static final mbridge_reward_endcard_vast_notice:I = 0x7f0f0049
+.field public static final ccsan_mbridge_reward_endcard_vast_notice:I = 0x7f0f0049
 
 .field public static final mbridge_reward_install:I = 0x7f0f004a
 

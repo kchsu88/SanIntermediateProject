@@ -1155,7 +1155,7 @@
     iget-object v5, p0, Lccsansan/i/IncentiveDownloadUtils;->resume:Lccsanandroid/widget/ImageView;
 
     .line 8
-    const-string v0, "san_icon_bg"
+    const-string v0, "ccsan_san_icon_bg"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 
@@ -2609,7 +2609,7 @@
     .line 2
     iget-object v0, p0, Lccsansan/i/IncentiveDownloadUtils;->getDownloadStatusByUrl:Lccsanandroid/content/Context;
 
-    const-string v1, "san_full_vast_layout_ex"
+    const-string v1, "ccsan_ccsan_san_full_vast_layout_ex"
 
     invoke-static {v0, v1}, Lccsancom/san/bridge/getDownloadingList;->addDownloadListener(Lccsanandroid/content/Context;Ljava/lang/String;)I
 
@@ -2636,7 +2636,7 @@
     nop
 
     .line 4
-    const-string v0, "san_full_vast_layout"
+    const-string v0, "ccsan_san_full_vast_layout"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -3799,7 +3799,7 @@
 
     const/4 v2, 0x0
 
-    const-string v3, "san_full_screen_video_end_layout_ex"
+    const-string v3, "ccsan_ccsan_san_full_screen_video_end_layout_ex"
 
     const-string v4, "#showVideoEndCard"
 
@@ -3867,7 +3867,7 @@
 
     .line 4
     :goto_2
-    const-string v0, "san_full_screen_video_end_layout"
+    const-string v0, "ccsan_san_full_screen_video_end_layout"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

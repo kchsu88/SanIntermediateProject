@@ -200,7 +200,7 @@
 
     move-result-object p4
 
-    const-string v0, "en_hance_launchsdk_convert_notification_small"
+    const-string v0, "ccsan_ccsan_en_hance_launchsdk_convert_notification_small"
 
     invoke-static {v0}, Lccsanenhance/g/h;->c(Ljava/lang/String;)I
 
@@ -406,7 +406,7 @@
     invoke-direct {v0, v1, v2}, Lccsanandroidx/core/app/NotificationCompat$Builder;-><init>(Lccsanandroid/content/Context;Ljava/lang/String;)V
 
     .line 87
-    const-string v1, "en_hance_launchsdk_logo_small"
+    const-string v1, "ccsan_en_hance_launchsdk_logo_small"
 
     invoke-static {v1}, Lccsanenhance/g/h;->a(Ljava/lang/String;)I
 
@@ -425,7 +425,7 @@
 
     move-result-object v1
 
-    const-string v2, "en_hance_launchsdk_logo_large"
+    const-string v2, "ccsan_en_hance_launchsdk_logo_large"
 
     invoke-static {v2}, Lccsanenhance/g/h;->a(Ljava/lang/String;)I
 

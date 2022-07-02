@@ -499,7 +499,7 @@
     .line 2
     new-instance v1, Lccsanandroid/widget/RemoteViews;
 
-    const-string v2, "san_ad_keep_in_notify"
+    const-string v2, "ccsan_san_ad_keep_in_notify"
 
     invoke-static {v2}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -514,7 +514,7 @@
 
     move-result v3
 
-    const-string v4, "san_keep_in_notify_bg"
+    const-string v4, "ccsan_san_keep_in_notify_bg"
 
     invoke-static {v4}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 

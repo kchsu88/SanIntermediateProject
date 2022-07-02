@@ -1632,7 +1632,7 @@
     .locals 2
 
     .line 147
-    const-string p1, "mbridge_reward_endcard_h5"
+    const-string p1, "ccsan_mbridge_reward_endcard_h5"
 
     invoke-virtual {p0, p1}, Lccsancom/mbridge/msdk/video/module/MBridgeH5EndCardView;->findLayout(Ljava/lang/String;)I
 
@@ -3008,7 +3008,7 @@
     :cond_0
     iget-object p1, p0, Lccsancom/mbridge/msdk/video/module/MBridgeH5EndCardView;->l:Lccsanandroid/widget/ImageView;
 
-    const-string v0, "mbridge_reward_close"
+    const-string v0, "ccsan_mbridge_reward_close"
 
     invoke-virtual {p0, v0}, Lccsancom/mbridge/msdk/video/module/MBridgeH5EndCardView;->findDrawable(Ljava/lang/String;)I
 

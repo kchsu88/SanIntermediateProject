@@ -85,7 +85,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsancom/google/android/material/R$layout;->material_timepicker:I
+    sget v1, Lccsancom/google/android/material/R$layout;->ccsan_ccsan_material_timepicker:I
 
     invoke-virtual {v0, v1, p0}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;)Lccsanandroid/view/View;
 
@@ -101,7 +101,7 @@
     iput-object v0, p0, Lccsancom/google/android/material/timepicker/TimePickerView;->clockFace:Lccsancom/google/android/material/timepicker/ClockFaceView;
 
     .line 102
-    sget v0, Lccsancom/google/android/material/R$id;->material_clock_period_toggle:I
+    sget v0, Lccsancom/google/android/material/R$id;->ccsan_material_clock_period_toggle:I
 
     invoke-virtual {p0, v0}, Lccsancom/google/android/material/timepicker/TimePickerView;->findViewById(I)Lccsanandroid/view/View;
 
@@ -323,7 +323,7 @@
     .line 258
     .local v2, "sideToClear":I
     :cond_1
-    sget v3, Lccsancom/google/android/material/R$id;->material_clock_display:I
+    sget v3, Lccsancom/google/android/material/R$id;->ccsan_material_clock_display:I
 
     invoke-virtual {v0, v3, v2}, Lccsanandroidx/constraintlayout/widget/ConstraintSet;->clear(II)V
 

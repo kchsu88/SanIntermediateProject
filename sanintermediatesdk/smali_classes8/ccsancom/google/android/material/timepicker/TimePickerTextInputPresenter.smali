@@ -107,7 +107,7 @@
 
     .line 107
     .local v4, "hourLabel":Lccsanandroid/widget/TextView;
-    sget v5, Lccsancom/google/android/material/R$string;->material_timepicker_minute:I
+    sget v5, Lccsancom/google/android/material/R$string;->ccsan_ccsan_material_timepicker_minute:I
 
     invoke-virtual {v0, v5}, Lccsanandroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -116,7 +116,7 @@
     invoke-virtual {v3, v5}, Lccsanandroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
     .line 108
-    sget v5, Lccsancom/google/android/material/R$string;->material_timepicker_hour:I
+    sget v5, Lccsancom/google/android/material/R$string;->ccsan_ccsan_material_timepicker_hour:I
 
     invoke-virtual {v0, v5}, Lccsanandroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -529,7 +529,7 @@
     .line 176
     iget-object v0, p0, Lccsancom/google/android/material/timepicker/TimePickerTextInputPresenter;->timePickerView:Lccsanandroid/widget/LinearLayout;
 
-    sget v1, Lccsancom/google/android/material/R$id;->material_clock_period_toggle:I
+    sget v1, Lccsancom/google/android/material/R$id;->ccsan_material_clock_period_toggle:I
 
     invoke-virtual {v0, v1}, Lccsanandroid/widget/LinearLayout;->findViewById(I)Lccsanandroid/view/View;
 

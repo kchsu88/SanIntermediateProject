@@ -211,7 +211,7 @@
     move-result-object v0
 
     .line 3
-    const-string v1, "san_basic_browser_video_progress"
+    const-string v1, "ccsan_san_basic_browser_video_progress"
 
     invoke-static {v1}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

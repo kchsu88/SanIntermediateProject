@@ -102,7 +102,7 @@
     .locals 1
 
     .line 66
-    sget v0, Lccsanandroidx/appcompat/R$layout;->abc_cascading_menu_item_layout:I
+    sget v0, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_cascading_menu_item_layout:I
 
     sput v0, Lccsanandroidx/appcompat/view/menu/CascadingMenuPopup;->ITEM_LAYOUT:I
 
@@ -1078,7 +1078,7 @@
     if-eqz v11, :cond_c
 
     .line 493
-    sget v11, Lccsanandroidx/appcompat/R$layout;->abc_popup_menu_header_item_layout:I
+    sget v11, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_popup_menu_header_item_layout:I
 
     invoke-virtual {v2, v11, v7, v10}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;Z)Lccsanandroid/view/View;
 

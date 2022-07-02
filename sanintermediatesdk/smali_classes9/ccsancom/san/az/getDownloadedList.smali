@@ -505,7 +505,7 @@
 
     move-result-object v2
 
-    const-string v3, "san_notification_azing"
+    const-string v3, "ccsan_san_notification_azing"
 
     invoke-static {v3}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -1420,7 +1420,7 @@
 
     move-result-object v5
 
-    const-string v10, "san_notification_azready"
+    const-string v10, "ccsan_san_notification_azready"
 
     invoke-static {v10}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -1815,7 +1815,7 @@
 
     move-result-object v1
 
-    const-string v2, "san_notification_azfailed"
+    const-string v2, "ccsan_san_notification_azfailed"
 
     invoke-static {v2}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -2429,7 +2429,7 @@
 
     move-result-object v8
 
-    const-string v10, "san_notification_azed"
+    const-string v10, "ccsan_san_notification_azed"
 
     invoke-static {v10}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

@@ -372,7 +372,7 @@
     .line 107
     iget-object v0, p0, Lccsancom/google/android/material/internal/NavigationMenuPresenter;->layoutInflater:Lccsanandroid/view/LayoutInflater;
 
-    sget v1, Lccsancom/google/android/material/R$layout;->design_navigation_menu:I
+    sget v1, Lccsancom/google/android/material/R$layout;->ccsan_design_navigation_menu:I
 
     .line 108
     const/4 v2, 0x0
@@ -423,7 +423,7 @@
     :cond_1
     iget-object v0, p0, Lccsancom/google/android/material/internal/NavigationMenuPresenter;->layoutInflater:Lccsanandroid/view/LayoutInflater;
 
-    sget v1, Lccsancom/google/android/material/R$layout;->design_navigation_item_header:I
+    sget v1, Lccsancom/google/android/material/R$layout;->ccsan_ccsan_design_navigation_item_header:I
 
     iget-object v3, p0, Lccsancom/google/android/material/internal/NavigationMenuPresenter;->menuView:Lccsancom/google/android/material/internal/NavigationMenuView;
 

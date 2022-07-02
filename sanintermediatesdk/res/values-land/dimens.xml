@@ -3,9 +3,9 @@
     <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
     <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
     <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
-    <dimen name="mtrl_alert_dialog_background_inset_bottom">24.0dip</dimen>
-    <dimen name="mtrl_alert_dialog_background_inset_top">24.0dip</dimen>
-    <dimen name="mtrl_calendar_days_of_week_height">20.0dip</dimen>
+    <dimen name="ccsan_mtrl_alert_dialog_background_inset_bottom">24.0dip</dimen>
+    <dimen name="ccsan_mtrl_alert_dialog_background_inset_top">24.0dip</dimen>
+    <dimen name="ccsan_ccsan_mtrl_calendar_days_of_week_height">20.0dip</dimen>
     <dimen name="mtrl_calendar_header_content_padding">4.0dip</dimen>
     <dimen name="mtrl_calendar_header_height_fullscreen">96.0dip</dimen>
     <dimen name="mtrl_calendar_header_toggle_margin_bottom">0.0dip</dimen>

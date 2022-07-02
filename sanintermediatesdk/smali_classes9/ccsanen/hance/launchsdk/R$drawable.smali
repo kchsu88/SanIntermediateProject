@@ -14,37 +14,37 @@
 
 
 # static fields
-.field public static final en_hance_launchsdk_icon_up:I = 0x7f070099
+.field public static final ccsan_en_hance_launchsdk_icon_up:I = 0x7f070099
 
-.field public static final en_hance_launchsdk_logo_large:I = 0x7f07009a
+.field public static final ccsan_en_hance_launchsdk_logo_large:I = 0x7f07009a
 
-.field public static final en_hance_launchsdk_logo_small:I = 0x7f07009b
+.field public static final ccsan_en_hance_launchsdk_logo_small:I = 0x7f07009b
 
-.field public static final en_hance_launchsdk_shape_notification_button:I = 0x7f07009c
+.field public static final ccsan_en_hance_launchsdk_shape_notification_button:I = 0x7f07009c
 
-.field public static final notification_action_background:I = 0x7f070111
+.field public static final ccsan_ccsan_ccsan_notification_action_background:I = 0x7f070111
 
-.field public static final notification_bg:I = 0x7f070112
+.field public static final ccsan_notification_bg:I = 0x7f070112
 
-.field public static final notification_bg_low:I = 0x7f070113
+.field public static final ccsan_ccsan_notification_bg_low:I = 0x7f070113
 
-.field public static final notification_bg_low_normal:I = 0x7f070114
+.field public static final ccsan_ccsan_notification_bg_low_normal:I = 0x7f070114
 
-.field public static final notification_bg_low_pressed:I = 0x7f070115
+.field public static final ccsan_ccsan_notification_bg_low_pressed:I = 0x7f070115
 
-.field public static final notification_bg_normal:I = 0x7f070116
+.field public static final ccsan_notification_bg_normal:I = 0x7f070116
 
-.field public static final notification_bg_normal_pressed:I = 0x7f070117
+.field public static final ccsan_notification_bg_normal_pressed:I = 0x7f070117
 
-.field public static final notification_icon_background:I = 0x7f070118
+.field public static final ccsan_notification_icon_background:I = 0x7f070118
 
 .field public static final notification_template_icon_bg:I = 0x7f070119
 
 .field public static final notification_template_icon_low_bg:I = 0x7f07011a
 
-.field public static final notification_tile_bg:I = 0x7f07011b
+.field public static final ccsan_notification_tile_bg:I = 0x7f07011b
 
-.field public static final notify_panel_notification_icon_bg:I = 0x7f07011c
+.field public static final ccsan_ccsan_ccsan_notify_panel_notification_icon_bg:I = 0x7f07011c
 
 
 # direct methods

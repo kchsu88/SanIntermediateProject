@@ -246,7 +246,7 @@
 
     invoke-virtual {p0, p1}, Lccsancom/applovin/impl/mediation/debugger/ui/b/a;->setTitle(Ljava/lang/CharSequence;)V
 
-    sget p1, Lccsancom/applovin/sdk/R$layout;->list_view:I
+    sget p1, Lccsancom/applovin/sdk/R$layout;->ccsan_list_view:I
 
     invoke-virtual {p0, p1}, Lccsancom/applovin/impl/mediation/debugger/ui/b/a;->setContentView(I)V
 
@@ -280,7 +280,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsancom/applovin/sdk/R$menu;->mediation_debugger_activity_menu:I
+    sget v1, Lccsancom/applovin/sdk/R$menu;->ccsan_mediation_debugger_activity_menu:I
 
     invoke-virtual {v0, v1, p1}, Lccsanandroid/view/MenuInflater;->inflate(ILccsanandroid/view/Menu;)V
 

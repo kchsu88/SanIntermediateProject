@@ -233,7 +233,7 @@
 
     move-result-object v1
 
-    const-string v2, "san_convert_notification"
+    const-string v2, "ccsan_san_convert_notification"
 
     invoke-static {v2}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -268,7 +268,7 @@
 
     move-result-object p4
 
-    const-string v1, "san_convert_notification_small"
+    const-string v1, "ccsan_ccsan_san_convert_notification_small"
 
     invoke-static {v1}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -341,7 +341,7 @@
 
     move-result p3
 
-    const-string p4, "san_icon_up"
+    const-string p4, "ccsan_san_icon_up"
 
     invoke-static {p4}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 

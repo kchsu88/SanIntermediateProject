@@ -1062,7 +1062,7 @@
     if-eqz v6, :cond_4
 
     .line 873
-    sget v3, Lccsanandroidx/appcompat/R$layout;->abc_dialog_title_material:I
+    sget v3, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_dialog_title_material:I
 
     invoke-virtual {v1, v3, v7}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;)Lccsanandroid/view/View;
 
@@ -1131,7 +1131,7 @@
 
     move-result-object v8
 
-    sget v9, Lccsanandroidx/appcompat/R$layout;->abc_screen_toolbar:I
+    sget v9, Lccsanandroidx/appcompat/R$layout;->ccsan_ccsan_ccsan_abc_screen_toolbar:I
 
     .line 896
     invoke-virtual {v8, v9, v7}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;)Lccsanandroid/view/View;
@@ -1210,7 +1210,7 @@
     if-eqz v3, :cond_a
 
     .line 917
-    sget v3, Lccsanandroidx/appcompat/R$layout;->abc_screen_simple_overlay_action_mode:I
+    sget v3, Lccsanandroidx/appcompat/R$layout;->ccsan_ccsan_abc_screen_simple_overlay_action_mode:I
 
     invoke-virtual {v1, v3, v7}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;)Lccsanandroid/view/View;
 
@@ -1224,7 +1224,7 @@
 
     .line 920
     :cond_a
-    sget v3, Lccsanandroidx/appcompat/R$layout;->abc_screen_simple:I
+    sget v3, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_screen_simple:I
 
     invoke-virtual {v1, v3, v7}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;)Lccsanandroid/view/View;
 

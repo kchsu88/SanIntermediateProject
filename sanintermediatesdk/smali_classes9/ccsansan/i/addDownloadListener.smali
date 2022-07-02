@@ -408,7 +408,7 @@
     invoke-virtual {p0, v0}, Lccsanandroid/widget/FrameLayout;->setClipChildren(Z)V
 
     .line 4
-    const-string v0, "san_base_media_view_layout"
+    const-string v0, "ccsan_san_base_media_view_layout"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

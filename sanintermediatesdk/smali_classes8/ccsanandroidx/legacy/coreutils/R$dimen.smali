@@ -28,9 +28,9 @@
 
 .field public static final compat_notification_large_icon_max_width:I = 0x7f060062
 
-.field public static final notification_action_icon_size:I = 0x7f060181
+.field public static final ccsan_ccsan_notification_action_icon_size:I = 0x7f060181
 
-.field public static final notification_action_text_size:I = 0x7f060182
+.field public static final ccsan_ccsan_notification_action_text_size:I = 0x7f060182
 
 .field public static final notification_big_circle_margin:I = 0x7f060183
 

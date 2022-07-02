@@ -1321,7 +1321,7 @@
 
     move-result-object v1
 
-    const-string v2, "san_xz_notification_progress_layout"
+    const-string v2, "ccsan_san_xz_notification_progress_layout"
 
     invoke-static {v2}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -1665,7 +1665,7 @@
 
     move-result-object v1
 
-    const-string v2, "san_xz_notification_complete_layout"
+    const-string v2, "ccsan_san_xz_notification_complete_layout"
 
     invoke-static {v2}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -2188,7 +2188,7 @@
 
     move-result p1
 
-    const-string v1, "san_cpi_notification_xz_failure"
+    const-string v1, "ccsan_san_cpi_notification_xz_failure"
 
     if-eqz p1, :cond_5
 
@@ -2230,7 +2230,7 @@
     throw p0
 
     :cond_5
-    const-string v1, "san_cpi_notification_xz_success"
+    const-string v1, "ccsan_san_cpi_notification_xz_success"
 
     .line 27
     :goto_5

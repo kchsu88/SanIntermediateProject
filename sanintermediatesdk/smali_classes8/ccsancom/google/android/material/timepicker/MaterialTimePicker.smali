@@ -270,7 +270,7 @@
 
     move-result-object v1
 
-    sget v2, Lccsancom/google/android/material/R$string;->material_timepicker_clock_mode_description:I
+    sget v2, Lccsancom/google/android/material/R$string;->ccsan_ccsan_material_timepicker_clock_mode_description:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -290,7 +290,7 @@
 
     move-result-object v1
 
-    sget v2, Lccsancom/google/android/material/R$string;->material_timepicker_text_input_mode_description:I
+    sget v2, Lccsancom/google/android/material/R$string;->ccsan_ccsan_material_timepicker_text_input_mode_description:I
 
     invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -940,7 +940,7 @@
     .param p3, "bundle"    # Lccsanandroid/os/Bundle;
 
     .line 204
-    sget v0, Lccsancom/google/android/material/R$layout;->material_timepicker_dialog:I
+    sget v0, Lccsancom/google/android/material/R$layout;->ccsan_ccsan_ccsan_ccsan_material_timepicker_dialog:I
 
     .line 205
     invoke-virtual {p1, v0, p2}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;)Lccsanandroid/view/View;
@@ -951,7 +951,7 @@
 
     .line 206
     .local v0, "root":Lccsanandroid/view/ViewGroup;
-    sget v1, Lccsancom/google/android/material/R$id;->material_timepicker_view:I
+    sget v1, Lccsancom/google/android/material/R$id;->ccsan_ccsan_material_timepicker_view:I
 
     invoke-virtual {v0, v1}, Lccsanandroid/view/ViewGroup;->findViewById(I)Lccsanandroid/view/View;
 
@@ -969,7 +969,7 @@
     invoke-virtual {v1, v2}, Lccsancom/google/android/material/timepicker/TimePickerView;->setOnDoubleTapListener(Lccsancom/google/android/material/timepicker/TimePickerView$OnDoubleTapListener;)V
 
     .line 216
-    sget v1, Lccsancom/google/android/material/R$id;->material_textinput_timepicker:I
+    sget v1, Lccsancom/google/android/material/R$id;->ccsan_ccsan_material_textinput_timepicker:I
 
     invoke-virtual {v0, v1}, Lccsanandroid/view/ViewGroup;->findViewById(I)Lccsanandroid/view/View;
 
@@ -980,7 +980,7 @@
     iput-object v1, p0, Lccsancom/google/android/material/timepicker/MaterialTimePicker;->textInputStub:Lccsanandroid/view/ViewStub;
 
     .line 217
-    sget v1, Lccsancom/google/android/material/R$id;->material_timepicker_mode_button:I
+    sget v1, Lccsancom/google/android/material/R$id;->ccsan_ccsan_material_timepicker_mode_button:I
 
     invoke-virtual {v0, v1}, Lccsanandroid/view/ViewGroup;->findViewById(I)Lccsanandroid/view/View;
 
@@ -1030,7 +1030,7 @@
     invoke-direct {p0, v2}, Lccsancom/google/android/material/timepicker/MaterialTimePicker;->updateInputMode(Lccsancom/google/android/material/button/MaterialButton;)V
 
     .line 229
-    sget v2, Lccsancom/google/android/material/R$id;->material_timepicker_ok_button:I
+    sget v2, Lccsancom/google/android/material/R$id;->ccsan_ccsan_material_timepicker_ok_button:I
 
     invoke-virtual {v0, v2}, Lccsanandroid/view/ViewGroup;->findViewById(I)Lccsanandroid/view/View;
 
@@ -1047,7 +1047,7 @@
     invoke-virtual {v2, v3}, Lccsanandroid/widget/Button;->setOnClickListener(Lccsanandroid/view/View$OnClickListener;)V
 
     .line 241
-    sget v3, Lccsancom/google/android/material/R$id;->material_timepicker_cancel_button:I
+    sget v3, Lccsancom/google/android/material/R$id;->ccsan_ccsan_material_timepicker_cancel_button:I
 
     invoke-virtual {v0, v3}, Lccsanandroid/view/ViewGroup;->findViewById(I)Lccsanandroid/view/View;
 

@@ -986,7 +986,7 @@
 
     move-result-object v0
 
-    const-string v1, "san_basic_hybrid_wrapper_webview"
+    const-string v1, "ccsan_san_basic_hybrid_wrapper_webview"
 
     invoke-static {v1}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

@@ -324,12 +324,12 @@
 
     if-eqz p1, :cond_0
 
-    sget v1, Lccsancom/applovin/sdk/R$drawable;->unmute_to_mute:I
+    sget v1, Lccsancom/applovin/sdk/R$drawable;->ccsan_unmute_to_mute:I
 
     goto :goto_0
 
     :cond_0
-    sget v1, Lccsancom/applovin/sdk/R$drawable;->mute_to_unmute:I
+    sget v1, Lccsancom/applovin/sdk/R$drawable;->ccsan_mute_to_unmute:I
 
     :goto_0
     invoke-virtual {v0, v1}, Lccsancom/applovin/adview/AppLovinFullscreenActivity;->getDrawable(I)Lccsanandroid/graphics/drawable/Drawable;

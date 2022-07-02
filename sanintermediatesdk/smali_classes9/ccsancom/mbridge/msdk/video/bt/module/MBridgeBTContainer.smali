@@ -1157,7 +1157,7 @@
     const-string v1, "_"
 
     :try_start_0
-    const-string v2, "mbridge_bt_container"
+    const-string v2, "ccsan_mbridge_bt_container"
 
     invoke-virtual {p0, v2}, Lccsancom/mbridge/msdk/video/bt/module/MBridgeBTContainer;->findLayout(Ljava/lang/String;)I
 
@@ -1167,7 +1167,7 @@
     if-gez v2, :cond_0
 
     .line 110
-    const-string v0, "mbridge_bt_container layout null"
+    const-string v0, "ccsan_mbridge_bt_container layout null"
 
     invoke-virtual {p0, v0}, Lccsancom/mbridge/msdk/video/bt/module/MBridgeBTContainer;->a(Ljava/lang/String;)V
 

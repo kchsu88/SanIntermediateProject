@@ -105,7 +105,7 @@
 
     move-result-object v1
 
-    sget v2, Lccsancom/google/android/material/R$layout;->design_navigation_menu_item:I
+    sget v2, Lccsancom/google/android/material/R$layout;->ccsan_ccsan_design_navigation_menu_item:I
 
     const/4 v3, 0x1
 
@@ -309,7 +309,7 @@
     if-nez v0, :cond_0
 
     .line 164
-    sget v0, Lccsancom/google/android/material/R$id;->design_menu_item_action_area_stub:I
+    sget v0, Lccsancom/google/android/material/R$id;->ccsan_design_menu_item_action_area_stub:I
 
     .line 166
     invoke-virtual {p0, v0}, Lccsancom/google/android/material/internal/NavigationMenuItemView;->findViewById(I)Lccsanandroid/view/View;
@@ -718,7 +718,7 @@
 
     move-result-object v1
 
-    sget v2, Lccsancom/google/android/material/R$drawable;->navigation_empty_icon:I
+    sget v2, Lccsancom/google/android/material/R$drawable;->ccsan_navigation_empty_icon:I
 
     invoke-virtual {p0}, Lccsancom/google/android/material/internal/NavigationMenuItemView;->getContext()Lccsanandroid/content/Context;
 

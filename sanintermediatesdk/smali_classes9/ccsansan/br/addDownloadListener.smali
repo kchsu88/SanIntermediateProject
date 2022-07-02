@@ -2495,7 +2495,7 @@
 
     const-string v2, "san_request_failed_network_msg"
 
-    const-string v4, "san_request_failed_common"
+    const-string v4, "ccsan_san_request_failed_common"
 
     goto :goto_3
 
@@ -2503,7 +2503,7 @@
     :pswitch_1
     iget-object v0, p0, Lccsansan/br/addDownloadListener;->pause:Lccsanandroid/widget/ImageView;
 
-    const-string v1, "san_request_failed_wireless"
+    const-string v1, "ccsan_san_request_failed_wireless"
 
     invoke-static {v1}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 

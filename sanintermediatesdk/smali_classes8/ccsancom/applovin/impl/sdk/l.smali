@@ -97,7 +97,7 @@
 
     move-result-object v3
 
-    sget v4, Lccsancom/applovin/sdk/R$drawable;->applovin_ic_white_small:I
+    sget v4, Lccsancom/applovin/sdk/R$drawable;->ccsan_applovin_ic_white_small:I
 
     invoke-virtual {v3, v4}, Lccsanandroid/content/res/Resources;->getDrawable(I)Lccsanandroid/graphics/drawable/Drawable;
 

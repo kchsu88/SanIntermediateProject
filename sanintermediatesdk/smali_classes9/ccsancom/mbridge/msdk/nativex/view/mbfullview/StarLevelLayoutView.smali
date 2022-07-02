@@ -87,7 +87,7 @@
 
     move-result-object v5
 
-    const-string v6, "mbridge_demo_star_sel"
+    const-string v6, "ccsan_mbridge_demo_star_sel"
 
     invoke-static {v5, v6, v4}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
@@ -103,7 +103,7 @@
 
     move-result-object v5
 
-    const-string v6, "mbridge_demo_star_nor"
+    const-string v6, "ccsan_mbridge_demo_star_nor"
 
     invoke-static {v5, v6, v4}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 

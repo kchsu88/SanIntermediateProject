@@ -394,7 +394,7 @@
     goto :goto_0
 
     :cond_0
-    sget v0, Lccsancom/applovin/sdk/R$drawable;->applovin_ic_mediation_placeholder:I
+    sget v0, Lccsancom/applovin/sdk/R$drawable;->ccsan_applovin_ic_mediation_placeholder:I
 
     :goto_0
     return v0
@@ -409,7 +409,7 @@
 
     if-eqz v0, :cond_0
 
-    sget v0, Lccsancom/applovin/sdk/R$drawable;->applovin_ic_disclosure_arrow:I
+    sget v0, Lccsancom/applovin/sdk/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_applovin_ic_disclosure_arrow:I
 
     goto :goto_0
 

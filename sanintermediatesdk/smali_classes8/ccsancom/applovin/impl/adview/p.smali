@@ -2040,12 +2040,12 @@
 
     if-eqz p1, :cond_0
 
-    sget p1, Lccsancom/applovin/sdk/R$drawable;->unmute_to_mute:I
+    sget p1, Lccsancom/applovin/sdk/R$drawable;->ccsan_unmute_to_mute:I
 
     goto :goto_0
 
     :cond_0
-    sget p1, Lccsancom/applovin/sdk/R$drawable;->mute_to_unmute:I
+    sget p1, Lccsancom/applovin/sdk/R$drawable;->ccsan_mute_to_unmute:I
 
     :goto_0
     invoke-virtual {p0, p1}, Lccsancom/applovin/impl/adview/p;->getDrawable(I)Lccsanandroid/graphics/drawable/Drawable;

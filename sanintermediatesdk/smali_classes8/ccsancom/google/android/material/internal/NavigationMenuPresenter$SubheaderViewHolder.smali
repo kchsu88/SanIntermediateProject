@@ -21,7 +21,7 @@
     .param p2, "parent"    # Lccsanandroid/view/ViewGroup;
 
     .line 387
-    sget v0, Lccsancom/google/android/material/R$layout;->design_navigation_item_subheader:I
+    sget v0, Lccsancom/google/android/material/R$layout;->ccsan_ccsan_design_navigation_item_subheader:I
 
     const/4 v1, 0x0
 

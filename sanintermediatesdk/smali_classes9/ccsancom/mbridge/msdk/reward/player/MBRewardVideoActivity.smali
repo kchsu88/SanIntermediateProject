@@ -253,7 +253,7 @@
     if-gez v0, :cond_0
 
     .line 289
-    const-string v1, "no id mbridge_bt_container in mbridge_more_offer_activity layout"
+    const-string v1, "no id ccsan_mbridge_bt_container in ccsan_mbridge_more_offer_activity layout"
 
     invoke-direct {p0, v1}, Lccsancom/mbridge/msdk/reward/player/MBRewardVideoActivity;->a(Ljava/lang/String;)V
 
@@ -532,7 +532,7 @@
     .locals 10
 
     .line 328
-    const-string v0, "mbridge_bt_container"
+    const-string v0, "ccsan_mbridge_bt_container"
 
     invoke-virtual {p0, v0}, Lccsancom/mbridge/msdk/reward/player/MBRewardVideoActivity;->findID(Ljava/lang/String;)I
 
@@ -542,7 +542,7 @@
     if-gez v0, :cond_0
 
     .line 330
-    const-string v1, "no mbridge_webview_framelayout in mbridge_more_offer_activity layout"
+    const-string v1, "no mbridge_webview_framelayout in ccsan_mbridge_more_offer_activity layout"
 
     invoke-direct {p0, v1}, Lccsancom/mbridge/msdk/reward/player/MBRewardVideoActivity;->a(Ljava/lang/String;)V
 
@@ -976,7 +976,7 @@
 
     .line 129
     :try_start_0
-    const-string v7, "mbridge_more_offer_activity"
+    const-string v7, "ccsan_mbridge_more_offer_activity"
 
     invoke-virtual {v1, v7}, Lccsancom/mbridge/msdk/reward/player/MBRewardVideoActivity;->findLayout(Ljava/lang/String;)I
 
@@ -986,7 +986,7 @@
     if-gez v7, :cond_0
 
     .line 131
-    const-string v0, "no mbridge_more_offer_activity layout"
+    const-string v0, "no ccsan_mbridge_more_offer_activity layout"
 
     invoke-direct {v1, v0}, Lccsancom/mbridge/msdk/reward/player/MBRewardVideoActivity;->a(Ljava/lang/String;)V
 
@@ -1305,14 +1305,14 @@
 
     .line 180
     :cond_7
-    const-string v8, "mbridge_reward_activity_open"
+    const-string v8, "ccsan_mbridge_reward_activity_open"
 
     invoke-static {v1, v8, v4}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
     move-result v8
 
     .line 181
-    const-string v12, "mbridge_reward_activity_stay"
+    const-string v12, "ccsan_mbridge_reward_activity_stay"
 
     invoke-static {v1, v12, v4}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 

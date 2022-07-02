@@ -70,7 +70,7 @@
 
     .line 69
     .local v0, "inflater":Lccsanandroid/view/LayoutInflater;
-    sget v1, Lccsancom/google/android/material/R$layout;->material_time_chip:I
+    sget v1, Lccsancom/google/android/material/R$layout;->ccsan_material_time_chip:I
 
     const/4 v2, 0x0
 
@@ -83,7 +83,7 @@
     iput-object v1, p0, Lccsancom/google/android/material/timepicker/ChipTextInputComboView;->chip:Lccsancom/google/android/material/chip/Chip;
 
     .line 70
-    sget v3, Lccsancom/google/android/material/R$layout;->material_time_input:I
+    sget v3, Lccsancom/google/android/material/R$layout;->ccsan_material_time_input:I
 
     invoke-virtual {v0, v3, p0, v2}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;Z)Lccsanandroid/view/View;
 

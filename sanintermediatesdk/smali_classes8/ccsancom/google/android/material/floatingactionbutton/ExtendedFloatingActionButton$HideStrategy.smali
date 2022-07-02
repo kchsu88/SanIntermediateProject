@@ -42,7 +42,7 @@
     .locals 1
 
     .line 1278
-    sget v0, Lccsancom/google/android/material/R$animator;->mtrl_extended_fab_hide_motion_spec:I
+    sget v0, Lccsancom/google/android/material/R$animator;->ccsan_mtrl_extended_fab_hide_motion_spec:I
 
     return v0
 .end method

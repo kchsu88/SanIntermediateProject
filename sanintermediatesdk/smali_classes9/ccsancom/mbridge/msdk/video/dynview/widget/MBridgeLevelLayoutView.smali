@@ -208,7 +208,7 @@
 
     move-result-object v8
 
-    const-string v10, "mbridge_reward_user"
+    const-string v10, "ccsan_mbridge_reward_user"
 
     invoke-static {v8, v10, v0}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
@@ -317,7 +317,7 @@
 
     move-result-object v9
 
-    const-string v10, "mbridge_download_message_dialog_star_sel"
+    const-string v10, "ccsan_mbridge_download_message_dialog_star_sel"
 
     invoke-static {v9, v10, v0}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
@@ -333,7 +333,7 @@
 
     move-result-object v9
 
-    const-string v10, "mbridge_download_message_dilaog_star_nor"
+    const-string v10, "ccsan_mbridge_download_message_dilaog_star_nor"
 
     invoke-static {v9, v10, v0}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 

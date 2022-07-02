@@ -68,7 +68,7 @@
 
     invoke-super {p0, p1}, Lccsancom/applovin/impl/mediation/debugger/ui/a;->onCreate(Lccsanandroid/os/Bundle;)V
 
-    sget p1, Lccsancom/applovin/sdk/R$layout;->list_view:I
+    sget p1, Lccsancom/applovin/sdk/R$layout;->ccsan_list_view:I
 
     invoke-virtual {p0, p1}, Lccsancom/applovin/impl/mediation/debugger/ui/c/a;->setContentView(I)V
 

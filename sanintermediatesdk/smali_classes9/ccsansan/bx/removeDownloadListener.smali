@@ -178,7 +178,7 @@
     iget-object v4, p1, Lccsansan/bx/removeDownloadListener$getDownloadingList;->addDownloadListener:Lccsanandroid/widget/ImageView;
 
     .line 12
-    const-string v0, "san_app_icon_bg"
+    const-string v0, "ccsan_san_app_icon_bg"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 
@@ -226,12 +226,12 @@
 
     if-eqz v0, :cond_0
 
-    const-string v0, "san_landing_page_gp_item_por"
+    const-string v0, "ccsan_san_landing_page_gp_item_por"
 
     goto :goto_0
 
     :cond_0
-    const-string v0, "san_landing_page_gp_gallery_item"
+    const-string v0, "ccsan_san_landing_page_gp_gallery_item"
 
     .line 3
     :goto_0

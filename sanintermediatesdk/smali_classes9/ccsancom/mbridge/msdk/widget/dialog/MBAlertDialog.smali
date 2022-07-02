@@ -49,7 +49,7 @@
 
     move-result-object v2
 
-    const-string v3, "mbridge_cm_alertview"
+    const-string v3, "ccsan_mbridge_cm_alertview"
 
     const-string v5, "layout"
 

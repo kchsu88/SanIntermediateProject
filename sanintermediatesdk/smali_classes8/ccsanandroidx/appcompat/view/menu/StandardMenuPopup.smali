@@ -60,7 +60,7 @@
     .locals 1
 
     .line 46
-    sget v0, Lccsanandroidx/appcompat/R$layout;->abc_popup_menu_item_layout:I
+    sget v0, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_popup_menu_item_layout:I
 
     sput v0, Lccsanandroidx/appcompat/view/menu/StandardMenuPopup;->ITEM_LAYOUT:I
 
@@ -359,7 +359,7 @@
 
     move-result-object v6
 
-    sget v7, Lccsanandroidx/appcompat/R$layout;->abc_popup_menu_header_item_layout:I
+    sget v7, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_popup_menu_header_item_layout:I
 
     invoke-virtual {v6, v7, v4, v2}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;Z)Lccsanandroid/view/View;
 

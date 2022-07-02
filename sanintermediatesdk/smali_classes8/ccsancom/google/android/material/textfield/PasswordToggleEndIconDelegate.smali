@@ -167,7 +167,7 @@
 
     iget-object v1, p0, Lccsancom/google/android/material/textfield/PasswordToggleEndIconDelegate;->context:Lccsanandroid/content/Context;
 
-    sget v2, Lccsancom/google/android/material/R$drawable;->design_password_eye:I
+    sget v2, Lccsancom/google/android/material/R$drawable;->ccsan_design_password_eye:I
 
     .line 87
     invoke-static {v1, v2}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getDrawable(Lccsanandroid/content/Context;I)Lccsanandroid/graphics/drawable/Drawable;

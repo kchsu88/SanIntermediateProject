@@ -1648,7 +1648,7 @@
     .line 51
     new-instance v8, Lccsanandroid/widget/RemoteViews;
 
-    const-string v0, "san_reserve_notify"
+    const-string v0, "ccsan_ccsan_san_reserve_notify"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -1663,7 +1663,7 @@
 
     move-result v0
 
-    const-string v1, "san_ads_notify_white_bg"
+    const-string v1, "ccsan_san_ads_notify_white_bg"
 
     invoke-static {v1}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 
@@ -1817,7 +1817,7 @@
 
     move-result-object v1
 
-    const-string v2, "san_reserve_notify_moment_later"
+    const-string v2, "ccsan_ccsan_san_reserve_notify_moment_later"
 
     invoke-static {v2}, Lccsansan/bw/shouldTryHandlingAction;->removeDownloadListener(Ljava/lang/String;)I
 

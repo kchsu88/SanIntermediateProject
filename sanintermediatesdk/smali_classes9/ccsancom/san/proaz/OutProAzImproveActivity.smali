@@ -2391,7 +2391,7 @@
 
     .line 15
     :cond_3
-    const-string p1, "san_activity_promotion_az_out_improve"
+    const-string p1, "ccsan_ccsan_san_activity_promotion_az_out_improve"
 
     invoke-static {p1}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

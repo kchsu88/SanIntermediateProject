@@ -61,7 +61,7 @@
     .line 96
     sget v0, Lccsanandroidx/appcompat/R$string;->abc_action_bar_up_description:I
 
-    sget v1, Lccsanandroidx/appcompat/R$drawable;->abc_ic_ab_back_material:I
+    sget v1, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_ic_ab_back_material:I
 
     invoke-direct {p0, p1, p2, v0, v1}, Lccsanandroidx/appcompat/widget/ToolbarWidgetWrapper;-><init>(Lccsanandroidx/appcompat/widget/Toolbar;ZII)V
 

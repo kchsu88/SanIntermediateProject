@@ -347,7 +347,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsancom/google/android/material/R$layout;->mtrl_calendar_year:I
+    sget v1, Lccsancom/google/android/material/R$layout;->ccsan_mtrl_calendar_year:I
 
     .line 55
     const/4 v2, 0x0

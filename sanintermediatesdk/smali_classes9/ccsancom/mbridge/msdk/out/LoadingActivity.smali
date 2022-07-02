@@ -118,7 +118,7 @@
     move-result-object v1
 
     .line 110
-    const-string v2, "mbridge_native_bg_loading_camera"
+    const-string v2, "ccsan_mbridge_native_bg_loading_camera"
 
     const-string v3, "drawable"
 

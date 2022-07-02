@@ -125,7 +125,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsancom/google/android/material/R$layout;->design_bottom_sheet_dialog:I
+    sget v1, Lccsancom/google/android/material/R$layout;->ccsan_design_bottom_sheet_dialog:I
 
     const/4 v2, 0x0
 

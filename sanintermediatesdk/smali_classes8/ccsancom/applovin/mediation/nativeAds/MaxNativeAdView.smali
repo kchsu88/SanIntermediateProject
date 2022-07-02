@@ -52,7 +52,7 @@
 
     if-eqz v0, :cond_0
 
-    sget p2, Lccsancom/applovin/sdk/R$layout;->max_native_ad_vertical_banner_view:I
+    sget p2, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_max_native_ad_vertical_banner_view:I
 
     goto :goto_1
 
@@ -84,18 +84,18 @@
 
     if-eqz p2, :cond_2
 
-    sget p2, Lccsancom/applovin/sdk/R$layout;->max_native_ad_vertical_media_banner_view:I
+    sget p2, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_max_native_ad_vertical_media_banner_view:I
 
     goto :goto_1
 
     :cond_2
-    sget p2, Lccsancom/applovin/sdk/R$layout;->max_native_ad_banner_view:I
+    sget p2, Lccsancom/applovin/sdk/R$layout;->ccsan_max_native_ad_banner_view:I
 
     goto :goto_1
 
     :cond_3
     :goto_0
-    sget p2, Lccsancom/applovin/sdk/R$layout;->max_native_ad_media_banner_view:I
+    sget p2, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_max_native_ad_media_banner_view:I
 
     goto :goto_1
 
@@ -112,12 +112,12 @@
 
     if-eqz p2, :cond_5
 
-    sget p2, Lccsancom/applovin/sdk/R$layout;->max_native_ad_vertical_leader_view:I
+    sget p2, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_max_native_ad_vertical_leader_view:I
 
     goto :goto_1
 
     :cond_5
-    sget p2, Lccsancom/applovin/sdk/R$layout;->max_native_ad_leader_view:I
+    sget p2, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_max_native_ad_leader_view:I
 
     goto :goto_1
 
@@ -126,7 +126,7 @@
 
     if-ne v0, p2, :cond_7
 
-    sget p2, Lccsancom/applovin/sdk/R$layout;->max_native_ad_mrec_view:I
+    sget p2, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_max_native_ad_mrec_view:I
 
     :goto_1
     invoke-virtual {p3}, Lccsanandroid/app/Activity;->getLayoutInflater()Lccsanandroid/view/LayoutInflater;

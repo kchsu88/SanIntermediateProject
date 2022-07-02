@@ -1130,7 +1130,7 @@
 
     invoke-direct {v2, p0, v1}, Lccsanandroidx/core/app/NotificationCompat$Builder;-><init>(Lccsanandroid/content/Context;Ljava/lang/String;)V
 
-    const-string v6, "san_ic_cpi_notification"
+    const-string v6, "ccsan_san_ic_cpi_notification"
 
     .line 62
     invoke-static {v6}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
@@ -2360,7 +2360,7 @@
 
     invoke-direct {p2, p0, v0}, Lccsanandroidx/core/app/NotificationCompat$Builder;-><init>(Lccsanandroid/content/Context;Ljava/lang/String;)V
 
-    const-string v1, "san_ic_cpi_notification"
+    const-string v1, "ccsan_san_ic_cpi_notification"
 
     .line 16
     invoke-static {v1}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I

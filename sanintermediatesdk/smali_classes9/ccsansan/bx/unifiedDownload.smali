@@ -212,7 +212,7 @@
 
     move-result-object p2
 
-    const-string v0, "san_app_shot_image_layout"
+    const-string v0, "ccsan_san_app_shot_image_layout"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

@@ -90,7 +90,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "san_auto_xz_dialog"
+    const-string v0, "ccsan_san_auto_xz_dialog"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

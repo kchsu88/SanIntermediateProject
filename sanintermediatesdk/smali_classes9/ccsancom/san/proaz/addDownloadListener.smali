@@ -124,7 +124,7 @@
 
     move-result-object p1
 
-    const-string v0, "san_app_promotion_az_pop_view"
+    const-string v0, "ccsan_ccsan_san_app_promotion_az_pop_view"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

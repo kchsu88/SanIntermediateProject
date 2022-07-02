@@ -48,7 +48,7 @@
 
     move-result-object v2
 
-    sget v3, Lccsancom/google/android/material/R$dimen;->mtrl_alert_dialog_background_inset_start:I
+    sget v3, Lccsancom/google/android/material/R$dimen;->ccsan_mtrl_alert_dialog_background_inset_start:I
 
     .line 72
     invoke-virtual {v2, v3}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -69,7 +69,7 @@
 
     move-result-object v3
 
-    sget v4, Lccsancom/google/android/material/R$dimen;->mtrl_alert_dialog_background_inset_top:I
+    sget v4, Lccsancom/google/android/material/R$dimen;->ccsan_mtrl_alert_dialog_background_inset_top:I
 
     .line 78
     invoke-virtual {v3, v4}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -90,7 +90,7 @@
 
     move-result-object v4
 
-    sget v5, Lccsancom/google/android/material/R$dimen;->mtrl_alert_dialog_background_inset_end:I
+    sget v5, Lccsancom/google/android/material/R$dimen;->ccsan_mtrl_alert_dialog_background_inset_end:I
 
     .line 85
     invoke-virtual {v4, v5}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I
@@ -111,7 +111,7 @@
 
     move-result-object v5
 
-    sget v6, Lccsancom/google/android/material/R$dimen;->mtrl_alert_dialog_background_inset_bottom:I
+    sget v6, Lccsancom/google/android/material/R$dimen;->ccsan_mtrl_alert_dialog_background_inset_bottom:I
 
     .line 91
     invoke-virtual {v5, v6}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I

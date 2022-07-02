@@ -769,7 +769,7 @@
     invoke-virtual {p0, v0}, Lccsanandroid/widget/FrameLayout;->setClipChildren(Z)V
 
     .line 4
-    const-string v0, "san_landing_page_full_screen_image_layout"
+    const-string v0, "ccsan_san_landing_page_full_screen_image_layout"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

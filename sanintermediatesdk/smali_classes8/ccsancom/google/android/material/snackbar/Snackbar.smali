@@ -372,12 +372,12 @@
 
     if-eqz v2, :cond_1
 
-    sget v2, Lccsancom/google/android/material/R$layout;->mtrl_layout_snackbar_include:I
+    sget v2, Lccsancom/google/android/material/R$layout;->ccsan_ccsan_ccsan_mtrl_layout_snackbar_include:I
 
     goto :goto_0
 
     :cond_1
-    sget v2, Lccsancom/google/android/material/R$layout;->design_layout_snackbar_include:I
+    sget v2, Lccsancom/google/android/material/R$layout;->ccsan_ccsan_ccsan_design_layout_snackbar_include:I
 
     :goto_0
     const/4 v3, 0x0

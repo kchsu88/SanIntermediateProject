@@ -788,7 +788,7 @@
     .end annotation
 
     .line 2858
-    sget v0, Lccsanandroidx/core/R$drawable;->notification_icon_background:I
+    sget v0, Lccsanandroidx/core/R$drawable;->ccsan_notification_icon_background:I
 
     .line 2859
     if-nez p4, :cond_0
@@ -1107,7 +1107,7 @@
     .line 2680
     sget v9, Lccsanandroidx/core/R$id;->notification_background:I
 
-    sget v10, Lccsanandroidx/core/R$drawable;->notification_bg_low:I
+    sget v10, Lccsanandroidx/core/R$drawable;->ccsan_ccsan_notification_bg_low:I
 
     invoke-virtual {v2, v9, v6, v10}, Lccsanandroid/widget/RemoteViews;->setInt(ILjava/lang/String;I)V
 
@@ -1124,7 +1124,7 @@
     :cond_1
     sget v9, Lccsanandroidx/core/R$id;->notification_background:I
 
-    sget v10, Lccsanandroidx/core/R$drawable;->notification_bg:I
+    sget v10, Lccsanandroidx/core/R$drawable;->ccsan_notification_bg:I
 
     invoke-virtual {v2, v9, v6, v10}, Lccsanandroid/widget/RemoteViews;->setInt(ILjava/lang/String;I)V
 

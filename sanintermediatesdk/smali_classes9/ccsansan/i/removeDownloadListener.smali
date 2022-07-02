@@ -114,7 +114,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "san_full_vast_remain_close_layout"
+    const-string v0, "ccsan_san_full_vast_remain_close_layout"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -969,7 +969,7 @@
 
     move-result-object v0
 
-    const-string v1, "san_vast_player_reward_time_bg2"
+    const-string v1, "ccsan_ccsan_san_vast_player_reward_time_bg2"
 
     invoke-static {v1}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 

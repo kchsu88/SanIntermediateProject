@@ -44,7 +44,7 @@
     .locals 2
 
     .line 1
-    const-string v0, "san_media_view_layout"
+    const-string v0, "ccsan_san_media_view_layout"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

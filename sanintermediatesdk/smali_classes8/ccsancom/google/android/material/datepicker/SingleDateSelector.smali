@@ -296,7 +296,7 @@
 
     .line 101
     .local p5, "listener":Lccsancom/google/android/material/datepicker/OnSelectionChangedListener;, "Lccsancom/google/android/material/datepicker/OnSelectionChangedListener<Ljava/lang/Long;>;"
-    sget v0, Lccsancom/google/android/material/R$layout;->mtrl_picker_text_input_date:I
+    sget v0, Lccsancom/google/android/material/R$layout;->ccsan_mtrl_picker_text_input_date:I
 
     const/4 v1, 0x0
 
@@ -310,7 +310,7 @@
 
     .line 103
     .local v0, "root":Lccsanandroid/view/View;
-    sget v1, Lccsancom/google/android/material/R$id;->mtrl_picker_text_input_date:I
+    sget v1, Lccsancom/google/android/material/R$id;->ccsan_mtrl_picker_text_input_date:I
 
     invoke-virtual {v0, v1}, Lccsanandroid/view/View;->findViewById(I)Lccsanandroid/view/View;
 

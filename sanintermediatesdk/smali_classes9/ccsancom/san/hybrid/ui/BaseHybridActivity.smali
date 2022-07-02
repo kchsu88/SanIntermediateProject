@@ -118,7 +118,7 @@
     invoke-super {p0, p1}, Lccsanandroidx/fragment/app/FragmentActivity;->onCreate(Lccsanandroid/os/Bundle;)V
 
     .line 2
-    const-string v0, "san_basic_hybrid_web_activity"
+    const-string v0, "ccsan_san_basic_hybrid_web_activity"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

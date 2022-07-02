@@ -265,7 +265,7 @@
     goto :goto_0
 
     :cond_0
-    sget p2, Lccsancom/applovin/sdk/R$drawable;->applovin_ic_x_mark:I
+    sget p2, Lccsancom/applovin/sdk/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_applovin_ic_x_mark:I
 
     invoke-virtual {p1, p2}, Lccsancom/applovin/impl/mediation/debugger/ui/d/c$a;->a(I)Lccsancom/applovin/impl/mediation/debugger/ui/d/c$a;
 
@@ -300,7 +300,7 @@
 
     move-result-object p1
 
-    sget p2, Lccsancom/applovin/sdk/R$drawable;->applovin_ic_x_mark:I
+    sget p2, Lccsancom/applovin/sdk/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_applovin_ic_x_mark:I
 
     invoke-virtual {p1, p2}, Lccsancom/applovin/impl/mediation/debugger/ui/d/c$a;->a(I)Lccsancom/applovin/impl/mediation/debugger/ui/d/c$a;
 

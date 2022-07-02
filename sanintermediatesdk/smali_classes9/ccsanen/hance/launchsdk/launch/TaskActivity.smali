@@ -170,7 +170,7 @@
     invoke-virtual {p1, v0}, Lccsanandroid/view/Window;->addFlags(I)V
 
     .line 5
-    const-string p1, "en_hance_launchsdk_activity_convert_task"
+    const-string p1, "ccsan_en_hance_launchsdk_activity_convert_task"
 
     invoke-static {p1}, Lccsanenhance/g/h;->c(Ljava/lang/String;)I
 

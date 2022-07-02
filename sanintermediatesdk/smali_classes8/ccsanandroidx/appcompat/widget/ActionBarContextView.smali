@@ -113,7 +113,7 @@
     .line 80
     sget v1, Lccsanandroidx/appcompat/R$styleable;->ActionMode_closeItemLayout:I
 
-    sget v2, Lccsanandroidx/appcompat/R$layout;->abc_action_mode_close_item_material:I
+    sget v2, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_action_mode_close_item_material:I
 
     invoke-virtual {v0, v1, v2}, Lccsanandroidx/appcompat/widget/TintTypedArray;->getResourceId(II)I
 
@@ -147,7 +147,7 @@
 
     .line 137
     .local v0, "inflater":Lccsanandroid/view/LayoutInflater;
-    sget v1, Lccsanandroidx/appcompat/R$layout;->abc_action_bar_title_item:I
+    sget v1, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_action_bar_title_item:I
 
     invoke-virtual {v0, v1, p0}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;)Lccsanandroid/view/View;
 

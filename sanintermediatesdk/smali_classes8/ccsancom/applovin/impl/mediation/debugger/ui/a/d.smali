@@ -132,7 +132,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsancom/applovin/sdk/R$drawable;->applovin_ic_x_mark:I
+    sget v1, Lccsancom/applovin/sdk/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_applovin_ic_x_mark:I
 
     invoke-virtual {v0, v1}, Lccsanandroid/content/res/Resources;->getDrawable(I)Lccsanandroid/graphics/drawable/Drawable;
 

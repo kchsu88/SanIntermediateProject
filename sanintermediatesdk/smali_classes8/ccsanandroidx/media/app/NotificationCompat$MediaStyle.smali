@@ -96,7 +96,7 @@
 
     move-result-object v2
 
-    sget v3, Lccsanandroidx/media/R$layout;->notification_media_action:I
+    sget v3, Lccsanandroidx/media/R$layout;->ccsan_notification_media_action:I
 
     invoke-direct {v1, v2, v3}, Lccsanandroid/widget/RemoteViews;-><init>(Ljava/lang/String;I)V
 
@@ -675,12 +675,12 @@
 
     if-gt p1, v0, :cond_0
 
-    sget v0, Lccsanandroidx/media/R$layout;->notification_template_big_media_narrow:I
+    sget v0, Lccsanandroidx/media/R$layout;->ccsan_ccsan_notification_template_big_media_narrow:I
 
     goto :goto_0
 
     :cond_0
-    sget v0, Lccsanandroidx/media/R$layout;->notification_template_big_media:I
+    sget v0, Lccsanandroidx/media/R$layout;->ccsan_notification_template_big_media:I
 
     :goto_0
     return v0
@@ -690,7 +690,7 @@
     .locals 1
 
     .line 294
-    sget v0, Lccsanandroidx/media/R$layout;->notification_template_media:I
+    sget v0, Lccsanandroidx/media/R$layout;->ccsan_notification_template_media:I
 
     return v0
 .end method

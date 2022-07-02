@@ -130,7 +130,7 @@
 
     new-array v2, v2, [Lccsanandroid/view/animation/Interpolator;
 
-    sget v3, Lccsancom/google/android/material/R$animator;->linear_indeterminate_line1_head_interpolator:I
+    sget v3, Lccsancom/google/android/material/R$animator;->ccsan_linear_indeterminate_line1_head_interpolator:I
 
     .line 72
     invoke-static {p1, v3}, Lccsanandroidx/vectordrawable/graphics/drawable/AnimationUtilsCompat;->loadInterpolator(Lccsanandroid/content/Context;I)Lccsanandroid/view/animation/Interpolator;
@@ -139,7 +139,7 @@
 
     aput-object v3, v2, v1
 
-    sget v1, Lccsancom/google/android/material/R$animator;->linear_indeterminate_line1_tail_interpolator:I
+    sget v1, Lccsancom/google/android/material/R$animator;->ccsan_linear_indeterminate_line1_tail_interpolator:I
 
     .line 74
     invoke-static {p1, v1}, Lccsanandroidx/vectordrawable/graphics/drawable/AnimationUtilsCompat;->loadInterpolator(Lccsanandroid/content/Context;I)Lccsanandroid/view/animation/Interpolator;
@@ -150,7 +150,7 @@
 
     aput-object v1, v2, v3
 
-    sget v1, Lccsancom/google/android/material/R$animator;->linear_indeterminate_line2_head_interpolator:I
+    sget v1, Lccsancom/google/android/material/R$animator;->ccsan_linear_indeterminate_line2_head_interpolator:I
 
     .line 76
     invoke-static {p1, v1}, Lccsanandroidx/vectordrawable/graphics/drawable/AnimationUtilsCompat;->loadInterpolator(Lccsanandroid/content/Context;I)Lccsanandroid/view/animation/Interpolator;
@@ -159,7 +159,7 @@
 
     aput-object v1, v2, v0
 
-    sget v0, Lccsancom/google/android/material/R$animator;->linear_indeterminate_line2_tail_interpolator:I
+    sget v0, Lccsancom/google/android/material/R$animator;->ccsan_linear_indeterminate_line2_tail_interpolator:I
 
     .line 78
     invoke-static {p1, v0}, Lccsanandroidx/vectordrawable/graphics/drawable/AnimationUtilsCompat;->loadInterpolator(Lccsanandroid/content/Context;I)Lccsanandroid/view/animation/Interpolator;

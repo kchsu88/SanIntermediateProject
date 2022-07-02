@@ -106,7 +106,7 @@
     iput-object v0, p0, Lccsancom/mbridge/msdk/video/dynview/i/b;->m:Ljava/lang/String;
 
     .line 48
-    const-string v0, "mbridge_reward_shape_choice_rl"
+    const-string v0, "ccsan_ccsan_mbridge_reward_shape_choice_rl"
 
     iput-object v0, p0, Lccsancom/mbridge/msdk/video/dynview/i/b;->n:Ljava/lang/String;
 

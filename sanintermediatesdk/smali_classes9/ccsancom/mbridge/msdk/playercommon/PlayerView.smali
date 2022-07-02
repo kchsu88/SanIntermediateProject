@@ -254,7 +254,7 @@
 
     move-result-object v0
 
-    const-string v1, "mbridge_playercommon_player_view"
+    const-string v1, "ccsan_mbridge_playercommon_player_view"
 
     const-string v2, "layout"
 

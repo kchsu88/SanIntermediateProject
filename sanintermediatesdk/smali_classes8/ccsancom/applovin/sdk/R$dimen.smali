@@ -56,9 +56,9 @@
 
 .field public static final item_touch_helper_swipe_escape_velocity:I = 0x7f0600a1
 
-.field public static final notification_action_icon_size:I = 0x7f060181
+.field public static final ccsan_ccsan_notification_action_icon_size:I = 0x7f060181
 
-.field public static final notification_action_text_size:I = 0x7f060182
+.field public static final ccsan_ccsan_notification_action_text_size:I = 0x7f060182
 
 .field public static final notification_big_circle_margin:I = 0x7f060183
 

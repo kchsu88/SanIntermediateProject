@@ -3552,7 +3552,7 @@
 
     const/4 v1, 0x2
 
-    const-string v2, "mbridge_reward_layer_floor"
+    const-string v2, "ccsan_mbridge_reward_layer_floor"
 
     invoke-virtual {v0, p0, v2, v1, p1}, Lccsancom/mbridge/msdk/video/dynview/i/c;->a(Lccsanandroid/view/View;Ljava/lang/String;ILjava/lang/String;)Lccsancom/mbridge/msdk/video/dynview/b;
 
@@ -3577,7 +3577,7 @@
     nop
 
     .line 3201
-    const-string p1, "mbridge_reward_videoview_item"
+    const-string p1, "ccsan_mbridge_reward_videoview_item"
 
     invoke-virtual {p0, p1}, Lccsancom/mbridge/msdk/video/module/MBridgeVideoView;->findLayout(Ljava/lang/String;)I
 

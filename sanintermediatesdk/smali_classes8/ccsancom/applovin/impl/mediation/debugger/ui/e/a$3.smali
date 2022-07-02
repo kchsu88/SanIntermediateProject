@@ -79,7 +79,7 @@
 
     if-eqz v0, :cond_0
 
-    sget v0, Lccsancom/applovin/sdk/R$drawable;->applovin_ic_check_mark_borderless:I
+    sget v0, Lccsancom/applovin/sdk/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_applovin_ic_check_mark_borderless:I
 
     return v0
 

@@ -58,7 +58,7 @@
 
     move-result-object p1
 
-    const-string v0, "mbridge_nativex_fullscreen_top"
+    const-string v0, "ccsan_mbridge_nativex_fullscreen_top"
 
     const-string v1, "layout"
 

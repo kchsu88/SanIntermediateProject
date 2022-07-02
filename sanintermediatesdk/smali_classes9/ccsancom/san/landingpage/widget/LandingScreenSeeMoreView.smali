@@ -134,7 +134,7 @@
     invoke-virtual {p0, v0}, Lccsanandroid/widget/FrameLayout;->setClipChildren(Z)V
 
     .line 4
-    const-string v1, "san_landing_page_see_more_layout"
+    const-string v1, "ccsan_san_landing_page_see_more_layout"
 
     invoke-static {v1}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -1345,7 +1345,7 @@
     :pswitch_4
     iget-object p1, p0, Lccsancom/san/landingpage/widget/LandingScreenSeeMoreView;->mSoundView:Lccsanandroid/widget/ImageView;
 
-    const-string v0, "san_mads_see_more_sound_selector"
+    const-string v0, "ccsan_san_mads_see_more_sound_selector"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 

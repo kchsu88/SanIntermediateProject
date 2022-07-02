@@ -1023,13 +1023,13 @@
     if-ne v0, v1, :cond_0
 
     .line 2104
-    const-string v0, "mbridge_reward_end_card_layout_portrait"
+    const-string v0, "ccsan_mbridge_reward_end_card_layout_portrait"
 
     goto :goto_0
 
     .line 2103
     :cond_0
-    const-string v0, "mbridge_reward_end_card_layout_landscape"
+    const-string v0, "ccsan_mbridge_reward_end_card_layout_landscape"
 
     .line 2149
     :goto_0
@@ -1109,13 +1109,13 @@
     if-eqz p1, :cond_2
 
     .line 2423
-    const-string p1, "mbridge_reward_endcard_native_land"
+    const-string p1, "ccsan_mbridge_reward_endcard_native_land"
 
     goto :goto_1
 
     .line 2422
     :cond_2
-    const-string p1, "mbridge_reward_endcard_native_hor"
+    const-string p1, "ccsan_mbridge_reward_endcard_native_hor"
 
     .line 2425
     :goto_1
@@ -1640,7 +1640,7 @@
 
     move-result-object v2
 
-    const-string v3, "mbridge_reward_flag_cn"
+    const-string v3, "ccsan_mbridge_reward_flag_cn"
 
     .line 4240
     invoke-static {}, Lccsancom/mbridge/msdk/foundation/controller/a;->d()Lccsancom/mbridge/msdk/foundation/controller/a;
@@ -1676,7 +1676,7 @@
 
     move-result-object v2
 
-    const-string v3, "mbridge_reward_flag_en"
+    const-string v3, "ccsan_mbridge_reward_flag_en"
 
     .line 4243
     invoke-static {}, Lccsancom/mbridge/msdk/foundation/controller/a;->d()Lccsancom/mbridge/msdk/foundation/controller/a;

@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final san_silent:I = 0x7f0e0000
+.field public static final ccsan_san_silent:I = 0x7f0e0000
 
 
 # direct methods

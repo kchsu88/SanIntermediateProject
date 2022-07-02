@@ -2420,7 +2420,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    const-string v3, "san_base_landingpage_activity"
+    const-string v3, "ccsan_san_base_landingpage_activity"
 
     packed-switch v1, :pswitch_data_0
 

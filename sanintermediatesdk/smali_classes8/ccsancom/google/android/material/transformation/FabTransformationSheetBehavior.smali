@@ -242,7 +242,7 @@
     if-eqz p2, :cond_0
 
     .line 64
-    sget v0, Lccsancom/google/android/material/R$animator;->mtrl_fab_transformation_sheet_expand_spec:I
+    sget v0, Lccsancom/google/android/material/R$animator;->ccsan_mtrl_fab_transformation_sheet_expand_spec:I
 
     .local v0, "specRes":I
     goto :goto_0
@@ -250,7 +250,7 @@
     .line 66
     .end local v0    # "specRes":I
     :cond_0
-    sget v0, Lccsancom/google/android/material/R$animator;->mtrl_fab_transformation_sheet_collapse_spec:I
+    sget v0, Lccsancom/google/android/material/R$animator;->ccsan_mtrl_fab_transformation_sheet_collapse_spec:I
 
     .line 69
     .restart local v0    # "specRes":I

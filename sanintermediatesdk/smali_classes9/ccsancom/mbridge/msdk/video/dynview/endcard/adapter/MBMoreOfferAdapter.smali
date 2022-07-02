@@ -305,7 +305,7 @@
 
     move-result-object p2
 
-    const-string v0, "mbridge_reward_end_card_more_offer_item"
+    const-string v0, "ccsan_mbridge_reward_end_card_more_offer_item"
 
     const-string v1, "layout"
 

@@ -767,7 +767,7 @@
     move-result-object v1
 
     .line 151
-    const-string v2, "mbridge_cm_highlight"
+    const-string v2, "ccsan_mbridge_cm_highlight"
 
     const-string v3, "drawable"
 
@@ -826,7 +826,7 @@
     move-result-object v2
 
     .line 161
-    const-string v4, "mbridge_cm_head"
+    const-string v4, "ccsan_mbridge_cm_head"
 
     invoke-virtual {v1, v4, v3, v2}, Lccsanandroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
@@ -881,7 +881,7 @@
     move-result-object v1
 
     .line 170
-    const-string v2, "mbridge_cm_tail"
+    const-string v2, "ccsan_mbridge_cm_tail"
 
     invoke-virtual {v0, v2, v3, v1}, Lccsanandroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 
@@ -914,7 +914,7 @@
     move-result-object v1
 
     .line 173
-    const-string v2, "mbridge_cm_end_animation"
+    const-string v2, "ccsan_mbridge_cm_end_animation"
 
     invoke-virtual {v0, v2, v3, v1}, Lccsanandroid/content/res/Resources;->getIdentifier(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
 

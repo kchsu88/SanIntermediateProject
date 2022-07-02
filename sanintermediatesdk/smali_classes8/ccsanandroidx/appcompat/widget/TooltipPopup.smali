@@ -65,7 +65,7 @@
 
     move-result-object v1
 
-    sget v2, Lccsanandroidx/appcompat/R$layout;->abc_tooltip:I
+    sget v2, Lccsanandroidx/appcompat/R$layout;->ccsan_abc_tooltip:I
 
     const/4 v3, 0x0
 

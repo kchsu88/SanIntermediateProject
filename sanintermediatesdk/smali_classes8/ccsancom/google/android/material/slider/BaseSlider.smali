@@ -3403,7 +3403,7 @@
     goto :goto_2
 
     :cond_2
-    sget v10, Lccsancom/google/android/material/R$color;->material_slider_inactive_track_color:I
+    sget v10, Lccsancom/google/android/material/R$color;->ccsan_material_slider_inactive_track_color:I
 
     .line 420
     invoke-static {v7, v10}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
@@ -3431,7 +3431,7 @@
     goto :goto_3
 
     :cond_3
-    sget v11, Lccsancom/google/android/material/R$color;->material_slider_active_track_color:I
+    sget v11, Lccsancom/google/android/material/R$color;->ccsan_material_slider_active_track_color:I
 
     .line 427
     invoke-static {v7, v11}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
@@ -3503,7 +3503,7 @@
     goto :goto_4
 
     :cond_5
-    sget v13, Lccsancom/google/android/material/R$color;->material_slider_halo_color:I
+    sget v13, Lccsancom/google/android/material/R$color;->ccsan_material_slider_halo_color:I
 
     .line 444
     invoke-static {v7, v13}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
@@ -3572,7 +3572,7 @@
     goto :goto_7
 
     :cond_8
-    sget v2, Lccsancom/google/android/material/R$color;->material_slider_inactive_tick_marks_color:I
+    sget v2, Lccsancom/google/android/material/R$color;->ccsan_material_slider_inactive_tick_marks_color:I
 
     .line 457
     invoke-static {v7, v2}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
@@ -3600,7 +3600,7 @@
     goto :goto_8
 
     :cond_9
-    sget v3, Lccsancom/google/android/material/R$color;->material_slider_active_tick_marks_color:I
+    sget v3, Lccsancom/google/android/material/R$color;->ccsan_material_slider_active_tick_marks_color:I
 
     .line 464
     invoke-static {v7, v3}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;

@@ -831,7 +831,7 @@
     iput v10, v0, Lccsancom/google/android/material/textfield/TextInputLayout;->focusedFilledBackgroundColor:I
 
     .line 545
-    sget v10, Lccsancom/google/android/material/R$color;->mtrl_filled_background_color:I
+    sget v10, Lccsancom/google/android/material/R$color;->ccsan_mtrl_filled_background_color:I
 
     .line 546
     invoke-static {v12, v10}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
@@ -1102,7 +1102,7 @@
 
     .end local v4    # "boxCornerRadiusTopEnd":F
     .local v22, "boxCornerRadiusTopEnd":F
-    sget v4, Lccsancom/google/android/material/R$layout;->design_text_input_end_icon:I
+    sget v4, Lccsancom/google/android/material/R$layout;->ccsan_design_text_input_end_icon:I
 
     .line 600
     move/from16 v23, v5
@@ -1436,7 +1436,7 @@
 
     .end local v13    # "errorContentDescription":Ljava/lang/CharSequence;
     .local v32, "errorContentDescription":Ljava/lang/CharSequence;
-    sget v13, Lccsancom/google/android/material/R$layout;->design_text_input_start_icon:I
+    sget v13, Lccsancom/google/android/material/R$layout;->ccsan_design_text_input_start_icon:I
 
     .line 657
     invoke-virtual {v8, v13, v14, v9}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;Z)Lccsanandroid/view/View;
@@ -1616,7 +1616,7 @@
 
     .end local v10    # "errorTextAppearance":I
     .local v33, "errorTextAppearance":I
-    sget v10, Lccsancom/google/android/material/R$layout;->design_text_input_end_icon:I
+    sget v10, Lccsancom/google/android/material/R$layout;->ccsan_design_text_input_end_icon:I
 
     .line 695
     invoke-virtual {v9, v10, v15, v13}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;Z)Lccsanandroid/view/View;
@@ -10620,7 +10620,7 @@
 
     move-result-object v1
 
-    sget v2, Lccsancom/google/android/material/R$color;->design_error:I
+    sget v2, Lccsancom/google/android/material/R$color;->ccsan_design_error:I
 
     invoke-static {v1, v2}, Lccsanandroidx/core/content/ContextCompat;->getColor(Lccsanandroid/content/Context;I)I
 

@@ -112,7 +112,7 @@
     :goto_0
     const-string v0, "san_rv_screen_scrop"
 
-    const-string v1, "san_adshonor_screenshot_view"
+    const-string v1, "ccsan_san_adshonor_screenshot_view"
 
     packed-switch v3, :pswitch_data_0
 

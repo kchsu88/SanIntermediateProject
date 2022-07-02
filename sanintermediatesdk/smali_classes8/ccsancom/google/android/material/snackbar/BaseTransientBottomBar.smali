@@ -1584,12 +1584,12 @@
 
     if-eqz v0, :cond_0
 
-    sget v0, Lccsancom/google/android/material/R$layout;->mtrl_layout_snackbar:I
+    sget v0, Lccsancom/google/android/material/R$layout;->ccsan_ccsan_mtrl_layout_snackbar:I
 
     goto :goto_0
 
     :cond_0
-    sget v0, Lccsancom/google/android/material/R$layout;->design_layout_snackbar:I
+    sget v0, Lccsancom/google/android/material/R$layout;->ccsan_ccsan_design_layout_snackbar:I
 
     :goto_0
     return v0

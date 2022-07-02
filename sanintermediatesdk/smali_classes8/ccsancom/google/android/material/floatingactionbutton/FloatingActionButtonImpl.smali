@@ -733,7 +733,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsancom/google/android/material/R$animator;->design_fab_hide_motion_spec:I
+    sget v1, Lccsancom/google/android/material/R$animator;->ccsan_design_fab_hide_motion_spec:I
 
     invoke-static {v0, v1}, Lccsancom/google/android/material/animation/MotionSpec;->createFromResource(Lccsanandroid/content/Context;I)Lccsancom/google/android/material/animation/MotionSpec;
 
@@ -770,7 +770,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsancom/google/android/material/R$animator;->design_fab_show_motion_spec:I
+    sget v1, Lccsancom/google/android/material/R$animator;->ccsan_design_fab_show_motion_spec:I
 
     invoke-static {v0, v1}, Lccsancom/google/android/material/animation/MotionSpec;->createFromResource(Lccsanandroid/content/Context;I)Lccsancom/google/android/material/animation/MotionSpec;
 

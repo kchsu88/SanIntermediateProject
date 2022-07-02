@@ -713,7 +713,7 @@
     .locals 1
 
     .line 1
-    const-string v0, "san_full_screen_layout"
+    const-string v0, "ccsan_san_full_screen_layout"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

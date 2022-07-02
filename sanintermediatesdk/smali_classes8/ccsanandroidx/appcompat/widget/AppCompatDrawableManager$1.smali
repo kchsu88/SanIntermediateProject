@@ -68,35 +68,35 @@
 
     new-array v2, v1, [I
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_ic_commit_search_api_mtrl_alpha:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_abc_ic_commit_search_api_mtrl_alpha:I
 
     aput v6, v2, v3
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_seekbar_tick_mark_material:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_seekbar_tick_mark_material:I
 
     aput v6, v2, v4
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_ic_menu_share_mtrl_alpha:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_share_mtrl_alpha:I
 
     aput v6, v2, v5
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_ic_menu_copy_mtrl_am_alpha:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_copy_mtrl_am_alpha:I
 
     aput v6, v2, v0
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_ic_menu_cut_mtrl_alpha:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_cut_mtrl_alpha:I
 
     const/4 v7, 0x4
 
     aput v6, v2, v7
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_ic_menu_selectall_mtrl_alpha:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_selectall_mtrl_alpha:I
 
     const/4 v8, 0x5
 
     aput v6, v2, v8
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_ic_menu_paste_mtrl_am_alpha:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_abc_ic_menu_paste_mtrl_am_alpha:I
 
     const/4 v9, 0x6
 
@@ -121,33 +121,33 @@
 
     aput v6, v2, v5
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_text_cursor_material:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_text_cursor_material:I
 
     aput v6, v2, v0
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_text_select_handle_left_mtrl_dark:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_left_mtrl_dark:I
 
     aput v6, v2, v7
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_text_select_handle_middle_mtrl_dark:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_middle_mtrl_dark:I
 
     aput v6, v2, v8
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_text_select_handle_right_mtrl_dark:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_right_mtrl_dark:I
 
     aput v6, v2, v9
 
-    sget v6, Lccsanandroidx/appcompat/R$drawable;->abc_text_select_handle_left_mtrl_light:I
+    sget v6, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_left_mtrl_light:I
 
     aput v6, v2, v1
 
-    sget v1, Lccsanandroidx/appcompat/R$drawable;->abc_text_select_handle_middle_mtrl_light:I
+    sget v1, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_middle_mtrl_light:I
 
     const/16 v6, 0x8
 
     aput v1, v2, v6
 
-    sget v1, Lccsanandroidx/appcompat/R$drawable;->abc_text_select_handle_right_mtrl_light:I
+    sget v1, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_abc_text_select_handle_right_mtrl_light:I
 
     const/16 v6, 0x9
 
@@ -162,7 +162,7 @@
 
     aput v2, v1, v3
 
-    sget v2, Lccsanandroidx/appcompat/R$drawable;->abc_cab_background_internal_bg:I
+    sget v2, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_cab_background_internal_bg:I
 
     aput v2, v1, v4
 
@@ -175,11 +175,11 @@
     .line 116
     new-array v1, v5, [I
 
-    sget v2, Lccsanandroidx/appcompat/R$drawable;->abc_tab_indicator_material:I
+    sget v2, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_tab_indicator_material:I
 
     aput v2, v1, v3
 
-    sget v2, Lccsanandroidx/appcompat/R$drawable;->abc_textfield_search_material:I
+    sget v2, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_textfield_search_material:I
 
     aput v2, v1, v4
 
@@ -188,19 +188,19 @@
     .line 126
     new-array v1, v7, [I
 
-    sget v2, Lccsanandroidx/appcompat/R$drawable;->abc_btn_check_material:I
+    sget v2, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_btn_check_material:I
 
     aput v2, v1, v3
 
-    sget v2, Lccsanandroidx/appcompat/R$drawable;->abc_btn_radio_material:I
+    sget v2, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_btn_radio_material:I
 
     aput v2, v1, v4
 
-    sget v2, Lccsanandroidx/appcompat/R$drawable;->abc_btn_check_material_anim:I
+    sget v2, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_abc_btn_check_material_anim:I
 
     aput v2, v1, v5
 
-    sget v2, Lccsanandroidx/appcompat/R$drawable;->abc_btn_radio_material_anim:I
+    sget v2, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_abc_btn_radio_material_anim:I
 
     aput v2, v1, v0
 
@@ -598,7 +598,7 @@
     .param p3, "resId"    # I
 
     .line 232
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_cab_background_top_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_cab_background_top_material:I
 
     if-ne p3, v0, :cond_0
 
@@ -611,7 +611,7 @@
 
     const/4 v2, 0x0
 
-    sget v3, Lccsanandroidx/appcompat/R$drawable;->abc_cab_background_internal_bg:I
+    sget v3, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_cab_background_internal_bg:I
 
     .line 234
     invoke-virtual {p1, p2, v3}, Lccsanandroidx/appcompat/widget/ResourceManagerInternal;->getDrawable(Lccsanandroid/content/Context;I)Lccsanandroid/graphics/drawable/Drawable;
@@ -649,12 +649,12 @@
     .param p2, "resId"    # I
 
     .line 303
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_edit_text_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_abc_edit_text_material:I
 
     if-ne p2, v0, :cond_0
 
     .line 304
-    sget v0, Lccsanandroidx/appcompat/R$color;->abc_tint_edittext:I
+    sget v0, Lccsanandroidx/appcompat/R$color;->ccsan_ccsan_abc_tint_edittext:I
 
     invoke-static {p1, v0}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
 
@@ -669,7 +669,7 @@
     if-ne p2, v0, :cond_1
 
     .line 306
-    sget v0, Lccsanandroidx/appcompat/R$color;->abc_tint_switch_track:I
+    sget v0, Lccsanandroidx/appcompat/R$color;->ccsan_ccsan_abc_tint_switch_track:I
 
     invoke-static {p1, v0}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
 
@@ -679,7 +679,7 @@
 
     .line 307
     :cond_1
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_switch_thumb_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_switch_thumb_material:I
 
     if-ne p2, v0, :cond_2
 
@@ -692,7 +692,7 @@
 
     .line 309
     :cond_2
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_btn_default_mtrl_shape:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_btn_default_mtrl_shape:I
 
     if-ne p2, v0, :cond_3
 
@@ -705,7 +705,7 @@
 
     .line 311
     :cond_3
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_btn_borderless_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_btn_borderless_material:I
 
     if-ne p2, v0, :cond_4
 
@@ -718,7 +718,7 @@
 
     .line 313
     :cond_4
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_btn_colored_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_abc_btn_colored_material:I
 
     if-ne p2, v0, :cond_5
 
@@ -735,7 +735,7 @@
 
     if-eq p2, v0, :cond_b
 
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_spinner_textfield_background_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_spinner_textfield_background_material:I
 
     if-ne p2, v0, :cond_6
 
@@ -771,7 +771,7 @@
     if-eqz v0, :cond_8
 
     .line 321
-    sget v0, Lccsanandroidx/appcompat/R$color;->abc_tint_default:I
+    sget v0, Lccsanandroidx/appcompat/R$color;->ccsan_ccsan_abc_tint_default:I
 
     invoke-static {p1, v0}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
 
@@ -790,7 +790,7 @@
     if-eqz v0, :cond_9
 
     .line 323
-    sget v0, Lccsanandroidx/appcompat/R$color;->abc_tint_btn_checkable:I
+    sget v0, Lccsanandroidx/appcompat/R$color;->ccsan_ccsan_abc_tint_btn_checkable:I
 
     invoke-static {p1, v0}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
 
@@ -800,12 +800,12 @@
 
     .line 324
     :cond_9
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_seekbar_thumb_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_seekbar_thumb_material:I
 
     if-ne p2, v0, :cond_a
 
     .line 325
-    sget v0, Lccsanandroidx/appcompat/R$color;->abc_tint_seek_thumb:I
+    sget v0, Lccsanandroidx/appcompat/R$color;->ccsan_ccsan_abc_tint_seek_thumb:I
 
     invoke-static {p1, v0}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
 
@@ -822,7 +822,7 @@
     .line 317
     :cond_b
     :goto_0
-    sget v0, Lccsanandroidx/appcompat/R$color;->abc_tint_spinner:I
+    sget v0, Lccsanandroidx/appcompat/R$color;->ccsan_ccsan_abc_tint_spinner:I
 
     invoke-static {p1, v0}, Lccsanandroidx/appcompat/content/res/AppCompatResources;->getColorStateList(Lccsanandroid/content/Context;I)Lccsanandroid/content/res/ColorStateList;
 
@@ -840,7 +840,7 @@
 
     .line 383
     .local v0, "mode":Lccsanandroid/graphics/PorterDuff$Mode;
-    sget v1, Lccsanandroidx/appcompat/R$drawable;->abc_switch_thumb_material:I
+    sget v1, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_switch_thumb_material:I
 
     if-ne p1, v1, :cond_0
 
@@ -859,7 +859,7 @@
     .param p3, "drawable"    # Lccsanandroid/graphics/drawable/Drawable;
 
     .line 254
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_seekbar_track_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_abc_seekbar_track_material:I
 
     const/4 v1, 0x1
 
@@ -952,15 +952,15 @@
     .line 269
     .end local v0    # "ld":Lccsanandroid/graphics/drawable/LayerDrawable;
     :cond_0
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_ratingbar_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_abc_ratingbar_material:I
 
     if-eq p2, v0, :cond_2
 
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_ratingbar_indicator_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_abc_ratingbar_indicator_material:I
 
     if-eq p2, v0, :cond_2
 
-    sget v0, Lccsanandroidx/appcompat/R$drawable;->abc_ratingbar_small_material:I
+    sget v0, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_abc_ratingbar_small_material:I
 
     if-ne p2, v0, :cond_1
 
@@ -1156,7 +1156,7 @@
 
     .line 352
     :cond_3
-    sget v4, Lccsanandroidx/appcompat/R$drawable;->abc_dialog_material_background:I
+    sget v4, Lccsanandroidx/appcompat/R$drawable;->ccsan_ccsan_ccsan_abc_dialog_material_background:I
 
     if-ne p2, v4, :cond_4
 

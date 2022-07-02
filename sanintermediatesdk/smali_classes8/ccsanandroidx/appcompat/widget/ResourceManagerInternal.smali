@@ -306,7 +306,7 @@
     iput-boolean v0, p0, Lccsanandroidx/appcompat/widget/ResourceManagerInternal;->mHasCheckedVectorDrawableSetup:Z
 
     .line 489
-    sget v0, Lccsanandroidx/appcompat/resources/R$drawable;->abc_vector_test:I
+    sget v0, Lccsanandroidx/appcompat/resources/R$drawable;->ccsan_abc_vector_test:I
 
     invoke-virtual {p0, p1, v0}, Lccsanandroidx/appcompat/widget/ResourceManagerInternal;->getDrawable(Lccsanandroid/content/Context;I)Lccsanandroid/graphics/drawable/Drawable;
 

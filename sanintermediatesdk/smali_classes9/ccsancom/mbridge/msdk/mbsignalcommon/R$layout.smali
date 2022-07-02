@@ -14,9 +14,9 @@
 
 
 # static fields
-.field public static final loading_alert:I = 0x7f0b0034
+.field public static final ccsan_loading_alert:I = 0x7f0b0034
 
-.field public static final mbridge_cm_alertview:I = 0x7f0b004c
+.field public static final ccsan_mbridge_cm_alertview:I = 0x7f0b004c
 
 
 # direct methods

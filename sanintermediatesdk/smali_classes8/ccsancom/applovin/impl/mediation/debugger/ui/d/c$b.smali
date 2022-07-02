@@ -186,7 +186,7 @@
 
     if-ne p0, v0, :cond_0
 
-    sget v0, Lccsancom/applovin/sdk/R$layout;->list_section:I
+    sget v0, Lccsancom/applovin/sdk/R$layout;->ccsan_list_section:I
 
     return v0
 
@@ -195,7 +195,7 @@
 
     if-ne p0, v0, :cond_1
 
-    sget v0, Lccsancom/applovin/sdk/R$layout;->list_section_centered:I
+    sget v0, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_list_section_centered:I
 
     return v0
 
@@ -213,12 +213,12 @@
 
     if-ne p0, v0, :cond_3
 
-    sget v0, Lccsancom/applovin/sdk/R$layout;->list_item_detail:I
+    sget v0, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_list_item_detail:I
 
     return v0
 
     :cond_3
-    sget v0, Lccsancom/applovin/sdk/R$layout;->list_item_right_detail:I
+    sget v0, Lccsancom/applovin/sdk/R$layout;->ccsan_ccsan_list_item_right_detail:I
 
     return v0
 .end method

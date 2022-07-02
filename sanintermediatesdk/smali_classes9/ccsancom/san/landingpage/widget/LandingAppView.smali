@@ -98,7 +98,7 @@
 
     .line 1
     :cond_0
-    const-string v0, "san_app_view"
+    const-string v0, "ccsan_san_app_view"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -454,7 +454,7 @@
     iget-object v6, p0, Lccsancom/san/landingpage/widget/LandingAppView;->mAppAvatar:Lccsanandroid/widget/ImageView;
 
     .line 9
-    const-string p1, "san_app_icon_bg"
+    const-string p1, "ccsan_san_app_icon_bg"
 
     invoke-static {p1}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 

@@ -84,8 +84,8 @@
     <item type="id" name="decor_content_parent" />
     <item type="id" name="default_activity_button" />
     <item type="id" name="design_bottom_sheet" />
-    <item type="id" name="design_menu_item_action_area" />
-    <item type="id" name="design_menu_item_action_area_stub" />
+    <item type="id" name="ccsan_design_menu_item_action_area" />
+    <item type="id" name="ccsan_design_menu_item_action_area_stub" />
     <item type="id" name="design_menu_item_text" />
     <item type="id" name="design_navigation_view" />
     <item type="id" name="detailImageView" />
@@ -125,24 +125,24 @@
     <item type="id" name="listView" />
     <item type="id" name="list_item" />
     <item type="id" name="masked" />
-    <item type="id" name="material_clock_display" />
+    <item type="id" name="ccsan_material_clock_display" />
     <item type="id" name="material_clock_face" />
     <item type="id" name="material_clock_hand" />
     <item type="id" name="material_clock_period_am_button" />
     <item type="id" name="material_clock_period_pm_button" />
-    <item type="id" name="material_clock_period_toggle" />
+    <item type="id" name="ccsan_material_clock_period_toggle" />
     <item type="id" name="material_hour_text_input" />
     <item type="id" name="material_hour_tv" />
     <item type="id" name="material_label" />
     <item type="id" name="material_minute_text_input" />
     <item type="id" name="material_minute_tv" />
-    <item type="id" name="material_textinput_timepicker" />
-    <item type="id" name="material_timepicker_cancel_button" />
-    <item type="id" name="material_timepicker_container" />
-    <item type="id" name="material_timepicker_edit_text" />
-    <item type="id" name="material_timepicker_mode_button" />
-    <item type="id" name="material_timepicker_ok_button" />
-    <item type="id" name="material_timepicker_view" />
+    <item type="id" name="ccsan_ccsan_material_textinput_timepicker" />
+    <item type="id" name="ccsan_ccsan_material_timepicker_cancel_button" />
+    <item type="id" name="ccsan_ccsan_material_timepicker_container" />
+    <item type="id" name="ccsan_ccsan_material_timepicker_edit_text" />
+    <item type="id" name="ccsan_ccsan_material_timepicker_mode_button" />
+    <item type="id" name="ccsan_ccsan_material_timepicker_ok_button" />
+    <item type="id" name="ccsan_ccsan_material_timepicker_view" />
     <item type="id" name="material_value_index" />
     <item type="id" name="mbridge_bottom_finger_bg" />
     <item type="id" name="mbridge_bottom_icon_iv" />
@@ -150,8 +150,8 @@
     <item type="id" name="mbridge_bottom_iv" />
     <item type="id" name="mbridge_bottom_play_bg" />
     <item type="id" name="mbridge_bottom_title_tv" />
-    <item type="id" name="mbridge_bt_container" />
-    <item type="id" name="mbridge_bt_container_root" />
+    <item type="id" name="ccsan_mbridge_bt_container" />
+    <item type="id" name="ccsan_mbridge_bt_container_root" />
     <item type="id" name="mbridge_center_view" />
     <item type="id" name="mbridge_choice_frl" />
     <item type="id" name="mbridge_choice_one_countdown_tv" />
@@ -258,24 +258,24 @@
     <item type="id" name="mrec_control_button" />
     <item type="id" name="mrec_control_view" />
     <item type="id" name="mtrl_anchor_parent" />
-    <item type="id" name="mtrl_calendar_day_selector_frame" />
-    <item type="id" name="mtrl_calendar_days_of_week" />
+    <item type="id" name="ccsan_mtrl_calendar_day_selector_frame" />
+    <item type="id" name="ccsan_ccsan_mtrl_calendar_days_of_week" />
     <item type="id" name="mtrl_calendar_frame" />
     <item type="id" name="mtrl_calendar_main_pane" />
-    <item type="id" name="mtrl_calendar_months" />
+    <item type="id" name="ccsan_ccsan_ccsan_mtrl_calendar_months" />
     <item type="id" name="mtrl_calendar_selection_frame" />
     <item type="id" name="mtrl_calendar_text_input_frame" />
-    <item type="id" name="mtrl_calendar_year_selector_frame" />
+    <item type="id" name="ccsan_mtrl_calendar_year_selector_frame" />
     <item type="id" name="mtrl_card_checked_layer_id" />
     <item type="id" name="mtrl_child_content_container" />
     <item type="id" name="mtrl_internal_children_alpha_tag" />
     <item type="id" name="mtrl_motion_snapshot_view" />
-    <item type="id" name="mtrl_picker_fullscreen" />
+    <item type="id" name="ccsan_mtrl_picker_fullscreen" />
     <item type="id" name="mtrl_picker_header" />
-    <item type="id" name="mtrl_picker_header_selection_text" />
+    <item type="id" name="ccsan_mtrl_picker_header_selection_text" />
     <item type="id" name="mtrl_picker_header_title_and_selection" />
-    <item type="id" name="mtrl_picker_header_toggle" />
-    <item type="id" name="mtrl_picker_text_input_date" />
+    <item type="id" name="ccsan_mtrl_picker_header_toggle" />
+    <item type="id" name="ccsan_mtrl_picker_text_input_date" />
     <item type="id" name="mtrl_picker_text_input_range_end" />
     <item type="id" name="mtrl_picker_text_input_range_start" />
     <item type="id" name="mtrl_picker_title_text" />

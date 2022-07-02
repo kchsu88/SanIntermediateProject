@@ -2765,7 +2765,7 @@
 
     move-result-object v2
 
-    const-string v3, "mbridge_banner_close"
+    const-string v3, "ccsan_mbridge_banner_close"
 
     const-string v4, "drawable"
 

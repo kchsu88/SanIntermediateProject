@@ -22,7 +22,7 @@
 
 .field public static final abc_action_mode_done:I = 0x7f0f0003
 
-.field public static final abc_activity_chooser_view_see_all:I = 0x7f0f0004
+.field public static final ccsan_abc_activity_chooser_view_see_all:I = 0x7f0f0004
 
 .field public static final abc_activitychooserview_choose_application:I = 0x7f0f0005
 
@@ -118,7 +118,7 @@
 
 .field public static final item_view_role_description:I = 0x7f0f0035
 
-.field public static final material_clock_display_divider:I = 0x7f0f0036
+.field public static final ccsan_ccsan_material_clock_display_divider:I = 0x7f0f0036
 
 .field public static final material_clock_toggle_content_description:I = 0x7f0f0037
 
@@ -134,29 +134,29 @@
 
 .field public static final material_slider_range_start:I = 0x7f0f003d
 
-.field public static final material_timepicker_am:I = 0x7f0f003e
+.field public static final ccsan_ccsan_material_timepicker_am:I = 0x7f0f003e
 
-.field public static final material_timepicker_clock_mode_description:I = 0x7f0f003f
+.field public static final ccsan_ccsan_material_timepicker_clock_mode_description:I = 0x7f0f003f
 
-.field public static final material_timepicker_hour:I = 0x7f0f0040
+.field public static final ccsan_ccsan_material_timepicker_hour:I = 0x7f0f0040
 
-.field public static final material_timepicker_minute:I = 0x7f0f0041
+.field public static final ccsan_ccsan_material_timepicker_minute:I = 0x7f0f0041
 
-.field public static final material_timepicker_pm:I = 0x7f0f0042
+.field public static final ccsan_ccsan_material_timepicker_pm:I = 0x7f0f0042
 
-.field public static final material_timepicker_select_time:I = 0x7f0f0043
+.field public static final ccsan_ccsan_material_timepicker_select_time:I = 0x7f0f0043
 
-.field public static final material_timepicker_text_input_mode_description:I = 0x7f0f0044
+.field public static final ccsan_ccsan_material_timepicker_text_input_mode_description:I = 0x7f0f0044
 
 .field public static final mbridge_reward_appdesc:I = 0x7f0f0045
 
 .field public static final mbridge_reward_apptitle:I = 0x7f0f0046
 
-.field public static final mbridge_reward_clickable_cta_btntext:I = 0x7f0f0047
+.field public static final ccsan_mbridge_reward_clickable_cta_btntext:I = 0x7f0f0047
 
 .field public static final mbridge_reward_endcard_ad:I = 0x7f0f0048
 
-.field public static final mbridge_reward_endcard_vast_notice:I = 0x7f0f0049
+.field public static final ccsan_mbridge_reward_endcard_vast_notice:I = 0x7f0f0049
 
 .field public static final mbridge_reward_install:I = 0x7f0f004a
 
@@ -210,11 +210,11 @@
 
 .field public static final mtrl_picker_save:I = 0x7f0f0063
 
-.field public static final mtrl_picker_text_input_date_hint:I = 0x7f0f0064
+.field public static final ccsan_mtrl_picker_text_input_date_hint:I = 0x7f0f0064
 
-.field public static final mtrl_picker_text_input_date_range_end_hint:I = 0x7f0f0065
+.field public static final ccsan_ccsan_mtrl_picker_text_input_date_range_end_hint:I = 0x7f0f0065
 
-.field public static final mtrl_picker_text_input_date_range_start_hint:I = 0x7f0f0066
+.field public static final ccsan_ccsan_mtrl_picker_text_input_date_range_start_hint:I = 0x7f0f0066
 
 .field public static final mtrl_picker_text_input_day_abbr:I = 0x7f0f0067
 

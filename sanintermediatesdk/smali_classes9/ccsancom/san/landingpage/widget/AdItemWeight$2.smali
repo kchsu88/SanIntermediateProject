@@ -173,7 +173,7 @@
     const/4 v1, 0x1
 
     :goto_1
-    const-string v5, "san_landingpage_title_bg"
+    const-string v5, "ccsan_san_landingpage_title_bg"
 
     packed-switch v1, :pswitch_data_1
 

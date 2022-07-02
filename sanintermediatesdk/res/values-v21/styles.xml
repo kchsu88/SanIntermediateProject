@@ -86,7 +86,7 @@
     <style name="Base.Theme.MaterialComponents.Light.Dialog" parent="@style/Base.V21.Theme.MaterialComponents.Light.Dialog" />
     <style name="Base.ThemeOverlay.AppCompat.Dialog" parent="@style/Base.V21.ThemeOverlay.AppCompat.Dialog" />
     <style name="Base.ThemeOverlay.MaterialComponents.Dialog" parent="@style/Base.V14.ThemeOverlay.MaterialComponents.Dialog">
-        <item name="android:windowBackground">@drawable/mtrl_dialog_background</item>
+        <item name="android:windowBackground">@drawable/ccsan_mtrl_dialog_background</item>
     </style>
     <style name="Base.V14.Theme.MaterialComponents" parent="@style/Base.V14.Theme.MaterialComponents.Bridge">
         <item name="android:colorBackground">@color/design_dark_default_color_background</item>
@@ -179,7 +179,7 @@
     </style>
     <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow">
         <item name="android:src">@null</item>
-        <item name="srcCompat">@drawable/abc_ic_menu_overflow_material</item>
+        <item name="srcCompat">@drawable/ccsan_abc_ic_menu_overflow_material</item>
     </style>
     <style name="Base.Widget.AppCompat.AutoCompleteTextView" parent="@android:style/Widget.Material.AutoCompleteTextView">
         <item name="android:background">?editTextBackground</item>
@@ -187,7 +187,7 @@
     <style name="Base.Widget.AppCompat.Button" parent="@android:style/Widget.Material.Button" />
     <style name="Base.Widget.AppCompat.Button.Borderless" parent="@android:style/Widget.Material.Button.Borderless" />
     <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored">
-        <item name="android:textColor">@color/abc_btn_colored_borderless_text_material</item>
+        <item name="android:textColor">@color/ccsan_ccsan_ccsan_abc_btn_colored_borderless_text_material</item>
     </style>
     <style name="Base.Widget.AppCompat.Button.Small" parent="@android:style/Widget.Material.Button.Small" />
     <style name="Base.Widget.AppCompat.ButtonBar" parent="@android:style/Widget.Material.ButtonBar" />
@@ -240,16 +240,16 @@
     <style name="Base.Widget.MaterialComponents.CheckedTextView" parent="@android:style/Widget.Material.CheckedTextView" />
     <style name="Base.Widget.MaterialComponents.Chip" parent="@android:style/Widget">
         <item name="android:textAppearance">?textAppearanceBody2</item>
-        <item name="android:textColor">@color/mtrl_chip_text_color</item>
+        <item name="android:textColor">@color/ccsan_mtrl_chip_text_color</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
         <item name="android:text">@null</item>
         <item name="android:includeFontPadding">false</item>
         <item name="android:checkable">false</item>
-        <item name="android:stateListAnimator">@animator/mtrl_chip_state_list_anim</item>
-        <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_circle</item>
+        <item name="android:stateListAnimator">@animator/ccsan_mtrl_chip_state_list_anim</item>
+        <item name="checkedIcon">@drawable/ccsan_ic_mtrl_chip_checked_circle</item>
         <item name="checkedIconVisible">true</item>
-        <item name="chipBackgroundColor">@color/mtrl_chip_background_color</item>
+        <item name="chipBackgroundColor">@color/ccsan_mtrl_chip_background_color</item>
         <item name="chipEndPadding">6.0dip</item>
         <item name="chipIcon">@null</item>
         <item name="chipIconSize">24.0dip</item>
@@ -259,19 +259,19 @@
         <item name="chipStartPadding">4.0dip</item>
         <item name="chipStrokeColor">?colorOnSurface</item>
         <item name="chipStrokeWidth">0.0dip</item>
-        <item name="chipSurfaceColor">@color/mtrl_chip_surface_color</item>
-        <item name="closeIcon">@drawable/ic_mtrl_chip_close_circle</item>
+        <item name="chipSurfaceColor">@color/ccsan_mtrl_chip_surface_color</item>
+        <item name="closeIcon">@drawable/ccsan_ic_mtrl_chip_close_circle</item>
         <item name="closeIconEndPadding">2.0dip</item>
         <item name="closeIconSize">18.0dip</item>
         <item name="closeIconStartPadding">2.0dip</item>
-        <item name="closeIconTint">@color/mtrl_chip_close_icon_tint</item>
+        <item name="closeIconTint">@color/ccsan_mtrl_chip_close_icon_tint</item>
         <item name="closeIconVisible">true</item>
         <item name="enforceMaterialTheme">true</item>
         <item name="enforceTextAppearance">true</item>
         <item name="ensureMinTouchTargetSize">true</item>
         <item name="iconEndPadding">0.0dip</item>
         <item name="iconStartPadding">0.0dip</item>
-        <item name="rippleColor">@color/mtrl_on_surface_ripple_color</item>
+        <item name="rippleColor">@color/ccsan_mtrl_on_surface_ripple_color</item>
         <item name="shapeAppearance">?shapeAppearanceSmallComponent</item>
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.Chip</item>
         <item name="textEndPadding">6.0dip</item>
@@ -292,14 +292,14 @@
         <item name="android:headerYearTextAppearance">@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog.Picker.Date.Header.Text</item>
         <item name="android:calendarTextColor">?colorOnSurface</item>
         <item name="android:datePickerMode">calendar</item>
-        <item name="backgroundInsetBottom">@dimen/mtrl_alert_dialog_picker_background_inset</item>
-        <item name="backgroundInsetTop">@dimen/mtrl_alert_dialog_picker_background_inset</item>
+        <item name="backgroundInsetBottom">@dimen/ccsan_mtrl_alert_dialog_picker_background_inset</item>
+        <item name="backgroundInsetTop">@dimen/ccsan_mtrl_alert_dialog_picker_background_inset</item>
         <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
     </style>
     <style name="MaterialAlertDialog.MaterialComponents.Picker.Date.Spinner" parent="@android:style/Widget.DeviceDefault.DatePicker">
         <item name="android:datePickerMode">spinner</item>
-        <item name="backgroundInsetBottom">@dimen/mtrl_alert_dialog_picker_background_inset</item>
-        <item name="backgroundInsetTop">@dimen/mtrl_alert_dialog_picker_background_inset</item>
+        <item name="backgroundInsetBottom">@dimen/ccsan_mtrl_alert_dialog_picker_background_inset</item>
+        <item name="backgroundInsetTop">@dimen/ccsan_mtrl_alert_dialog_picker_background_inset</item>
         <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
     </style>
     <style name="Platform.AppCompat" parent="@style/Platform.V21.AppCompat" />
@@ -459,16 +459,16 @@
         <item name="android:colorAccent">#ffff0000</item>
     </style>
     <style name="Widget.Compat.NotificationActionContainer" parent="">
-        <item name="android:background">@drawable/notification_action_background</item>
+        <item name="android:background">@drawable/ccsan_ccsan_ccsan_notification_action_background</item>
     </style>
     <style name="Widget.Compat.NotificationActionText" parent="">
         <item name="android:textAppearance">?android:textAppearanceButton</item>
-        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textSize">@dimen/ccsan_ccsan_notification_action_text_size</item>
         <item name="android:textColor">@color/ccsanandroidx_core_secondary_text_default_material_light</item>
     </style>
     <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
         <item name="android:background">?colorPrimary</item>
-        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:stateListAnimator">@animator/ccsan_design_appbar_state_list_animator</item>
         <item name="android:touchscreenBlocksFocus">true</item>
     </style>
     <style name="Widget.Design.BottomSheet.Modal" parent="@android:style/Widget">
@@ -495,7 +495,7 @@
     </style>
     <style name="Widget.MaterialComponents.Button" parent="@style/Widget.AppCompat.Button">
         <item name="android:textAppearance">?textAppearanceButton</item>
-        <item name="android:textColor">@color/mtrl_btn_text_color_selector</item>
+        <item name="android:textColor">@color/ccsan_mtrl_btn_text_color_selector</item>
         <item name="android:background">@empty</item>
         <item name="android:paddingLeft">@dimen/mtrl_btn_padding_left</item>
         <item name="android:paddingTop">@dimen/mtrl_btn_padding_top</item>
@@ -505,37 +505,37 @@
         <item name="android:insetRight">0.0dip</item>
         <item name="android:insetTop">@dimen/mtrl_btn_inset</item>
         <item name="android:insetBottom">@dimen/mtrl_btn_inset</item>
-        <item name="android:stateListAnimator">@animator/mtrl_btn_state_list_anim</item>
-        <item name="backgroundTint">@color/mtrl_btn_bg_color_selector</item>
+        <item name="android:stateListAnimator">@animator/ccsan_ccsan_mtrl_btn_state_list_anim</item>
+        <item name="backgroundTint">@color/ccsan_mtrl_btn_bg_color_selector</item>
         <item name="cornerRadius">@null</item>
         <item name="elevation">@dimen/mtrl_btn_elevation</item>
         <item name="enforceMaterialTheme">true</item>
         <item name="enforceTextAppearance">true</item>
         <item name="iconPadding">@dimen/mtrl_btn_icon_padding</item>
-        <item name="iconTint">@color/mtrl_btn_text_color_selector</item>
-        <item name="rippleColor">@color/mtrl_btn_ripple_color</item>
+        <item name="iconTint">@color/ccsan_mtrl_btn_text_color_selector</item>
+        <item name="rippleColor">@color/ccsan_mtrl_btn_ripple_color</item>
         <item name="shapeAppearance">?shapeAppearanceSmallComponent</item>
     </style>
     <style name="Widget.MaterialComponents.Button.UnelevatedButton" parent="@style/Widget.MaterialComponents.Button">
-        <item name="android:stateListAnimator">@animator/mtrl_btn_unelevated_state_list_anim</item>
+        <item name="android:stateListAnimator">@animator/ccsan_mtrl_btn_unelevated_state_list_anim</item>
         <item name="elevation">0.0dip</item>
     </style>
     <style name="Widget.MaterialComponents.CardView" parent="@style/CardView">
-        <item name="android:stateListAnimator">@animator/mtrl_card_state_list_anim</item>
+        <item name="android:stateListAnimator">@animator/ccsan_ccsan_mtrl_card_state_list_anim</item>
         <item name="cardBackgroundColor">?colorSurface</item>
         <item name="cardCornerRadius">@null</item>
         <item name="cardElevation">@dimen/mtrl_card_elevation</item>
-        <item name="cardForegroundColor">@color/mtrl_card_view_foreground</item>
-        <item name="checkedIcon">@drawable/ic_mtrl_checked_circle</item>
+        <item name="cardForegroundColor">@color/ccsan_mtrl_card_view_foreground</item>
+        <item name="checkedIcon">@drawable/ccsan_ic_mtrl_checked_circle</item>
         <item name="checkedIconMargin">@dimen/mtrl_card_checked_icon_margin</item>
         <item name="checkedIconSize">@dimen/mtrl_card_checked_icon_size</item>
         <item name="checkedIconTint">?colorPrimary</item>
         <item name="enforceMaterialTheme">true</item>
-        <item name="rippleColor">@color/mtrl_card_view_ripple</item>
+        <item name="rippleColor">@color/ccsan_mtrl_card_view_ripple</item>
         <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
     </style>
     <style name="Widget.MaterialComponents.ExtendedFloatingActionButton" parent="@style/Widget.MaterialComponents.Button">
-        <item name="android:textColor">@color/mtrl_fab_icon_text_color_selector</item>
+        <item name="android:textColor">@color/ccsan_mtrl_fab_icon_text_color_selector</item>
         <item name="android:paddingLeft">@dimen/mtrl_extended_fab_start_padding</item>
         <item name="android:paddingTop">@dimen/mtrl_extended_fab_top_padding</item>
         <item name="android:paddingRight">@dimen/mtrl_extended_fab_end_padding</item>
@@ -547,14 +547,14 @@
         <item name="android:insetBottom">0.0dip</item>
         <item name="android:paddingStart">@dimen/mtrl_extended_fab_start_padding</item>
         <item name="android:paddingEnd">@dimen/mtrl_extended_fab_end_padding</item>
-        <item name="android:stateListAnimator">@animator/mtrl_extended_fab_state_list_animator</item>
-        <item name="backgroundTint">@color/mtrl_fab_bg_color_selector</item>
+        <item name="android:stateListAnimator">@animator/ccsan_mtrl_extended_fab_state_list_animator</item>
+        <item name="backgroundTint">@color/ccsan_mtrl_fab_bg_color_selector</item>
         <item name="collapsedSize">@dimen/design_fab_size_normal</item>
         <item name="elevation">@dimen/mtrl_extended_fab_elevation</item>
         <item name="iconPadding">@dimen/mtrl_extended_fab_icon_text_spacing</item>
         <item name="iconSize">@dimen/mtrl_extended_fab_icon_size</item>
-        <item name="iconTint">@color/mtrl_fab_icon_text_color_selector</item>
-        <item name="rippleColor">@color/mtrl_fab_ripple_color</item>
+        <item name="iconTint">@color/ccsan_mtrl_fab_icon_text_color_selector</item>
+        <item name="rippleColor">@color/ccsan_mtrl_fab_ripple_color</item>
         <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.ExtendedFloatingActionButton</item>
     </style>
     <style name="Widget.MaterialComponents.PopupMenu" parent="@style/Base.Widget.MaterialComponents.PopupMenu">
@@ -572,7 +572,7 @@
         <item name="android:theme">@style/ThemeOverlay.MaterialComponents.Toolbar.Primary</item>
         <item name="android:background">?colorPrimary</item>
         <item name="android:elevation">@dimen/design_appbar_elevation</item>
-        <item name="subtitleTextColor">@color/material_on_primary_emphasis_medium</item>
+        <item name="subtitleTextColor">@color/ccsan_material_on_primary_emphasis_medium</item>
         <item name="titleTextColor">?colorOnPrimary</item>
     </style>
     <style name="com.applovin.mediation.MaxDebuggerActivity.ActionBar" parent="@android:style/Widget.Material.Light.ActionBar">
@@ -625,7 +625,7 @@
         <item name="android:colorPrimaryDark">?colorPrimaryDark</item>
         <item name="android:colorAccent">?colorAccent</item>
         <item name="actionBarDivider">?android:actionBarDivider</item>
-        <item name="actionBarItemBackground">@drawable/abc_action_bar_item_background_material</item>
+        <item name="actionBarItemBackground">@drawable/ccsan_abc_action_bar_item_background_material</item>
         <item name="actionBarSize">?android:actionBarSize</item>
         <item name="actionButtonStyle">?android:actionButtonStyle</item>
         <item name="actionModeBackground">?android:actionModeBackground</item>
@@ -637,7 +637,7 @@
         <item name="checkedTextViewStyle">?android:checkedTextViewStyle</item>
         <item name="dividerHorizontal">?android:dividerHorizontal</item>
         <item name="dividerVertical">?android:dividerVertical</item>
-        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/ccsan_ccsan_abc_edit_text_material</item>
         <item name="editTextColor">?android:editTextColor</item>
         <item name="homeAsUpIndicator">?android:homeAsUpIndicator</item>
         <item name="listChoiceBackgroundIndicator">?android:listChoiceBackgroundIndicator</item>
@@ -662,7 +662,7 @@
         <item name="android:colorPrimaryDark">?colorPrimaryDark</item>
         <item name="android:colorAccent">?colorAccent</item>
         <item name="actionBarDivider">?android:actionBarDivider</item>
-        <item name="actionBarItemBackground">@drawable/abc_action_bar_item_background_material</item>
+        <item name="actionBarItemBackground">@drawable/ccsan_abc_action_bar_item_background_material</item>
         <item name="actionBarSize">?android:actionBarSize</item>
         <item name="actionButtonStyle">?android:actionButtonStyle</item>
         <item name="actionModeBackground">?android:actionModeBackground</item>
@@ -674,7 +674,7 @@
         <item name="checkedTextViewStyle">?android:checkedTextViewStyle</item>
         <item name="dividerHorizontal">?android:dividerHorizontal</item>
         <item name="dividerVertical">?android:dividerVertical</item>
-        <item name="editTextBackground">@drawable/abc_edit_text_material</item>
+        <item name="editTextBackground">@drawable/ccsan_ccsan_abc_edit_text_material</item>
         <item name="editTextColor">?android:editTextColor</item>
         <item name="homeAsUpIndicator">?android:homeAsUpIndicator</item>
         <item name="listChoiceBackgroundIndicator">?android:listChoiceBackgroundIndicator</item>
@@ -706,16 +706,16 @@
         <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
     </style>
     <style name="Platform.V21.AppCompat" parent="@android:style/Theme.Material.NoActionBar">
-        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_light</item>
-        <item name="android:textColorHint">@color/abc_hint_foreground_material_dark</item>
+        <item name="android:textColorHintInverse">@color/ccsan_abc_hint_foreground_material_light</item>
+        <item name="android:textColorHint">@color/ccsan_abc_hint_foreground_material_dark</item>
         <item name="android:textColorLink">?android:colorAccent</item>
         <item name="android:buttonBarStyle">?buttonBarStyle</item>
         <item name="android:buttonBarButtonStyle">?buttonBarButtonStyle</item>
         <item name="android:textColorLinkInverse">?android:colorAccent</item>
     </style>
     <style name="Platform.V21.AppCompat.Light" parent="@android:style/Theme.Material.Light.NoActionBar">
-        <item name="android:textColorHintInverse">@color/abc_hint_foreground_material_dark</item>
-        <item name="android:textColorHint">@color/abc_hint_foreground_material_light</item>
+        <item name="android:textColorHintInverse">@color/ccsan_abc_hint_foreground_material_dark</item>
+        <item name="android:textColorHint">@color/ccsan_abc_hint_foreground_material_light</item>
         <item name="android:textColorLink">?android:colorAccent</item>
         <item name="android:buttonBarStyle">?buttonBarStyle</item>
         <item name="android:buttonBarButtonStyle">?buttonBarButtonStyle</item>

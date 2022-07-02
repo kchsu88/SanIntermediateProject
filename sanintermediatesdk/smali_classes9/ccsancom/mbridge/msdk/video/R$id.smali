@@ -40,7 +40,7 @@
 
 .field public static final mbridge_bottom_title_tv:I = 0x7f080106
 
-.field public static final mbridge_bt_container_root:I = 0x7f080108
+.field public static final ccsan_mbridge_bt_container_root:I = 0x7f080108
 
 .field public static final mbridge_center_view:I = 0x7f080109
 

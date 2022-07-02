@@ -158,7 +158,7 @@
     invoke-virtual {p3}, Lccsanandroid/widget/FrameLayout;->removeAllViews()V
 
     .line 11
-    const-string p2, "san_banner_native_image_ex"
+    const-string p2, "ccsan_ccsan_san_banner_native_image_ex"
 
     invoke-static {p1, p2}, Lccsancom/san/bridge/getDownloadingList;->addDownloadListener(Lccsanandroid/content/Context;Ljava/lang/String;)I
 
@@ -167,7 +167,7 @@
     if-nez p2, :cond_1
 
     .line 13
-    const-string p2, "san_banner_native_image"
+    const-string p2, "ccsan_san_banner_native_image"
 
     invoke-static {p2}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 
@@ -276,7 +276,7 @@
     move-result-object v3
 
     .line 24
-    const-string v2, "san_icon_bg"
+    const-string v2, "ccsan_san_icon_bg"
 
     invoke-static {v2}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 

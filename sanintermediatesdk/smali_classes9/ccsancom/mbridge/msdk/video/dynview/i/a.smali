@@ -1021,7 +1021,7 @@
 
     move-result-object p1
 
-    const-string v0, "mbridge_choice_video_title_en_por"
+    const-string v0, "ccsan_ccsan_mbridge_choice_video_title_en_por"
 
     invoke-static {p1, v0, p3}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
@@ -1037,7 +1037,7 @@
 
     move-result-object p1
 
-    const-string v0, "mbridge_choice_video_title_en_land"
+    const-string v0, "ccsan_ccsan_mbridge_choice_video_title_en_land"
 
     invoke-static {p1, v0, p3}, Lccsancom/mbridge/msdk/foundation/tools/k;->a(Lccsanandroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 

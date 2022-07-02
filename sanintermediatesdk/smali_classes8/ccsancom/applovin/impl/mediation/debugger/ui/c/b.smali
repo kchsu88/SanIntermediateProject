@@ -176,12 +176,12 @@
 
     if-eqz p1, :cond_0
 
-    sget p1, Lccsancom/applovin/sdk/R$drawable;->applovin_ic_check_mark_bordered:I
+    sget p1, Lccsancom/applovin/sdk/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_applovin_ic_check_mark_bordered:I
 
     goto :goto_0
 
     :cond_0
-    sget p1, Lccsancom/applovin/sdk/R$drawable;->applovin_ic_x_mark:I
+    sget p1, Lccsancom/applovin/sdk/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_applovin_ic_x_mark:I
 
     :goto_0
     return p1

@@ -313,7 +313,7 @@
 
     move-result-object v3
 
-    sget v4, Lccsanandroidx/appcompat/R$layout;->abc_activity_chooser_view_list_item:I
+    sget v4, Lccsanandroidx/appcompat/R$layout;->ccsan_ccsan_abc_activity_chooser_view_list_item:I
 
     invoke-virtual {v3, v4, p3, v2}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;Z)Lccsanandroid/view/View;
 
@@ -339,7 +339,7 @@
 
     move-result-object v2
 
-    sget v3, Lccsanandroidx/appcompat/R$string;->abc_activity_chooser_view_see_all:I
+    sget v3, Lccsanandroidx/appcompat/R$string;->ccsan_abc_activity_chooser_view_see_all:I
 
     invoke-virtual {v2, v3}, Lccsanandroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -376,7 +376,7 @@
 
     move-result-object v3
 
-    sget v4, Lccsanandroidx/appcompat/R$layout;->abc_activity_chooser_view_list_item:I
+    sget v4, Lccsanandroidx/appcompat/R$layout;->ccsan_ccsan_abc_activity_chooser_view_list_item:I
 
     invoke-virtual {v3, v4, p3, v2}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;Z)Lccsanandroid/view/View;
 

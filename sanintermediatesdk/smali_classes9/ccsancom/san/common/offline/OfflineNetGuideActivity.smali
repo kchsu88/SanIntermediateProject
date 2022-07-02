@@ -121,7 +121,7 @@
     .locals 1
 
     .line 3
-    const-string v0, "san_basic_offline_guide_network_dialog"
+    const-string v0, "ccsan_san_basic_offline_guide_network_dialog"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

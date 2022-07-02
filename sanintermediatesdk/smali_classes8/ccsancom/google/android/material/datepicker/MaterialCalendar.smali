@@ -238,7 +238,7 @@
     invoke-virtual {v2, v3}, Lccsancom/google/android/material/button/MaterialButton;->setTag(Ljava/lang/Object;)V
 
     .line 388
-    sget v3, Lccsancom/google/android/material/R$id;->mtrl_calendar_year_selector_frame:I
+    sget v3, Lccsancom/google/android/material/R$id;->ccsan_mtrl_calendar_year_selector_frame:I
 
     invoke-virtual {p1, v3}, Lccsanandroid/view/View;->findViewById(I)Lccsanandroid/view/View;
 
@@ -247,7 +247,7 @@
     iput-object v3, p0, Lccsancom/google/android/material/datepicker/MaterialCalendar;->yearFrame:Lccsanandroid/view/View;
 
     .line 389
-    sget v3, Lccsancom/google/android/material/R$id;->mtrl_calendar_day_selector_frame:I
+    sget v3, Lccsancom/google/android/material/R$id;->ccsan_mtrl_calendar_day_selector_frame:I
 
     invoke-virtual {p1, v3}, Lccsanandroid/view/View;->findViewById(I)Lccsanandroid/view/View;
 
@@ -328,7 +328,7 @@
 
     move-result-object v0
 
-    sget v1, Lccsancom/google/android/material/R$dimen;->mtrl_calendar_day_height:I
+    sget v1, Lccsancom/google/android/material/R$dimen;->ccsan_mtrl_calendar_day_height:I
 
     invoke-virtual {v0, v1}, Lccsanandroid/content/res/Resources;->getDimensionPixelSize(I)I
 
@@ -624,7 +624,7 @@
     if-eqz v0, :cond_0
 
     .line 142
-    sget v0, Lccsancom/google/android/material/R$layout;->mtrl_calendar_vertical:I
+    sget v0, Lccsancom/google/android/material/R$layout;->ccsan_mtrl_calendar_vertical:I
 
     .line 143
     .local v0, "layout":I
@@ -641,7 +641,7 @@
     .end local v0    # "layout":I
     .end local v1    # "orientation":I
     :cond_0
-    sget v0, Lccsancom/google/android/material/R$layout;->mtrl_calendar_horizontal:I
+    sget v0, Lccsancom/google/android/material/R$layout;->ccsan_mtrl_calendar_horizontal:I
 
     .line 146
     .restart local v0    # "layout":I
@@ -666,7 +666,7 @@
 
     .line 150
     .local v15, "root":Lccsanandroid/view/View;
-    sget v0, Lccsancom/google/android/material/R$id;->mtrl_calendar_days_of_week:I
+    sget v0, Lccsancom/google/android/material/R$id;->ccsan_ccsan_mtrl_calendar_days_of_week:I
 
     invoke-virtual {v15, v0}, Lccsanandroid/view/View;->findViewById(I)Lccsanandroid/view/View;
 
@@ -700,7 +700,7 @@
     invoke-virtual {v5, v13}, Lccsanandroid/widget/GridView;->setEnabled(Z)V
 
     .line 166
-    sget v0, Lccsancom/google/android/material/R$id;->mtrl_calendar_months:I
+    sget v0, Lccsancom/google/android/material/R$id;->ccsan_ccsan_ccsan_mtrl_calendar_months:I
 
     invoke-virtual {v15, v0}, Lccsanandroid/view/View;->findViewById(I)Lccsanandroid/view/View;
 
@@ -774,7 +774,7 @@
 
     move-result-object v2
 
-    sget v3, Lccsancom/google/android/material/R$integer;->mtrl_calendar_year_selector_span:I
+    sget v3, Lccsancom/google/android/material/R$integer;->ccsan_mtrl_calendar_year_selector_span:I
 
     invoke-virtual {v2, v3}, Lccsanandroid/content/res/Resources;->getInteger(I)I
 
@@ -782,7 +782,7 @@
 
     .line 210
     .local v2, "columns":I
-    sget v3, Lccsancom/google/android/material/R$id;->mtrl_calendar_year_selector_frame:I
+    sget v3, Lccsancom/google/android/material/R$id;->ccsan_mtrl_calendar_year_selector_frame:I
 
     invoke-virtual {v15, v3}, Lccsanandroid/view/View;->findViewById(I)Lccsanandroid/view/View;
 

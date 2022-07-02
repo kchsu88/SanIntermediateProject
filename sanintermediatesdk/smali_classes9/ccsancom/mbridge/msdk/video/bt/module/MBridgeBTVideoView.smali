@@ -630,7 +630,7 @@
     .locals 1
 
     .line 116
-    const-string p1, "mbridge_reward_videoview_item"
+    const-string p1, "ccsan_mbridge_reward_videoview_item"
 
     invoke-virtual {p0, p1}, Lccsancom/mbridge/msdk/video/bt/module/MBridgeBTVideoView;->findLayout(Ljava/lang/String;)I
 

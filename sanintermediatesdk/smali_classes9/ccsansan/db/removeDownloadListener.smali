@@ -849,7 +849,7 @@
 
     move-result-object v0
 
-    const-string v1, "san_full_screen_native_layout_ex"
+    const-string v1, "ccsan_ccsan_san_full_screen_native_layout_ex"
 
     invoke-static {v0, v1}, Lccsancom/san/bridge/getDownloadingList;->addDownloadListener(Lccsanandroid/content/Context;Ljava/lang/String;)I
 
@@ -858,7 +858,7 @@
     if-nez v0, :cond_0
 
     .line 3
-    const-string v0, "san_full_screen_native_layout"
+    const-string v0, "ccsan_san_full_screen_native_layout"
 
     invoke-static {v0}, Lccsansan/bw/shouldTryHandlingAction;->getDownloadedRecordByUrl(Ljava/lang/String;)I
 

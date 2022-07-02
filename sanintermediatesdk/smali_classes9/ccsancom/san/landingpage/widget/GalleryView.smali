@@ -1463,7 +1463,7 @@
 
     move-result-object v1
 
-    const-string v4, "san_gallery_point"
+    const-string v4, "ccsan_san_gallery_point"
 
     invoke-static {v4}, Lccsansan/bw/shouldTryHandlingAction;->addDownloadListener(Ljava/lang/String;)I
 

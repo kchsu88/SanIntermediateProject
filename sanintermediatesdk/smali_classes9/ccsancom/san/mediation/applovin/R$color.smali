@@ -14,55 +14,55 @@
 
 
 # static fields
-.field public static final abc_background_cache_hint_selector_material_dark:I = 0x7f050000
+.field public static final ccsan_abc_background_cache_hint_selector_material_dark:I = 0x7f050000
 
-.field public static final abc_background_cache_hint_selector_material_light:I = 0x7f050001
+.field public static final ccsan_abc_background_cache_hint_selector_material_light:I = 0x7f050001
 
-.field public static final abc_btn_colored_borderless_text_material:I = 0x7f050002
+.field public static final ccsan_ccsan_ccsan_abc_btn_colored_borderless_text_material:I = 0x7f050002
 
-.field public static final abc_btn_colored_text_material:I = 0x7f050003
+.field public static final ccsan_ccsan_abc_btn_colored_text_material:I = 0x7f050003
 
-.field public static final abc_color_highlight_material:I = 0x7f050004
+.field public static final ccsan_abc_color_highlight_material:I = 0x7f050004
 
 .field public static final abc_decor_view_status_guard:I = 0x7f050005
 
 .field public static final abc_decor_view_status_guard_light:I = 0x7f050006
 
-.field public static final abc_hint_foreground_material_dark:I = 0x7f050007
+.field public static final ccsan_abc_hint_foreground_material_dark:I = 0x7f050007
 
-.field public static final abc_hint_foreground_material_light:I = 0x7f050008
+.field public static final ccsan_abc_hint_foreground_material_light:I = 0x7f050008
 
-.field public static final abc_primary_text_disable_only_material_dark:I = 0x7f050009
+.field public static final ccsan_abc_primary_text_disable_only_material_dark:I = 0x7f050009
 
-.field public static final abc_primary_text_disable_only_material_light:I = 0x7f05000a
+.field public static final ccsan_abc_primary_text_disable_only_material_light:I = 0x7f05000a
 
-.field public static final abc_primary_text_material_dark:I = 0x7f05000b
+.field public static final ccsan_abc_primary_text_material_dark:I = 0x7f05000b
 
-.field public static final abc_primary_text_material_light:I = 0x7f05000c
+.field public static final ccsan_abc_primary_text_material_light:I = 0x7f05000c
 
-.field public static final abc_search_url_text:I = 0x7f05000d
+.field public static final ccsan_abc_search_url_text:I = 0x7f05000d
 
-.field public static final abc_search_url_text_normal:I = 0x7f05000e
+.field public static final ccsan_abc_search_url_text_normal:I = 0x7f05000e
 
-.field public static final abc_search_url_text_pressed:I = 0x7f05000f
+.field public static final ccsan_abc_search_url_text_pressed:I = 0x7f05000f
 
-.field public static final abc_search_url_text_selected:I = 0x7f050010
+.field public static final ccsan_abc_search_url_text_selected:I = 0x7f050010
 
-.field public static final abc_secondary_text_material_dark:I = 0x7f050011
+.field public static final ccsan_abc_secondary_text_material_dark:I = 0x7f050011
 
-.field public static final abc_secondary_text_material_light:I = 0x7f050012
+.field public static final ccsan_abc_secondary_text_material_light:I = 0x7f050012
 
-.field public static final abc_tint_btn_checkable:I = 0x7f050013
+.field public static final ccsan_ccsan_abc_tint_btn_checkable:I = 0x7f050013
 
-.field public static final abc_tint_default:I = 0x7f050014
+.field public static final ccsan_ccsan_abc_tint_default:I = 0x7f050014
 
-.field public static final abc_tint_edittext:I = 0x7f050015
+.field public static final ccsan_ccsan_abc_tint_edittext:I = 0x7f050015
 
-.field public static final abc_tint_seek_thumb:I = 0x7f050016
+.field public static final ccsan_ccsan_abc_tint_seek_thumb:I = 0x7f050016
 
-.field public static final abc_tint_spinner:I = 0x7f050017
+.field public static final ccsan_ccsan_abc_tint_spinner:I = 0x7f050017
 
-.field public static final abc_tint_switch_track:I = 0x7f050018
+.field public static final ccsan_ccsan_abc_tint_switch_track:I = 0x7f050018
 
 .field public static final accent_material_dark:I = 0x7f050019
 
@@ -132,11 +132,11 @@
 
 .field public static final cardview_shadow_start_color:I = 0x7f05003b
 
-.field public static final checkbox_themeable_attribute_color:I = 0x7f05003c
+.field public static final ccsan_checkbox_themeable_attribute_color:I = 0x7f05003c
 
 .field public static final design_bottom_navigation_shadow_color:I = 0x7f05003d
 
-.field public static final design_box_stroke_color:I = 0x7f05003e
+.field public static final ccsan_design_box_stroke_color:I = 0x7f05003e
 
 .field public static final design_dark_default_color_background:I = 0x7f05003f
 
@@ -190,7 +190,7 @@
 
 .field public static final design_default_color_surface:I = 0x7f050058
 
-.field public static final design_error:I = 0x7f050059
+.field public static final ccsan_design_error:I = 0x7f050059
 
 .field public static final design_fab_shadow_end_color:I = 0x7f05005a
 
@@ -206,9 +206,9 @@
 
 .field public static final design_fab_stroke_top_outer_color:I = 0x7f050060
 
-.field public static final design_icon_tint:I = 0x7f050061
+.field public static final ccsan_design_icon_tint:I = 0x7f050061
 
-.field public static final design_snackbar_background_color:I = 0x7f050062
+.field public static final ccsan_design_snackbar_background_color:I = 0x7f050062
 
 .field public static final dim_foreground_disabled_material_dark:I = 0x7f050063
 
@@ -236,7 +236,7 @@
 
 .field public static final material_blue_grey_950:I = 0x7f05006f
 
-.field public static final material_cursor_color:I = 0x7f050070
+.field public static final ccsan_material_cursor_color:I = 0x7f050070
 
 .field public static final material_deep_teal_200:I = 0x7f050071
 
@@ -256,139 +256,139 @@
 
 .field public static final material_grey_900:I = 0x7f050079
 
-.field public static final material_on_background_disabled:I = 0x7f05007a
+.field public static final ccsan_material_on_background_disabled:I = 0x7f05007a
 
-.field public static final material_on_background_emphasis_high_type:I = 0x7f05007b
+.field public static final ccsan_material_on_background_emphasis_high_type:I = 0x7f05007b
 
-.field public static final material_on_background_emphasis_medium:I = 0x7f05007c
+.field public static final ccsan_material_on_background_emphasis_medium:I = 0x7f05007c
 
-.field public static final material_on_primary_disabled:I = 0x7f05007d
+.field public static final ccsan_material_on_primary_disabled:I = 0x7f05007d
 
-.field public static final material_on_primary_emphasis_high_type:I = 0x7f05007e
+.field public static final ccsan_material_on_primary_emphasis_high_type:I = 0x7f05007e
 
-.field public static final material_on_primary_emphasis_medium:I = 0x7f05007f
+.field public static final ccsan_material_on_primary_emphasis_medium:I = 0x7f05007f
 
-.field public static final material_on_surface_disabled:I = 0x7f050080
+.field public static final ccsan_material_on_surface_disabled:I = 0x7f050080
 
-.field public static final material_on_surface_emphasis_high_type:I = 0x7f050081
+.field public static final ccsan_material_on_surface_emphasis_high_type:I = 0x7f050081
 
-.field public static final material_on_surface_emphasis_medium:I = 0x7f050082
+.field public static final ccsan_material_on_surface_emphasis_medium:I = 0x7f050082
 
-.field public static final material_on_surface_stroke:I = 0x7f050083
+.field public static final ccsan_material_on_surface_stroke:I = 0x7f050083
 
-.field public static final material_slider_active_tick_marks_color:I = 0x7f050084
+.field public static final ccsan_material_slider_active_tick_marks_color:I = 0x7f050084
 
-.field public static final material_slider_active_track_color:I = 0x7f050085
+.field public static final ccsan_material_slider_active_track_color:I = 0x7f050085
 
-.field public static final material_slider_halo_color:I = 0x7f050086
+.field public static final ccsan_material_slider_halo_color:I = 0x7f050086
 
-.field public static final material_slider_inactive_tick_marks_color:I = 0x7f050087
+.field public static final ccsan_material_slider_inactive_tick_marks_color:I = 0x7f050087
 
-.field public static final material_slider_inactive_track_color:I = 0x7f050088
+.field public static final ccsan_material_slider_inactive_track_color:I = 0x7f050088
 
-.field public static final material_slider_thumb_color:I = 0x7f050089
+.field public static final ccsan_material_slider_thumb_color:I = 0x7f050089
 
-.field public static final material_timepicker_button_background:I = 0x7f05008a
+.field public static final ccsan_ccsan_ccsan_material_timepicker_button_background:I = 0x7f05008a
 
-.field public static final material_timepicker_button_stroke:I = 0x7f05008b
+.field public static final ccsan_ccsan_ccsan_ccsan_material_timepicker_button_stroke:I = 0x7f05008b
 
-.field public static final material_timepicker_clock_text_color:I = 0x7f05008c
+.field public static final ccsan_ccsan_ccsan_material_timepicker_clock_text_color:I = 0x7f05008c
 
-.field public static final material_timepicker_clockface:I = 0x7f05008d
+.field public static final ccsan_ccsan_ccsan_ccsan_material_timepicker_clockface:I = 0x7f05008d
 
-.field public static final material_timepicker_modebutton_tint:I = 0x7f05008e
+.field public static final ccsan_ccsan_ccsan_ccsan_material_timepicker_modebutton_tint:I = 0x7f05008e
 
-.field public static final mtrl_bottom_nav_colored_item_tint:I = 0x7f0500b5
+.field public static final ccsan_mtrl_bottom_nav_colored_item_tint:I = 0x7f0500b5
 
-.field public static final mtrl_bottom_nav_colored_ripple_color:I = 0x7f0500b6
+.field public static final ccsan_mtrl_bottom_nav_colored_ripple_color:I = 0x7f0500b6
 
-.field public static final mtrl_bottom_nav_item_tint:I = 0x7f0500b7
+.field public static final ccsan_mtrl_bottom_nav_item_tint:I = 0x7f0500b7
 
-.field public static final mtrl_bottom_nav_ripple_color:I = 0x7f0500b8
+.field public static final ccsan_mtrl_bottom_nav_ripple_color:I = 0x7f0500b8
 
-.field public static final mtrl_btn_bg_color_selector:I = 0x7f0500b9
+.field public static final ccsan_mtrl_btn_bg_color_selector:I = 0x7f0500b9
 
-.field public static final mtrl_btn_ripple_color:I = 0x7f0500ba
+.field public static final ccsan_mtrl_btn_ripple_color:I = 0x7f0500ba
 
-.field public static final mtrl_btn_stroke_color_selector:I = 0x7f0500bb
+.field public static final ccsan_mtrl_btn_stroke_color_selector:I = 0x7f0500bb
 
-.field public static final mtrl_btn_text_btn_bg_color_selector:I = 0x7f0500bc
+.field public static final ccsan_mtrl_btn_text_btn_bg_color_selector:I = 0x7f0500bc
 
-.field public static final mtrl_btn_text_btn_ripple_color:I = 0x7f0500bd
+.field public static final ccsan_mtrl_btn_text_btn_ripple_color:I = 0x7f0500bd
 
 .field public static final mtrl_btn_text_color_disabled:I = 0x7f0500be
 
-.field public static final mtrl_btn_text_color_selector:I = 0x7f0500bf
+.field public static final ccsan_mtrl_btn_text_color_selector:I = 0x7f0500bf
 
 .field public static final mtrl_btn_transparent_bg_color:I = 0x7f0500c0
 
-.field public static final mtrl_calendar_item_stroke_color:I = 0x7f0500c1
+.field public static final ccsan_mtrl_calendar_item_stroke_color:I = 0x7f0500c1
 
-.field public static final mtrl_calendar_selected_range:I = 0x7f0500c2
+.field public static final ccsan_mtrl_calendar_selected_range:I = 0x7f0500c2
 
-.field public static final mtrl_card_view_foreground:I = 0x7f0500c3
+.field public static final ccsan_mtrl_card_view_foreground:I = 0x7f0500c3
 
-.field public static final mtrl_card_view_ripple:I = 0x7f0500c4
+.field public static final ccsan_mtrl_card_view_ripple:I = 0x7f0500c4
 
-.field public static final mtrl_chip_background_color:I = 0x7f0500c5
+.field public static final ccsan_mtrl_chip_background_color:I = 0x7f0500c5
 
-.field public static final mtrl_chip_close_icon_tint:I = 0x7f0500c6
+.field public static final ccsan_mtrl_chip_close_icon_tint:I = 0x7f0500c6
 
-.field public static final mtrl_chip_surface_color:I = 0x7f0500c7
+.field public static final ccsan_mtrl_chip_surface_color:I = 0x7f0500c7
 
-.field public static final mtrl_chip_text_color:I = 0x7f0500c8
+.field public static final ccsan_mtrl_chip_text_color:I = 0x7f0500c8
 
-.field public static final mtrl_choice_chip_background_color:I = 0x7f0500c9
+.field public static final ccsan_mtrl_choice_chip_background_color:I = 0x7f0500c9
 
-.field public static final mtrl_choice_chip_ripple_color:I = 0x7f0500ca
+.field public static final ccsan_mtrl_choice_chip_ripple_color:I = 0x7f0500ca
 
-.field public static final mtrl_choice_chip_text_color:I = 0x7f0500cb
+.field public static final ccsan_mtrl_choice_chip_text_color:I = 0x7f0500cb
 
-.field public static final mtrl_error:I = 0x7f0500cc
+.field public static final ccsan_mtrl_error:I = 0x7f0500cc
 
-.field public static final mtrl_fab_bg_color_selector:I = 0x7f0500cd
+.field public static final ccsan_mtrl_fab_bg_color_selector:I = 0x7f0500cd
 
-.field public static final mtrl_fab_icon_text_color_selector:I = 0x7f0500ce
+.field public static final ccsan_mtrl_fab_icon_text_color_selector:I = 0x7f0500ce
 
-.field public static final mtrl_fab_ripple_color:I = 0x7f0500cf
+.field public static final ccsan_mtrl_fab_ripple_color:I = 0x7f0500cf
 
-.field public static final mtrl_filled_background_color:I = 0x7f0500d0
+.field public static final ccsan_mtrl_filled_background_color:I = 0x7f0500d0
 
-.field public static final mtrl_filled_icon_tint:I = 0x7f0500d1
+.field public static final ccsan_mtrl_filled_icon_tint:I = 0x7f0500d1
 
-.field public static final mtrl_filled_stroke_color:I = 0x7f0500d2
+.field public static final ccsan_mtrl_filled_stroke_color:I = 0x7f0500d2
 
-.field public static final mtrl_indicator_text_color:I = 0x7f0500d3
+.field public static final ccsan_mtrl_indicator_text_color:I = 0x7f0500d3
 
-.field public static final mtrl_navigation_item_background_color:I = 0x7f0500d4
+.field public static final ccsan_mtrl_navigation_item_background_color:I = 0x7f0500d4
 
-.field public static final mtrl_navigation_item_icon_tint:I = 0x7f0500d5
+.field public static final ccsan_mtrl_navigation_item_icon_tint:I = 0x7f0500d5
 
-.field public static final mtrl_navigation_item_text_color:I = 0x7f0500d6
+.field public static final ccsan_mtrl_navigation_item_text_color:I = 0x7f0500d6
 
-.field public static final mtrl_on_primary_text_btn_text_color_selector:I = 0x7f0500d7
+.field public static final ccsan_mtrl_on_primary_text_btn_text_color_selector:I = 0x7f0500d7
 
-.field public static final mtrl_on_surface_ripple_color:I = 0x7f0500d8
+.field public static final ccsan_mtrl_on_surface_ripple_color:I = 0x7f0500d8
 
-.field public static final mtrl_outlined_icon_tint:I = 0x7f0500d9
+.field public static final ccsan_mtrl_outlined_icon_tint:I = 0x7f0500d9
 
-.field public static final mtrl_outlined_stroke_color:I = 0x7f0500da
+.field public static final ccsan_mtrl_outlined_stroke_color:I = 0x7f0500da
 
-.field public static final mtrl_popupmenu_overlay_color:I = 0x7f0500db
+.field public static final ccsan_mtrl_popupmenu_overlay_color:I = 0x7f0500db
 
 .field public static final mtrl_scrim_color:I = 0x7f0500dc
 
-.field public static final mtrl_tabs_colored_ripple_color:I = 0x7f0500dd
+.field public static final ccsan_mtrl_tabs_colored_ripple_color:I = 0x7f0500dd
 
-.field public static final mtrl_tabs_icon_color_selector:I = 0x7f0500de
+.field public static final ccsan_mtrl_tabs_icon_color_selector:I = 0x7f0500de
 
-.field public static final mtrl_tabs_icon_color_selector_colored:I = 0x7f0500df
+.field public static final ccsan_ccsan_mtrl_tabs_icon_color_selector_colored:I = 0x7f0500df
 
-.field public static final mtrl_tabs_legacy_text_color_selector:I = 0x7f0500e0
+.field public static final ccsan_mtrl_tabs_legacy_text_color_selector:I = 0x7f0500e0
 
-.field public static final mtrl_tabs_ripple_color:I = 0x7f0500e1
+.field public static final ccsan_mtrl_tabs_ripple_color:I = 0x7f0500e1
 
-.field public static final mtrl_text_btn_text_color_selector:I = 0x7f0500e2
+.field public static final ccsan_mtrl_text_btn_text_color_selector:I = 0x7f0500e2
 
 .field public static final mtrl_textinput_default_box_stroke_color:I = 0x7f0500e3
 
@@ -400,7 +400,7 @@
 
 .field public static final mtrl_textinput_hovered_box_stroke_color:I = 0x7f0500e7
 
-.field public static final notification_action_color_filter:I = 0x7f0500e8
+.field public static final ccsan_ccsan_notification_action_color_filter:I = 0x7f0500e8
 
 .field public static final notification_icon_bg_color:I = 0x7f0500e9
 
@@ -422,7 +422,7 @@
 
 .field public static final primary_text_disabled_material_light:I = 0x7f0500f2
 
-.field public static final radiobutton_themeable_attribute_color:I = 0x7f0500f6
+.field public static final ccsan_radiobutton_themeable_attribute_color:I = 0x7f0500f6
 
 .field public static final ripple_material_dark:I = 0x7f0500f7
 
@@ -480,9 +480,9 @@
 
 .field public static final san_common_content_view_pressed_white_color:I = 0x7f050114
 
-.field public static final san_common_text_color_white:I = 0x7f050115
+.field public static final ccsan_san_common_text_color_white:I = 0x7f050115
 
-.field public static final san_common_titlebar_button_text_color:I = 0x7f050116
+.field public static final ccsan_san_common_titlebar_button_text_color:I = 0x7f050116
 
 .field public static final san_common_white_transparent_30:I = 0x7f050117
 
@@ -522,17 +522,17 @@
 
 .field public static final switch_thumb_disabled_material_light:I = 0x7f050129
 
-.field public static final switch_thumb_material_dark:I = 0x7f05012a
+.field public static final ccsan_switch_thumb_material_dark:I = 0x7f05012a
 
-.field public static final switch_thumb_material_light:I = 0x7f05012b
+.field public static final ccsan_switch_thumb_material_light:I = 0x7f05012b
 
 .field public static final switch_thumb_normal_material_dark:I = 0x7f05012c
 
 .field public static final switch_thumb_normal_material_light:I = 0x7f05012d
 
-.field public static final test_mtrl_calendar_day:I = 0x7f050130
+.field public static final test_ccsan_mtrl_calendar_day:I = 0x7f050130
 
-.field public static final test_mtrl_calendar_day_selected:I = 0x7f050131
+.field public static final test_ccsan_mtrl_calendar_day_selected:I = 0x7f050131
 
 .field public static final tooltip_background_dark:I = 0x7f050132
 

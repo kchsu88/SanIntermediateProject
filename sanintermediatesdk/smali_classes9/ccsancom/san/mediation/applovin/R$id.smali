@@ -256,9 +256,9 @@
 
 .field public static final design_bottom_sheet:I = 0x7f08008b
 
-.field public static final design_menu_item_action_area:I = 0x7f08008c
+.field public static final ccsan_design_menu_item_action_area:I = 0x7f08008c
 
-.field public static final design_menu_item_action_area_stub:I = 0x7f08008d
+.field public static final ccsan_design_menu_item_action_area_stub:I = 0x7f08008d
 
 .field public static final design_menu_item_text:I = 0x7f08008e
 
@@ -392,7 +392,7 @@
 
 .field public static final masked:I = 0x7f0800ed
 
-.field public static final material_clock_display:I = 0x7f0800ee
+.field public static final ccsan_material_clock_display:I = 0x7f0800ee
 
 .field public static final material_clock_face:I = 0x7f0800ef
 
@@ -402,7 +402,7 @@
 
 .field public static final material_clock_period_pm_button:I = 0x7f0800f2
 
-.field public static final material_clock_period_toggle:I = 0x7f0800f3
+.field public static final ccsan_material_clock_period_toggle:I = 0x7f0800f3
 
 .field public static final material_hour_text_input:I = 0x7f0800f4
 
@@ -414,19 +414,19 @@
 
 .field public static final material_minute_tv:I = 0x7f0800f8
 
-.field public static final material_textinput_timepicker:I = 0x7f0800f9
+.field public static final ccsan_ccsan_material_textinput_timepicker:I = 0x7f0800f9
 
-.field public static final material_timepicker_cancel_button:I = 0x7f0800fa
+.field public static final ccsan_ccsan_material_timepicker_cancel_button:I = 0x7f0800fa
 
-.field public static final material_timepicker_container:I = 0x7f0800fb
+.field public static final ccsan_ccsan_material_timepicker_container:I = 0x7f0800fb
 
-.field public static final material_timepicker_edit_text:I = 0x7f0800fc
+.field public static final ccsan_ccsan_material_timepicker_edit_text:I = 0x7f0800fc
 
-.field public static final material_timepicker_mode_button:I = 0x7f0800fd
+.field public static final ccsan_ccsan_material_timepicker_mode_button:I = 0x7f0800fd
 
-.field public static final material_timepicker_ok_button:I = 0x7f0800fe
+.field public static final ccsan_ccsan_material_timepicker_ok_button:I = 0x7f0800fe
 
-.field public static final material_timepicker_view:I = 0x7f0800ff
+.field public static final ccsan_ccsan_material_timepicker_view:I = 0x7f0800ff
 
 .field public static final material_value_index:I = 0x7f080100
 
@@ -460,21 +460,21 @@
 
 .field public static final mtrl_anchor_parent:I = 0x7f080174
 
-.field public static final mtrl_calendar_day_selector_frame:I = 0x7f080175
+.field public static final ccsan_mtrl_calendar_day_selector_frame:I = 0x7f080175
 
-.field public static final mtrl_calendar_days_of_week:I = 0x7f080176
+.field public static final ccsan_ccsan_mtrl_calendar_days_of_week:I = 0x7f080176
 
 .field public static final mtrl_calendar_frame:I = 0x7f080177
 
 .field public static final mtrl_calendar_main_pane:I = 0x7f080178
 
-.field public static final mtrl_calendar_months:I = 0x7f080179
+.field public static final ccsan_ccsan_ccsan_mtrl_calendar_months:I = 0x7f080179
 
 .field public static final mtrl_calendar_selection_frame:I = 0x7f08017a
 
 .field public static final mtrl_calendar_text_input_frame:I = 0x7f08017b
 
-.field public static final mtrl_calendar_year_selector_frame:I = 0x7f08017c
+.field public static final ccsan_mtrl_calendar_year_selector_frame:I = 0x7f08017c
 
 .field public static final mtrl_card_checked_layer_id:I = 0x7f08017d
 
@@ -484,17 +484,17 @@
 
 .field public static final mtrl_motion_snapshot_view:I = 0x7f080180
 
-.field public static final mtrl_picker_fullscreen:I = 0x7f080181
+.field public static final ccsan_mtrl_picker_fullscreen:I = 0x7f080181
 
 .field public static final mtrl_picker_header:I = 0x7f080182
 
-.field public static final mtrl_picker_header_selection_text:I = 0x7f080183
+.field public static final ccsan_mtrl_picker_header_selection_text:I = 0x7f080183
 
 .field public static final mtrl_picker_header_title_and_selection:I = 0x7f080184
 
-.field public static final mtrl_picker_header_toggle:I = 0x7f080185
+.field public static final ccsan_mtrl_picker_header_toggle:I = 0x7f080185
 
-.field public static final mtrl_picker_text_input_date:I = 0x7f080186
+.field public static final ccsan_mtrl_picker_text_input_date:I = 0x7f080186
 
 .field public static final mtrl_picker_text_input_range_end:I = 0x7f080187
 

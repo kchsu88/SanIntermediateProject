@@ -483,7 +483,7 @@
 
     move-result-object v1
 
-    sget v3, Lccsancom/google/android/material/R$layout;->design_layout_tab_icon:I
+    sget v3, Lccsancom/google/android/material/R$layout;->ccsan_design_layout_tab_icon:I
 
     .line 2659
     invoke-virtual {v1, v3, v0, v2}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;Z)Lccsanandroid/view/View;
@@ -534,7 +534,7 @@
 
     move-result-object v1
 
-    sget v2, Lccsancom/google/android/material/R$layout;->design_layout_tab_text:I
+    sget v2, Lccsancom/google/android/material/R$layout;->ccsan_design_layout_tab_text:I
 
     const/4 v3, 0x0
 

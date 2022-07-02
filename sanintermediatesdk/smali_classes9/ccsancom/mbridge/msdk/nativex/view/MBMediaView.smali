@@ -2584,7 +2584,7 @@
 
     move-result-object v0
 
-    const-string v1, "mbridge_nativex_mbmediaview"
+    const-string v1, "ccsan_mbridge_nativex_mbmediaview"
 
     const-string v2, "layout"
 
@@ -6417,7 +6417,7 @@
 
     move-result-object v2
 
-    const-string v3, "mbridge_nativex_close"
+    const-string v3, "ccsan_mbridge_nativex_close"
 
     const-string v4, "drawable"
 

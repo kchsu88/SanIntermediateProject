@@ -118,14 +118,14 @@
 
     move-result-object v1
 
-    sget v2, Lccsancom/google/android/material/R$layout;->design_bottom_navigation_item:I
+    sget v2, Lccsancom/google/android/material/R$layout;->ccsan_design_bottom_navigation_item:I
 
     const/4 v3, 0x1
 
     invoke-virtual {v1, v2, p0, v3}, Lccsanandroid/view/LayoutInflater;->inflate(ILccsanandroid/view/ViewGroup;Z)Lccsanandroid/view/View;
 
     .line 98
-    sget v1, Lccsancom/google/android/material/R$drawable;->design_bottom_navigation_item_background:I
+    sget v1, Lccsancom/google/android/material/R$drawable;->ccsan_ccsan_ccsan_design_bottom_navigation_item_background:I
 
     invoke-virtual {p0, v1}, Lccsancom/google/android/material/bottomnavigation/BottomNavigationItemView;->setBackgroundResource(I)V
 

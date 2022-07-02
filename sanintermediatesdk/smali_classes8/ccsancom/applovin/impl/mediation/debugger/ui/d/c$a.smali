@@ -81,7 +81,7 @@
 .method public a(Lccsanandroid/content/Context;)Lccsancom/applovin/impl/mediation/debugger/ui/d/c$a;
     .locals 1
 
-    sget v0, Lccsancom/applovin/sdk/R$drawable;->applovin_ic_disclosure_arrow:I
+    sget v0, Lccsancom/applovin/sdk/R$drawable;->ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_ccsan_applovin_ic_disclosure_arrow:I
 
     iput v0, p0, Lccsancom/applovin/impl/mediation/debugger/ui/d/c$a;->h:I
 

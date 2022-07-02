@@ -348,7 +348,7 @@
 
     move-result-object v1
 
-    const-string v2, "mbridge_nativex_playerview"
+    const-string v2, "ccsan_ccsan_mbridge_nativex_playerview"
 
     const-string v3, "layout"
 
@@ -1309,7 +1309,7 @@
 
     move-result-object v1
 
-    const-string v2, "mbridge_nativex_sound_close"
+    const-string v2, "ccsan_mbridge_nativex_sound_close"
 
     const-string v3, "drawable"
 
@@ -2435,7 +2435,7 @@
 
     move-result-object v1
 
-    const-string v2, "mbridge_nativex_sound_open"
+    const-string v2, "ccsan_mbridge_nativex_sound_open"
 
     const-string v3, "drawable"
 

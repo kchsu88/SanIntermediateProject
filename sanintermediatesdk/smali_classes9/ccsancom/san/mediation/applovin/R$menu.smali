@@ -14,7 +14,7 @@
 
 
 # static fields
-.field public static final mediation_debugger_activity_menu:I = 0x7f0c0000
+.field public static final ccsan_mediation_debugger_activity_menu:I = 0x7f0c0000
 
 
 # direct methods
